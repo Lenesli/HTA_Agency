@@ -15,12 +15,14 @@ interface Props { photos: PhotoEntry[]; lang: Lang }
 const { photos, lang } = Astro.props;
 const s = t(lang);
 const n = photos.length;
-// One credit per author and licence (several photos often share one).
-const credits = photos.filter((p, i) => photos.findIndex((q) => q.data.author === p.data.author && q.data.licence === p.data.licence) === i);
+// Our own photos need no credit; others (CC licences) do, once per author and licence.
+const own = (p: PhotoEntry) => p.data.sourceName === 'Hiking to Atlas';
+const others = photos.filter((p) => !own(p));
+const credits = others.filter((p, i) => others.findIndex((q) => q.data.author === p.data.author && q.data.licence === p.data.licence) === i);
 const large = await Promise.all(
   photos.map(async (p) => {
     const img = await getImage({ src: p.data.file, width: Math.min(1800, p.data.file.width), format: 'webp' });
-    return { src: img.src, alt: p.data.alt[lang], credit: `${p.data.author} · ${p.data.licence}` };
+    return { src: img.src, alt: p.data.alt[lang], credit: own(p) ? '' : `${p.data.author} · ${p.data.licence}` };
   }),
 );
 ---
@@ -52,7 +54,7 @@ const large = await Promise.all(
     )}
   </div>
 
-  <p class="mt-2 text-xs text-ink-3">
+  {credits.length > 0 && <p class="mt-2 text-xs text-ink-3">
     {s.trip.photoCredit}:{' '}
     {credits.map((p, i) => (
       <>
@@ -60,8 +62,8 @@ const large = await Promise.all(
         {' '}(<a href={p.data.licenceUrl} target="_blank" rel="noopener license" class="hover:underline">{p.data.licence}</a>){i < credits.length - 1 ? ', ' : ''}
       </>
     ))}
-    {credits.some((p) => p.data.sourceName !== p.data.author) && <>{' '}· {[...new Set(credits.map((p) => p.data.sourceName))].join(', ')}</>}
-  </p>
+    {' '}· {[...new Set(credits.map((p) => p.data.sourceName))].join(', ')}
+  </p>}
 
   <dialog class="lightbox m-0 h-dvh max-h-none w-screen max-w-none bg-[#05070f] p-0 text-white" aria-label={s.trip.gallery} data-lightbox
     data-images={JSON.stringify(large)} data-of={s.trip.photoOf}>

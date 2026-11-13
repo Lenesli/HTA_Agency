@@ -20,7 +20,8 @@ const c = L({
   pt: { intro: 'As fotos deste site vêm do Wikimedia Commons e do Unsplash e são usadas segundo as respetivas licenças. Obrigado a cada fotógrafo. Aos poucos serão substituídas por fotos das nossas próprias viagens.', by: 'de', usedIn: 'Usada em', changes: 'Redimensionadas e convertidas para formatos modernos.' },
   ar: { intro: 'صور هذا الموقع من ويكيميديا كومنز وأنسبلاش وتُستعمل وفق تراخيصها. شكرا لكل مصور. ستحل محلها تدريجيا صور من رحلاتنا.', by: 'تصوير', usedIn: 'تُستعمل في', changes: 'تم تغيير حجمها وتحويلها إلى صيغ حديثة.' },
 });
-const photos = await getCollection('photos');
+// Our own photos need no credit: list only the ones under a third-party licence.
+const photos = (await getCollection('photos')).filter((p) => p.data.sourceName !== 'Hiking to Atlas');
 const trips = await getTrips();
 const usage = (id: string) => trips.filter((tr) => tr.data.photos.some((p) => p.id === id));
 ---
