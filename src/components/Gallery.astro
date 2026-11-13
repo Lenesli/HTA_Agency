@@ -15,6 +15,8 @@ interface Props { photos: PhotoEntry[]; lang: Lang }
 const { photos, lang } = Astro.props;
 const s = t(lang);
 const n = photos.length;
+// One credit per author and licence (several photos often share one).
+const credits = photos.filter((p, i) => photos.findIndex((q) => q.data.author === p.data.author && q.data.licence === p.data.licence) === i);
 const large = await Promise.all(
   photos.map(async (p) => {
     const img = await getImage({ src: p.data.file, width: Math.min(1800, p.data.file.width), format: 'webp' });
@@ -52,13 +54,13 @@ const large = await Promise.all(
 
   <p class="mt-2 text-xs text-ink-3">
     {s.trip.photoCredit}:{' '}
-    {photos.map((p, i) => (
+    {credits.map((p, i) => (
       <>
         <a href={p.data.source} target="_blank" rel="noopener" class="hover:underline">{p.data.author}</a>
-        {' '}(<a href={p.data.licenceUrl} target="_blank" rel="noopener license" class="hover:underline">{p.data.licence}</a>){i < n - 1 ? ', ' : ''}
+        {' '}(<a href={p.data.licenceUrl} target="_blank" rel="noopener license" class="hover:underline">{p.data.licence}</a>){i < credits.length - 1 ? ', ' : ''}
       </>
     ))}
-    {' '}· {photos[0].data.sourceName}
+    {credits.some((p) => p.data.sourceName !== p.data.author) && <>{' '}· {[...new Set(credits.map((p) => p.data.sourceName))].join(', ')}</>}
   </p>
 
   <dialog class="lightbox m-0 h-dvh max-h-none w-screen max-w-none bg-[#05070f] p-0 text-white" aria-label={s.trip.gallery} data-lightbox

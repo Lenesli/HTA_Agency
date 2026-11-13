@@ -184,6 +184,18 @@ const places: Record<string, Partial<L>> = {
   'Lake Tislit': { fr: 'Lac Tislit', es: 'Lago Tislit', de: 'Tislit-See', pt: 'Lago Tislit', ar: 'بحيرة تيسليت' },
   'Lake Isli': { fr: 'Lac Isli', es: 'Lago Isli', de: 'Isli-See', pt: 'Lago Isli', ar: 'بحيرة إيسلي' },
   'Launch site (Jbilet area)': { fr: 'Site de décollage (Jbilet)', es: 'Zona de despegue (Jbilet)', de: 'Startplatz (Jbilet)', pt: 'Local de descolagem (Jbilet)', ar: 'موقع الإقلاع (الجبيلات)' },
+  'Tizi n’Tacheddirt (3,650 m)': { fr: 'Tizi n’Tacheddirt (3 650 m)', es: 'Tizi n’Tacheddirt (3650 m)', de: 'Tizi n’Tacheddirt (3.650 m)', pt: 'Tizi n’Tacheddirt (3650 m)', ar: 'تيزي ن تاشديرت (3650 م)' },
+  'Inghmer summit (3,891 m)': { fr: 'Sommet de l’Inghmer (3 891 m)', es: 'Cumbre del Inghmer (3891 m)', de: 'Inghmer-Gipfel (3.891 m)', pt: 'Cume do Inghmer (3891 m)', ar: 'قمة إنغمر (3891 م)' },
+  'Tizi Mzik (2,489 m)': { fr: 'Tizi Mzik (2 489 m)', es: 'Tizi Mzik (2489 m)', de: 'Tizi Mzik (2.489 m)', pt: 'Tizi Mzik (2489 m)', ar: 'تيزي مزيك (2489 م)' },
+  'Tamsoult refuge': { fr: 'Refuge de Tamsoult', es: 'Refugio de Tamsoult', de: 'Tamsoult-Hütte', pt: 'Refúgio de Tamsoult', ar: 'ملجأ تامسولت' },
+  'Ogoug gîte, Tacheddirt': { en: 'Ogoug gîte, Tacheddirt', fr: 'Gîte d’Ogoug, Tacheddirt', es: 'Albergue de Ogoug, Tacheddirt', de: 'Herberge Ogoug, Tacheddirt', pt: 'Gîte de Ogoug, Tacheddirt', ar: 'مأوى أوغوغ، تاشديرت' },
+  'Lake Ifni bivouac': { fr: 'Bivouac du lac d’Ifni', es: 'Vivac del lago Ifni', de: 'Biwak am Ifni-See', pt: 'Bivaque do lago Ifni', ar: 'مخيم بحيرة إفني' },
+  'Id Issa': { ar: 'إد عيسى' },
+  'Imi Oughlad': { ar: 'إمي أوغلاد' },
+  'Tizi n’Igrar': { ar: 'تيزي ن إكرار' },
+  'Tizi Oussem': { ar: 'تيزي أوسم' },
+  Tadart: { ar: 'تادارت' },
+  'Aït Ourir': { ar: 'آيت أورير' },
 };
 export const placeLabel = (place: string, lang: keyof L): string => places[place]?.[lang] ?? place;
 export const cityLabel = placeLabel;

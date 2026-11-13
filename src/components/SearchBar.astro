@@ -13,7 +13,7 @@ import { getTrips } from '../lib/trips';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const s = t(lang);
-const places = ['Toubkal', 'Imlil', 'Oukaïmeden', 'Imilchil'];
+const places = ['Toubkal', 'Imlil', 'Tamsoult', 'Tamatert', 'Ifni'];
 // Only offer trip types that currently have trips.
 const used = new Set((await getTrips()).map((tr) => tr.data.category));
 const cats = categories.filter((c) => used.has(c));

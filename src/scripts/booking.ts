@@ -3,6 +3,8 @@ import { booking, contact, type Currency } from '../config';
 const PRIVATE_MIN = booking.privateMin;
 import { convert, formatMoney } from '../lib/price';
 import { langMeta, type Lang } from '../i18n/routes';
+import { monthOk } from '../lib/season';
+import { fieldError } from './send';
 
 export interface BookingState {
   title: string;
@@ -29,6 +31,7 @@ export function initBooking() {
   const childNote = form.querySelector<HTMLElement>('[data-child-note]');
   const prices = { shared: Number(form.dataset.shared) || 0, private: Number(form.dataset.private) || 0 };
   const childFactor = Number(form.dataset.child);
+  const months = (form.dataset.months ?? '').split(',').filter(Boolean).map(Number);
 
   // Today as minimum; pre-fill date/travellers carried from the search.
   const dateInput = form.querySelector<HTMLInputElement>('[name="date"]')!;
@@ -44,7 +47,18 @@ export function initBooking() {
     return v;
   };
 
+  // Trips closed part of the year: flag a date outside the open months.
+  const seasonOk = () => fieldError(dateInput, monthOk(dateInput.value, months) ? null : s.errSeason);
+  const blockOffSeason = (e: Event) => {
+    if (seasonOk()) return false;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    dateInput.focus();
+    return true;
+  };
+
   function update() {
+    if (months.length) seasonOk();
     let adults = num('adults', 1);
     const children = num('children', 0);
     const option = (new FormData(form!).get('option') as 'shared' | 'private') ?? 'shared';
@@ -119,7 +133,9 @@ export function initBooking() {
   sheet.addEventListener('close', () => opener?.focus());
 
   // Email: open the dialog with the current request summary.
-  form.querySelector('[data-email-open]')!.addEventListener('click', () => {
+  wa.addEventListener('click', blockOffSeason);
+  form.querySelector('[data-email-open]')!.addEventListener('click', (e) => {
+    if (blockOffSeason(e)) return;
     window.dispatchEvent(new CustomEvent('openemailrequest', { detail: current }));
   });
 }

@@ -1,7 +1,7 @@
 ---
 /**
  * Request card: date, travellers, shared/private, live estimate in the
- * visitor's currency, then WhatsApp (pre-filled) or email. No payment.
+ * visitor's currency, then WhatsApp (pre-filled) or email. Nothing is paid online (a deposit is arranged after confirmation).
  * Desktop: sticky sidebar. Mobile: a bottom bar opens the same form in a
  * bottom sheet (<dialog>), so there is only one form and one state.
  */
@@ -10,14 +10,17 @@ import Price from './Price.astro';
 import EmailRequest from './EmailRequest.astro';
 import { t } from '../i18n/ui';
 import { booking, showPrices, site } from '../config';
-import { url, type Lang } from '../i18n/routes';
+import { langMeta, url, type Lang } from '../i18n/routes';
 import { priceFrom, type Trip } from '../lib/trips';
+import { seasonText } from '../lib/season';
 
 interface Props { trip: Trip; lang: Lang }
 const { trip, lang } = Astro.props;
 const s = t(lang);
 const b = s.booking;
-const { price, title } = trip.data;
+const { price, title, openMonths } = trip.data;
+const seasonNote = seasonText(b.season, openMonths, langMeta[lang].intl);
+const seasonErr = seasonText(b.errSeason, openMonths, langMeta[lang].intl);
 const both = !!(price.shared && price.private);
 const defaultOpt = price.shared ? 'shared' : 'private';
 const from = priceFrom(trip);
@@ -30,9 +33,9 @@ const stepper = [
 <div data-booking-home class="lg:sticky lg:top-24">
   <form class="booking card p-5 sm:p-6" data-booking novalidate
     data-prices={showPrices ? '1' : '0'} data-shared={price.shared ? (showPrices ? price.shared : 1) : ''} data-private={price.private ? (showPrices ? price.private : 1) : ''} data-child={booking.childFactor}
-    data-title={title[lang]} data-url={pageUrl}
-    data-s={JSON.stringify({ hello: b.msgHello, date: b.msgDate, adults: b.msgAdults, children: b.msgChildren, option: b.msgOption, total: b.msgTotal, lang: b.msgLang, langName: b.msgLangName, link: b.msgLink, shared: b.shared, private: b.private, missing: b.dateMissing })}>
-    <p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-success-bg px-3 py-1 text-xs font-semibold text-success"><Icon name="check" size={14} />{s.more.trust[0].title}</p>
+    data-title={title[lang]} data-url={pageUrl} data-months={openMonths.join(',')}
+    data-s={JSON.stringify({ hello: b.msgHello, date: b.msgDate, adults: b.msgAdults, children: b.msgChildren, option: b.msgOption, total: b.msgTotal, lang: b.msgLang, langName: b.msgLangName, link: b.msgLink, shared: b.shared, private: b.private, missing: b.dateMissing, errSeason: seasonErr })}>
+    <p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-success-bg px-3 py-1 text-xs font-semibold text-success"><Icon name="check" size={14} />{s.more.guideIncluded}</p>
     <h2 class="font-display text-lg font-semibold">{b.title}</h2>
     {showPrices && (
       <p class="mt-2 flex items-baseline gap-1.5">
@@ -47,6 +50,7 @@ const stepper = [
       <div>
         <label for={`bk-date`} class="text-sm font-semibold">{b.date}</label>
         <input id="bk-date" name="date" type="date" class="input mt-1.5" data-min-today />
+        {seasonNote && <p class="mt-1.5 text-xs text-ink-3">{seasonNote}</p>}
       </div>
 
       {stepper.map((st) => (

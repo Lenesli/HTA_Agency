@@ -1,0 +1,130 @@
+# Source: agency programme (WhatsApp, 13 Nov 2026): "Ouamsouzart", 3 days.
+# Includes return transport, 2 nights (one in a local gîte, one at the Lake Ifni bivouac) and all food.
+# Prices are hidden on the site (showPrices = false); the figure below is a placeholder.
+# TODO: confirm price, that a guide is included, and group size. Map points are approximate.
+category: trekking
+verified: true
+featured: true
+popularity: 75
+title:
+  en: Amsouzart and Lake Ifni, 3 days
+  fr: Amsouzart et le lac d’Ifni en 3 jours
+  es: Amsouzart y el lago Ifni, 3 días
+  de: Amsouzart und der Ifni-See, 3 Tage
+  pt: Amsouzart e o lago Ifni, 3 dias
+  ar: أمسوزارت وبحيرة إفني في 3 أيام
+summary:
+  en: The south side of the Toubkal massif. A night in a village gîte at Amsouzart, then a whole day and a night by the turquoise water of Lake Ifni.
+  fr: Le versant sud du massif du Toubkal. Une nuit dans un gîte de village à Amsouzart, puis une journée et une nuit au bord des eaux turquoise du lac d’Ifni.
+  es: La vertiente sur del macizo del Toubkal. Una noche en un albergue del pueblo de Amsouzart y después un día y una noche junto a las aguas turquesas del lago Ifni.
+  de: Die Südseite des Toubkal-Massivs. Eine Nacht in einer Dorfherberge in Amsouzart, dann ein ganzer Tag und eine Nacht am türkisfarbenen Ifni-See.
+  pt: A vertente sul do maciço do Toubkal. Uma noite num gîte da aldeia de Amsouzart e depois um dia e uma noite junto às águas turquesa do lago Ifni.
+  ar: الجهة الجنوبية لجبال توبقال. ليلة في مأوى قروي بأمسوزارت، ثم يوم كامل وليلة على ضفاف مياه بحيرة إفني الفيروزية.
+about:
+  en: >-
+    An easy-going mountain trip for those who want the Atlas without a big climb. You drive from Marrakech, stop for lunch at Tadart and reach Amsouzart in the evening for dinner and a night in a local gîte. Next morning a two-hour walk takes you to Lake Ifni, the only natural high lake of the Toubkal massif: the rest of the day is free to rest, swim and explore, and you sleep at the bivouac by the lake. On day three you walk back to Amsouzart, stop for mint tea in a traditional house and drive back to Marrakech, with lunch at Tadart on the way.
+  fr: >-
+    Un séjour en montagne tranquille pour qui veut l’Atlas sans grosse ascension. Route depuis Marrakech, déjeuner à Tadart et arrivée à Amsouzart le soir pour le dîner et une nuit en gîte local. Le lendemain, deux heures de marche mènent au lac d’Ifni, le seul lac naturel d’altitude du massif du Toubkal : le reste de la journée est libre pour se reposer, nager et se balader, et la nuit se passe au bivouac au bord du lac. Le troisième jour, retour à pied à Amsouzart, pause thé dans une maison traditionnelle et route vers Marrakech, avec déjeuner à Tadart.
+  es: "Una escapada tranquila a la montaña para quien quiere el Atlas sin una gran subida. Se viaja desde Marrakech, se almuerza en Tadart y se llega a Amsouzart por la tarde para cenar y dormir en un albergue local. A la mañana siguiente, dos horas de caminata llevan al lago Ifni, el único lago natural de altura del macizo del Toubkal: el resto del día es libre para descansar, nadar y pasear, y se duerme en el vivac junto al lago. El tercer día se vuelve a pie a Amsouzart, se toma un té en una casa tradicional y se regresa a Marrakech, con almuerzo en Tadart."
+  de: "Eine entspannte Bergreise für alle, die den Atlas ohne großen Aufstieg erleben möchten. Fahrt ab Marrakesch, Mittagessen in Tadart und abends Ankunft in Amsouzart, Abendessen und Nacht in einer örtlichen Herberge. Am nächsten Morgen führen zwei Stunden Gehzeit zum Ifni-See, dem einzigen natürlichen Hochsee des Toubkal-Massivs: Der Rest des Tages ist frei zum Ausruhen, Schwimmen und Erkunden, und Sie übernachten im Biwak am See. Am dritten Tag geht es zu Fuß zurück nach Amsouzart, mit Minztee in einem traditionellen Haus, und dann nach Marrakesch, mit Mittagessen in Tadart."
+  pt: "Uma viagem tranquila à montanha para quem quer o Atlas sem uma grande subida. Viaja-se desde Marraquexe, almoça-se em Tadart e chega-se a Amsouzart ao fim do dia para jantar e dormir num gîte local. Na manhã seguinte, duas horas de caminhada levam ao lago Ifni, o único lago natural de altitude do maciço do Toubkal: o resto do dia é livre para descansar, nadar e passear, e dorme-se no bivaque junto ao lago. No terceiro dia regressa-se a pé a Amsouzart, com chá numa casa tradicional, e depois a Marraquexe, com almoço em Tadart."
+  ar: >-
+    رحلة جبلية هادئة لمن يريد الأطلس بدون صعود كبير. الانطلاق من مراكش، والغداء في تادارت، ثم الوصول إلى أمسوزارت مساءً للعشاء والمبيت في مأوى محلي. في الصباح الموالي، ساعتان من المشي تقودانكم إلى بحيرة إفني، البحيرة الطبيعية الوحيدة في أعالي جبال توبقال: بقية اليوم حرة للراحة والسباحة والتجول، والمبيت في المخيم بجانب البحيرة. في اليوم الثالث تعودون مشيا إلى أمسوزارت، مع استراحة شاي في بيت تقليدي، ثم الطريق إلى مراكش مع الغداء في تادارت.
+days: 3
+nights: 2
+difficulty: moderate
+startCity: Marrakech
+endCity: Marrakech
+maxAltitude: 2295
+bestMonths: [ 5, 6, 7, 8, 9, 10 ]
+price: { shared: 1500 }
+includes: { meals: true, transport: true, nights: true }
+photos: [h-ifni-lake, h-tamatert-valley, h-imlil-village, h-toubkal-ridge]
+highlights:
+  - { en: "A day and a night by Lake Ifni, with time to swim", fr: "Une journée et une nuit au bord du lac d’Ifni, avec du temps pour nager", es: "Un día y una noche junto al lago Ifni, con tiempo para nadar", de: "Ein Tag und eine Nacht am Ifni-See, mit Zeit zum Schwimmen", pt: "Um dia e uma noite junto ao lago Ifni, com tempo para nadar", ar: "يوم وليلة بجانب بحيرة إفني مع وقت للسباحة" }
+  - { en: "A night in a village gîte at Amsouzart", fr: "Une nuit en gîte de village à Amsouzart", es: "Una noche en un albergue del pueblo de Amsouzart", de: "Eine Nacht in einer Dorfherberge in Amsouzart", pt: "Uma noite num gîte da aldeia de Amsouzart", ar: "ليلة في مأوى قروي بأمسوزارت" }
+  - { en: "Mint tea in a traditional Berber house", fr: "Thé à la menthe dans une maison berbère traditionnelle", es: "Té a la menta en una casa bereber tradicional", de: "Minztee in einem traditionellen Berberhaus", pt: "Chá de menta numa casa berbere tradicional", ar: "شاي بالنعناع في بيت أمازيغي تقليدي" }
+  - { en: "Short walks: about 2 hours each way", fr: "Marches courtes : environ 2 h à l’aller comme au retour", es: "Caminatas cortas: unas 2 horas en cada sentido", de: "Kurze Wege: etwa 2 Stunden pro Richtung", pt: "Caminhadas curtas: cerca de 2 horas em cada sentido", ar: "مشي قصير: حوالي ساعتين في كل اتجاه" }
+itinerary:
+  - title: { en: "Marrakech to Amsouzart", fr: "De Marrakech à Amsouzart", es: "De Marrakech a Amsouzart", de: "Von Marrakesch nach Amsouzart", pt: "De Marraquexe a Amsouzart", ar: "من مراكش إلى أمسوزارت" }
+    text:
+      en: Drive across the Atlas with a lunch stop at Tadart, arriving in Amsouzart in the early evening. Dinner and night in a local gîte.
+      fr: Route à travers l’Atlas avec une pause déjeuner à Tadart, arrivée à Amsouzart en début de soirée. Dîner et nuit dans un gîte d’étape.
+      es: Carretera a través del Atlas con parada para almorzar en Tadart y llegada a Amsouzart al atardecer. Cena y noche en un albergue local.
+      de: Fahrt durch den Atlas mit Mittagspause in Tadart, Ankunft in Amsouzart am frühen Abend. Abendessen und Nacht in einer örtlichen Herberge.
+      pt: Estrada através do Atlas com paragem para almoçar em Tadart e chegada a Amsouzart ao início da noite. Jantar e noite num gîte local.
+      ar: الطريق عبر الأطلس مع توقف للغداء في تادارت، والوصول إلى أمسوزارت في بداية المساء. العشاء والمبيت في مأوى محلي.
+    drive: 5 h
+    sleep: { type: guesthouse, place: Amsouzart }
+    meals: [ lunch, dinner ]
+    schedule:
+      - { time: "13:00", text: { en: "Departure from Marrakech", fr: "Départ de Marrakech", es: "Salida de Marrakech", de: "Abfahrt in Marrakesch", pt: "Partida de Marraquexe", ar: "الانطلاق من مراكش" } }
+      - { time: "15:00", text: { en: "Lunch at Tadart", fr: "Déjeuner à Tadart", es: "Almuerzo en Tadart", de: "Mittagessen in Tadart", pt: "Almoço em Tadart", ar: "الغداء في تادارت" } }
+      - { time: "18:00", text: { en: "Arrival in Amsouzart", fr: "Arrivée à Amsouzart", es: "Llegada a Amsouzart", de: "Ankunft in Amsouzart", pt: "Chegada a Amsouzart", ar: "الوصول إلى أمسوزارت" } }
+      - { time: "20:00", text: { en: "Dinner at the gîte", fr: "Dîner au gîte d’étape", es: "Cena en el albergue", de: "Abendessen in der Herberge", pt: "Jantar no gîte", ar: "العشاء في المأوى" } }
+  - title: { en: "Lake Ifni", fr: "Le lac d’Ifni", es: "El lago Ifni", de: "Der Ifni-See", pt: "O lago Ifni", ar: "بحيرة إفني" }
+    text:
+      en: A two-hour walk up to Lake Ifni. The rest of the day is yours to rest, swim and explore with your guide. Dinner and night at the bivouac by the lake.
+      fr: Deux heures de marche jusqu’au lac d’Ifni. Le reste de la journée est libre pour se reposer, nager et faire des activités avec votre accompagnateur. Dîner et nuit au bivouac au bord du lac.
+      es: Dos horas de caminata hasta el lago Ifni. El resto del día es libre para descansar, nadar y explorar con su guía. Cena y noche en el vivac junto al lago.
+      de: Zwei Stunden Gehzeit bis zum Ifni-See. Der Rest des Tages gehört Ihnen zum Ausruhen, Schwimmen und Erkunden mit Ihrem Guide. Abendessen und Nacht im Biwak am See.
+      pt: Duas horas de caminhada até ao lago Ifni. O resto do dia é livre para descansar, nadar e explorar com o guia. Jantar e noite no bivaque junto ao lago.
+      ar: ساعتان من المشي إلى بحيرة إفني. بقية اليوم حرة للراحة والسباحة والتجول مع المرافق. العشاء والمبيت في المخيم بجانب البحيرة.
+    walk: 2 h
+    altitude: 2295
+    sleep: { type: tent, place: Lake Ifni bivouac }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "08:00", text: { en: "Breakfast at the gîte", fr: "Petit-déjeuner au gîte", es: "Desayuno en el albergue", de: "Frühstück in der Herberge", pt: "Pequeno-almoço no gîte", ar: "الفطور في المأوى" } }
+      - { time: "09:00", text: { en: "Start walking to Lake Ifni", fr: "Départ vers le lac d’Ifni", es: "Salida hacia el lago Ifni", de: "Aufbruch zum Ifni-See", pt: "Partida para o lago Ifni", ar: "الانطلاق نحو بحيرة إفني" } }
+      - { time: "11:00", text: { en: "Arrival at the lake, free time to rest and swim", fr: "Arrivée au lac, temps libre pour se reposer et nager", es: "Llegada al lago, tiempo libre para descansar y nadar", de: "Ankunft am See, freie Zeit zum Ausruhen und Schwimmen", pt: "Chegada ao lago, tempo livre para descansar e nadar", ar: "الوصول إلى البحيرة، وقت حر للراحة والسباحة" } }
+      - { time: "15:00", text: { en: "Lunch by the lake", fr: "Déjeuner au lac", es: "Almuerzo junto al lago", de: "Mittagessen am See", pt: "Almoço junto ao lago", ar: "الغداء بجانب البحيرة" } }
+      - { time: "15:00–20:00", text: { en: "Free time for activities with your guide", fr: "Temps libre pour des activités avec l’accompagnateur", es: "Tiempo libre para actividades con el guía", de: "Freie Zeit für Aktivitäten mit dem Guide", pt: "Tempo livre para atividades com o guia", ar: "وقت حر للأنشطة مع المرافق" } }
+      - { time: "20:00", text: { en: "Dinner at the bivouac", fr: "Dîner au bivouac", es: "Cena en el vivac", de: "Abendessen im Biwak", pt: "Jantar no bivaque", ar: "العشاء في المخيم" } }
+  - title: { en: "Back to Amsouzart and Marrakech", fr: "Retour à Amsouzart et Marrakech", es: "Vuelta a Amsouzart y Marrakech", de: "Zurück nach Amsouzart und Marrakesch", pt: "Regresso a Amsouzart e Marraquexe", ar: "العودة إلى أمسوزارت ومراكش" }
+    text:
+      en: Walk back down to Amsouzart and stop for tea in a traditional local house, then drive back to Marrakech with lunch at a restaurant in Tadart.
+      fr: Retour à pied vers Amsouzart et pause thé dans une maison traditionnelle locale, puis route vers Marrakech avec déjeuner au restaurant à Tadart.
+      es: Bajada a pie hasta Amsouzart y pausa para tomar té en una casa tradicional, luego regreso a Marrakech con almuerzo en un restaurante de Tadart.
+      de: Zu Fuß zurück nach Amsouzart mit Teepause in einem traditionellen Haus, dann Rückfahrt nach Marrakesch mit Mittagessen in einem Restaurant in Tadart.
+      pt: Regresso a pé a Amsouzart com pausa para chá numa casa tradicional, depois viagem até Marraquexe com almoço num restaurante em Tadart.
+      ar: العودة مشيا إلى أمسوزارت مع استراحة شاي في بيت تقليدي محلي، ثم الطريق إلى مراكش مع الغداء في مطعم بتادارت.
+    walk: 2 h
+    drive: 4 h
+    meals: [ breakfast, lunch ]
+    schedule:
+      - { time: "08:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "09:00", text: { en: "Walk back towards Amsouzart", fr: "Départ vers Amsouzart", es: "Salida hacia Amsouzart", de: "Rückweg nach Amsouzart", pt: "Partida para Amsouzart", ar: "الانطلاق نحو أمسوزارت" } }
+      - { time: "11:00", text: { en: "Tea in a traditional local house", fr: "Pause thé dans une maison traditionnelle locale", es: "Té en una casa tradicional local", de: "Teepause in einem traditionellen Haus", pt: "Chá numa casa tradicional local", ar: "استراحة شاي في بيت تقليدي محلي" } }
+      - { time: "12:00", text: { en: "Drive back to Marrakech", fr: "Départ vers Marrakech", es: "Salida hacia Marrakech", de: "Abfahrt nach Marrakesch", pt: "Partida para Marraquexe", ar: "الانطلاق نحو مراكش" } }
+      - { time: "14:00", text: { en: "Lunch at a restaurant in Tadart", fr: "Déjeuner au restaurant à Tadart", es: "Almuerzo en un restaurante de Tadart", de: "Mittagessen in einem Restaurant in Tadart", pt: "Almoço num restaurante em Tadart", ar: "الغداء في مطعم بتادارت" } }
+      - { time: "16:00", text: { en: "Arrival in Marrakech", fr: "Arrivée à Marrakech", es: "Llegada a Marrakech", de: "Ankunft in Marrakesch", pt: "Chegada a Marraquexe", ar: "الوصول إلى مراكش" } }
+included: [ transport-marrakech, guide-mountain, meals-all, accommodation ]
+excluded: [ drinks, insurance, personal ]
+pack: [ boots, layers, rain-jacket, headlamp, sun-kit, swimwear, bottle, daypack, sleeping-bag-pack ]
+meetingPoint:
+  en: "In front of Marrakech railway station (Gare ONCF, Avenue Hassan II)."
+  fr: "Devant la gare de Marrakech (gare ONCF, avenue Hassan II)."
+  es: "Delante de la estación de tren de Marrakech (Gare ONCF, avenida Hassan II)."
+  de: "Vor dem Bahnhof von Marrakesch (Gare ONCF, Avenue Hassan II)."
+  pt: "Em frente à estação de comboios de Marraquexe (Gare ONCF, avenida Hassan II)."
+  ar: "أمام محطة القطار بمراكش (محطة ONCF، شارع الحسن الثاني)."
+pickupTime: "13:00"
+goodToKnow:
+  - en: "The trip includes return transport, 2 nights (one in a local gîte, one at the Lake Ifni bivouac) and all meals."
+    fr: "Le séjour comprend le transport aller-retour, 2 nuits (une en gîte local, une au bivouac du lac d’Ifni) et tous les repas."
+    es: "El viaje incluye el transporte de ida y vuelta, 2 noches (una en un albergue local y otra en el vivac del lago Ifni) y todas las comidas."
+    de: "Enthalten sind Hin- und Rückfahrt, 2 Nächte (eine in einer örtlichen Herberge, eine im Biwak am Ifni-See) und alle Mahlzeiten."
+    pt: "A viagem inclui o transporte de ida e volta, 2 noites (uma num gîte local e outra no bivaque do lago Ifni) e todas as refeições."
+    ar: "تشمل الرحلة النقل ذهابا وإيابا، وليلتين (واحدة في مأوى محلي والأخرى في مخيم بحيرة إفني)، وكل الوجبات."
+  - en: The lake is at about 2,300 m. Nights are cool even in summer, so bring a warm layer.
+    fr: "Le lac est à environ 2 300 m. Les nuits sont fraîches même en été : prévoyez une couche chaude."
+    es: "El lago está a unos 2300 m. Las noches son frescas incluso en verano: lleve una capa de abrigo."
+    de: Der See liegt auf etwa 2.300 m. Die Nächte sind auch im Sommer kühl, nehmen Sie eine warme Schicht mit.
+    pt: "O lago fica a cerca de 2300 m. As noites são frescas mesmo no verão: leve uma camada quente."
+    ar: تقع البحيرة على ارتفاع حوالي 2300 م. الليالي باردة حتى في الصيف، لذا أحضروا ملابس دافئة.
+mapStops:
+  - { name: Marrakech railway station, lat: 31.6306, lng: -8.0167, kind: start }
+  - { name: Tadart, lat: 31.2840, lng: -7.3880, kind: stop }
+  - { name: Amsouzart, lat: 30.9960, lng: -7.8480, kind: sleep }
+  - { name: Lake Ifni, lat: 31.0236, lng: -7.8808, kind: sleep }

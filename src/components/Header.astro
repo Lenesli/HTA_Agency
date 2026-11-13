@@ -56,7 +56,7 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
       </ul>
     </nav>
 
-    <div class="flex items-center gap-1 sm:gap-1.5">
+    <div class="flex items-center gap-0.5 sm:gap-1.5">
       {showPrices && <label class="sr-only" for="currency-select">{s.a11y.currency}</label>}
       {showPrices && (
         <select id="currency-select" data-currency-select class="ctl hidden h-10 rounded-full bg-transparent px-2.5 text-sm font-semibold sm:block">
@@ -65,10 +65,10 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
       )}
 
       <details class="lang-menu relative" data-lang-menu>
-        <summary class="ctl flex h-11 cursor-pointer list-none items-center gap-1 rounded-full px-2.5 text-sm font-semibold">
+        <summary class="ctl flex h-11 cursor-pointer list-none items-center gap-1 rounded-full px-1.5 text-sm font-semibold sm:px-2.5">
           <Flag code={flagOf[lang]} size={21} />
           <span><span class="sr-only">{s.a11y.language}: </span>{lang === 'ar' ? 'AR' : langMeta[lang].short}</span>
-          <Icon name="chevronDown" size={14} />
+          <Icon name="chevronDown" size={14} class="hidden sm:block" />
         </summary>
         <nav aria-label={s.a11y.language} class="lang-list absolute end-0 top-full z-50 mt-2 w-52 rounded-2xl bg-surface p-1.5 text-ink shadow-card ring-1 ring-line">
           <ul>
@@ -86,13 +86,13 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
         </nav>
       </details>
 
-      <button type="button" class="ctl grid size-11 place-items-center rounded-full" data-theme-toggle
+      <button type="button" class="ctl grid size-10 place-items-center rounded-full sm:size-11" data-theme-toggle
         data-label-dark={s.a11y.themeToDark} data-label-light={s.a11y.themeToLight} aria-label={s.a11y.themeToDark}>
         <Icon name="moon" class="theme-icon-moon" />
         <Icon name="sun" class="theme-icon-sun" />
       </button>
 
-      <a href={url(lang, 'wishlist')} class="ctl relative grid size-11 place-items-center rounded-full" data-wish-link
+      <a href={url(lang, 'wishlist')} class="ctl relative grid size-10 place-items-center rounded-full sm:size-11" data-wish-link
         data-label={s.more.wishCount} aria-label={s.nav.wishlist}>
         <Icon name="heart" />
         <span class="wish-badge absolute end-0.5 top-0.5 grid h-5 min-w-5 place-items-center rounded-full bg-accent px-1 text-[0.7rem] font-bold text-on-accent" data-wish-badge hidden aria-hidden="true"></span>
@@ -103,7 +103,7 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
       </a>
       <a href={bookHref} class="btn btn-accent hidden !min-h-10 !px-4 text-sm sm:inline-flex">{s.book.cta}</a>
 
-      <button type="button" class="ctl grid size-11 place-items-center rounded-full lg:hidden" data-menu-open aria-haspopup="dialog" aria-label={s.a11y.openMenu}>
+      <button type="button" class="ctl grid size-10 place-items-center rounded-full sm:size-11 lg:hidden" data-menu-open aria-haspopup="dialog" aria-label={s.a11y.openMenu}>
         <Icon name="menu" />
       </button>
     </div>
@@ -157,6 +157,27 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
   }
   :global(html[data-scrolled]) .site-header {
     --hh: 3.75rem;
+  }
+  /* Phones: a smaller logo keeps every button (and the menu) on screen;
+     below 380px only the HTA mark shows (the name stays for screen readers). */
+  @media (max-width: 399px) {
+    .site-header {
+      --mark-h: 30px;
+    }
+    .site-header :global(.logo-text) {
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+  }
+  @media (max-width: 379px) {
+    .site-header :global(.logo-text) {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+    }
   }
   /* Very small phones: a slightly smaller logo mark keeps every button on screen. */
   @media (max-width: 359px) {

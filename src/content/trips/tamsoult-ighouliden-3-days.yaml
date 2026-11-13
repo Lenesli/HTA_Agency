@@ -1,0 +1,135 @@
+# Source: agency programme (WhatsApp, 13 Nov 2026): "Trajet Tamsoult et cascade Ighouliden", 3 days.
+# Includes transport, 1 night in a hotel, 1 night in a refuge, all food during the trip, professional guides.
+# Prices are hidden on the site (showPrices = false); the figure below is a placeholder.
+# TODO: confirm price and group size. Map points are approximate.
+category: trekking
+verified: true
+featured: true
+popularity: 80
+title:
+  en: Tamsoult and the Ighouliden waterfall, 3 days
+  fr: Tamsoult et la cascade d’Ighouliden en 3 jours
+  es: Tamsoult y la cascada de Ighouliden, 3 días
+  de: Tamsoult und der Ighouliden-Wasserfall, 3 Tage
+  pt: Tamsoult e a cascata de Ighouliden, 3 dias
+  ar: تامسولت وشلال إغوليدن في 3 أيام
+summary:
+  en: A loop west of Imlil over Tizi Mzik to the Tamsoult refuge, a morning at the Ighouliden waterfall and the way back through the village of Id Issa.
+  fr: Une boucle à l’ouest d’Imlil par Tizi Mzik jusqu’au refuge de Tamsoult, une matinée à la cascade d’Ighouliden et le retour par le village d’Id Issa.
+  es: Un circuito al oeste de Imlil por Tizi Mzik hasta el refugio de Tamsoult, una mañana en la cascada de Ighouliden y la vuelta por el pueblo de Id Issa.
+  de: Eine Runde westlich von Imlil über den Tizi Mzik zur Tamsoult-Hütte, ein Morgen am Ighouliden-Wasserfall und der Rückweg durch das Dorf Id Issa.
+  pt: Um circuito a oeste de Imlil por Tizi Mzik até ao refúgio de Tamsoult, uma manhã na cascata de Ighouliden e o regresso pela aldeia de Id Issa.
+  ar: جولة غرب إمليل عبر تيزي مزيك إلى ملجأ تامسولت، وصباح عند شلال إغوليدن، ثم العودة عبر قرية إد عيسى.
+about:
+  en: >-
+    A green, less busy side of the Toubkal National Park, with no summit to rush for. After a night at a hotel in Imlil, you cross the Tizi Mzik pass, stop there for lunch and walk down to the Tamsoult refuge for the night. The next morning you reach the Ighouliden waterfall, one of the highest in the High Atlas, then return to Imlil by the Id Issa path, with a break in a village guesthouse on the way. Lunch at the hotel and transport back to Marrakech in the evening.
+  fr: >-
+    Un côté verdoyant et moins fréquenté du parc national du Toubkal, sans sommet à atteindre. Après une nuit à l’hôtel à Imlil, vous passez le col de Tizi Mzik, y déjeunez et descendez au refuge de Tamsoult pour la nuit. Le lendemain matin, vous rejoignez la cascade d’Ighouliden, l’une des plus hautes du Haut Atlas, puis rentrez à Imlil par le chemin d’Id Issa, avec une pause dans une maison d’hôtes du village. Déjeuner à l’hôtel et transport vers Marrakech en soirée.
+  es: "Un lado verde y menos concurrido del parque nacional del Toubkal, sin cumbre que alcanzar. Tras una noche en un hotel de Imlil, se cruza el collado de Tizi Mzik, se almuerza allí y se baja al refugio de Tamsoult para dormir. A la mañana siguiente se llega a la cascada de Ighouliden, una de las más altas del Alto Atlas, y se vuelve a Imlil por el camino de Id Issa, con una pausa en una casa de huéspedes del pueblo. Almuerzo en el hotel y transporte a Marrakech por la tarde."
+  de: "Eine grüne, ruhigere Seite des Toubkal-Nationalparks, ohne Gipfeldruck. Nach einer Nacht im Hotel in Imlil überqueren Sie den Tizi Mzik, essen dort zu Mittag und steigen zur Tamsoult-Hütte ab. Am nächsten Morgen erreichen Sie den Ighouliden-Wasserfall, einen der höchsten im Hohen Atlas, und kehren über den Weg von Id Issa nach Imlil zurück, mit einer Pause in einem Gästehaus im Dorf. Mittagessen im Hotel und abends Rückfahrt nach Marrakesch."
+  pt: "Um lado verde e menos movimentado do parque nacional do Toubkal, sem cume para alcançar. Depois de uma noite num hotel em Imlil, atravessa o colo de Tizi Mzik, almoça lá e desce ao refúgio de Tamsoult para dormir. Na manhã seguinte chega à cascata de Ighouliden, uma das mais altas do Alto Atlas, e regressa a Imlil pelo caminho de Id Issa, com uma pausa numa casa de hóspedes da aldeia. Almoço no hotel e transporte para Marraquexe ao fim do dia."
+  ar: >-
+    جانب أخضر وأقل ازدحاما من المنتزه الوطني لتوبقال، بدون قمة. بعد ليلة في فندق بإمليل، تعبرون ممر تيزي مزيك وتتناولون الغداء هناك، ثم تنزلون إلى ملجأ تامسولت للمبيت. في الصباح الموالي تصلون إلى شلال إغوليدن، أحد أعلى الشلالات في الأطلس الكبير، ثم تعودون إلى إمليل عبر طريق إد عيسى مع استراحة في دار ضيافة بالقرية. الغداء في الفندق والنقل إلى مراكش مساءً.
+days: 3
+nights: 2
+difficulty: moderate
+startCity: Marrakech
+endCity: Marrakech
+maxAltitude: 2489
+bestMonths: [ 4, 5, 6, 7, 8, 9, 10 ]
+price: { shared: 1450 }
+includes: { meals: true, transport: true, nights: true }
+photos: [h-ighouliden, h-tamsoult-refuge, h-ighouliden-2, h-tamsoult-path, h-ighouliden-3, h-imlil-valley]
+highlights:
+  - { en: "The Ighouliden waterfall, one of the highest in the High Atlas", fr: "La cascade d’Ighouliden, l’une des plus hautes du Haut Atlas", es: "La cascada de Ighouliden, una de las más altas del Alto Atlas", de: "Der Ighouliden-Wasserfall, einer der höchsten im Hohen Atlas", pt: "A cascata de Ighouliden, uma das mais altas do Alto Atlas", ar: "شلال إغوليدن، أحد أعلى الشلالات في الأطلس الكبير" }
+  - { en: "A night at the Tamsoult refuge", fr: "Une nuit au refuge de Tamsoult", es: "Una noche en el refugio de Tamsoult", de: "Eine Nacht in der Tamsoult-Hütte", pt: "Uma noite no refúgio de Tamsoult", ar: "ليلة في ملجأ تامسولت" }
+  - { en: "The Tizi Mzik pass and the village of Id Issa", fr: "Le col de Tizi Mzik et le village d’Id Issa", es: "El collado de Tizi Mzik y el pueblo de Id Issa", de: "Der Pass Tizi Mzik und das Dorf Id Issa", pt: "O colo de Tizi Mzik e a aldeia de Id Issa", ar: "ممر تيزي مزيك وقرية إد عيسى" }
+  - { en: "Transport, guides, food and nights included", fr: "Transport, guides, repas et nuits inclus", es: "Transporte, guías, comidas y noches incluidos", de: "Transport, Guides, Verpflegung und Übernachtungen inklusive", pt: "Transporte, guias, refeições e noites incluídos", ar: "النقل والمرشدون والطعام والمبيت مشمولة" }
+itinerary:
+  - title: { en: "Marrakech to Imlil", fr: "De Marrakech à Imlil", es: "De Marrakech a Imlil", de: "Von Marrakesch nach Imlil", pt: "De Marraquexe a Imlil", ar: "من مراكش إلى إمليل" }
+    text:
+      en: Afternoon drive into the High Atlas, then dinner and the night at a hotel in Imlil.
+      fr: Route l’après-midi vers le Haut Atlas, puis dîner et nuit à l’hôtel à Imlil.
+      es: Carretera por la tarde hacia el Alto Atlas; cena y noche en un hotel de Imlil.
+      de: Nachmittags Fahrt in den Hohen Atlas, dann Abendessen und Übernachtung im Hotel in Imlil.
+      pt: Estrada à tarde para o Alto Atlas; jantar e noite num hotel em Imlil.
+      ar: الانطلاق بعد الظهر نحو الأطلس الكبير، ثم العشاء والمبيت في فندق بإمليل.
+    drive: 1 h 30
+    altitude: 1740
+    sleep: { type: hotel, place: Imlil }
+    meals: [ dinner ]
+    schedule:
+      - { time: "14:30", text: { en: "Departure from Marrakech", fr: "Départ de Marrakech", es: "Salida de Marrakech", de: "Abfahrt in Marrakesch", pt: "Partida de Marraquexe", ar: "الانطلاق من مراكش" } }
+      - { time: "16:00", text: { en: "Arrival in Imlil", fr: "Arrivée à Imlil", es: "Llegada a Imlil", de: "Ankunft in Imlil", pt: "Chegada a Imlil", ar: "الوصول إلى إمليل" } }
+      - { time: "20:00", text: { en: "Dinner at the hotel in Imlil", fr: "Dîner à l’hôtel à Imlil", es: "Cena en el hotel de Imlil", de: "Abendessen im Hotel in Imlil", pt: "Jantar no hotel em Imlil", ar: "العشاء في الفندق بإمليل" } }
+  - title: { en: "Imlil to Tamsoult over Tizi Mzik", fr: "D’Imlil à Tamsoult par Tizi Mzik", es: "De Imlil a Tamsoult por Tizi Mzik", de: "Von Imlil nach Tamsoult über den Tizi Mzik", pt: "De Imlil a Tamsoult por Tizi Mzik", ar: "من إمليل إلى تامسولت عبر تيزي مزيك" }
+    text:
+      en: Climb from Imlil to the Tizi Mzik pass for lunch, then continue on the mountain path to the Tamsoult refuge, where you have dinner and sleep.
+      fr: Montée d’Imlil au col de Tizi Mzik pour le déjeuner, puis suite de la randonnée jusqu’au refuge de Tamsoult, où vous dînez et dormez.
+      es: Subida de Imlil al collado de Tizi Mzik para almorzar y continuación por el sendero hasta el refugio de Tamsoult, donde se cena y se duerme.
+      de: Aufstieg von Imlil zum Pass Tizi Mzik zum Mittagessen, dann weiter auf dem Bergpfad zur Tamsoult-Hütte, wo Sie zu Abend essen und übernachten.
+      pt: Subida de Imlil ao colo de Tizi Mzik para almoçar e continuação pelo trilho até ao refúgio de Tamsoult, onde janta e dorme.
+      ar: الصعود من إمليل إلى ممر تيزي مزيك لتناول الغداء، ثم مواصلة المشي إلى ملجأ تامسولت حيث العشاء والمبيت.
+    walk: 6–7 h
+    altitude: 2489
+    sleep: { type: refuge, place: Tamsoult refuge }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "08:00", text: { en: "Breakfast in Imlil", fr: "Petit-déjeuner à Imlil", es: "Desayuno en Imlil", de: "Frühstück in Imlil", pt: "Pequeno-almoço em Imlil", ar: "الفطور في إمليل" } }
+      - { time: "09:00", text: { en: "Start walking towards Tamsoult", fr: "Départ vers Tamsoult", es: "Salida hacia Tamsoult", de: "Aufbruch nach Tamsoult", pt: "Partida para Tamsoult", ar: "الانطلاق نحو تامسولت" } }
+      - { time: "13:00", text: { en: "Lunch at Tizi Mzik", fr: "Déjeuner à Tizi Mzik", es: "Almuerzo en Tizi Mzik", de: "Mittagessen am Tizi Mzik", pt: "Almoço em Tizi Mzik", ar: "الغداء في تيزي مزيك" } }
+      - { time: "14:00", text: { en: "Continue the walk", fr: "Suite de la randonnée", es: "Continuación de la caminata", de: "Weiterwandern", pt: "Continuação da caminhada", ar: "مواصلة المشي" } }
+      - { time: "16:30", text: { en: "Arrival at Tamsoult", fr: "Arrivée à Tamsoult", es: "Llegada a Tamsoult", de: "Ankunft in Tamsoult", pt: "Chegada a Tamsoult", ar: "الوصول إلى تامسولت" } }
+      - { time: "20:00", text: { en: "Dinner at the Tamsoult refuge", fr: "Dîner au refuge de Tamsoult", es: "Cena en el refugio de Tamsoult", de: "Abendessen in der Tamsoult-Hütte", pt: "Jantar no refúgio de Tamsoult", ar: "العشاء في ملجأ تامسولت" } }
+  - title: { en: "Ighouliden waterfall and back to Marrakech", fr: "Cascade d’Ighouliden et retour à Marrakech", es: "Cascada de Ighouliden y regreso a Marrakech", de: "Ighouliden-Wasserfall und zurück nach Marrakesch", pt: "Cascata de Ighouliden e regresso a Marraquexe", ar: "شلال إغوليدن والعودة إلى مراكش" }
+    text:
+      en: A short walk to the Ighouliden waterfall, then the return to Imlil by the Id Issa path, with a break in a village guesthouse. Lunch at the hotel in Imlil and transport back to Marrakech.
+      fr: Courte marche jusqu’à la cascade d’Ighouliden, puis retour vers Imlil par le chemin d’Id Issa, avec une pause dans une maison d’hôtes du village. Déjeuner à l’hôtel à Imlil et transport vers Marrakech.
+      es: Corta caminata hasta la cascada de Ighouliden y vuelta a Imlil por el camino de Id Issa, con una pausa en una casa de huéspedes del pueblo. Almuerzo en el hotel de Imlil y transporte a Marrakech.
+      de: Kurzer Weg zum Ighouliden-Wasserfall, dann Rückweg nach Imlil über Id Issa mit einer Pause in einem Gästehaus im Dorf. Mittagessen im Hotel in Imlil und Rückfahrt nach Marrakesch.
+      pt: Curta caminhada até à cascata de Ighouliden e regresso a Imlil pelo caminho de Id Issa, com uma pausa numa casa de hóspedes da aldeia. Almoço no hotel em Imlil e transporte para Marraquexe.
+      ar: مشي قصير إلى شلال إغوليدن، ثم العودة إلى إمليل عبر طريق إد عيسى مع استراحة في دار ضيافة بالقرية. الغداء في الفندق بإمليل والنقل إلى مراكش.
+    walk: 7–8 h
+    drive: 1 h 30
+    meals: [ breakfast, lunch ]
+    schedule:
+      - { time: "07:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "08:00", text: { en: "Walk to the Ighouliden waterfall", fr: "Départ vers la cascade d’Ighouliden", es: "Salida hacia la cascada de Ighouliden", de: "Aufbruch zum Ighouliden-Wasserfall", pt: "Partida para a cascata de Ighouliden", ar: "الانطلاق نحو شلال إغوليدن" } }
+      - { time: "09:30", text: { en: "At the waterfall", fr: "Arrivée à la cascade", es: "Llegada a la cascada", de: "Am Wasserfall", pt: "Chegada à cascata", ar: "الوصول إلى الشلال" } }
+      - { time: "10:00", text: { en: "Return towards Imlil by the Id Issa path", fr: "Retour vers Imlil par le chemin d’Id Issa", es: "Vuelta hacia Imlil por el camino de Id Issa", de: "Rückweg nach Imlil über Id Issa", pt: "Regresso a Imlil pelo caminho de Id Issa", ar: "العودة نحو إمليل عبر طريق إد عيسى" } }
+      - { time: "12:00", text: { en: "Break at a guesthouse in the village of Id Issa", fr: "Pause dans une maison d’hôtes au village d’Id Issa", es: "Pausa en una casa de huéspedes del pueblo de Id Issa", de: "Pause in einem Gästehaus im Dorf Id Issa", pt: "Pausa numa casa de hóspedes na aldeia de Id Issa", ar: "استراحة في دار ضيافة بقرية إد عيسى" } }
+      - { time: "13:00", text: { en: "Continue the walk", fr: "Suite de la randonnée", es: "Continuación de la caminata", de: "Weiterwandern", pt: "Continuação da caminhada", ar: "مواصلة المشي" } }
+      - { time: "16:30", text: { en: "Arrival in Imlil", fr: "Arrivée à Imlil", es: "Llegada a Imlil", de: "Ankunft in Imlil", pt: "Chegada a Imlil", ar: "الوصول إلى إمليل" } }
+      - { time: "17:00", text: { en: "Lunch at the hotel", fr: "Déjeuner à l’hôtel", es: "Almuerzo en el hotel", de: "Mittagessen im Hotel", pt: "Almoço no hotel", ar: "الغداء في الفندق" } }
+      - { time: "18:00", text: { en: "Transport back to Marrakech", fr: "Transport vers Marrakech", es: "Transporte a Marrakech", de: "Rückfahrt nach Marrakesch", pt: "Transporte para Marraquexe", ar: "النقل إلى مراكش" } }
+included: [ transport-imlil, guide-mountain, meals-all, accommodation ]
+excluded: [ hiking-gear-ex, drinks, insurance, personal ]
+pack: [ boots, layers, rain-jacket, headlamp, sun-kit, bottle, daypack, poles ]
+meetingPoint:
+  en: "In front of Marrakech railway station (Gare ONCF, Avenue Hassan II)."
+  fr: "Devant la gare de Marrakech (gare ONCF, avenue Hassan II)."
+  es: "Delante de la estación de tren de Marrakech (Gare ONCF, avenida Hassan II)."
+  de: "Vor dem Bahnhof von Marrakesch (Gare ONCF, Avenue Hassan II)."
+  pt: "Em frente à estação de comboios de Marraquexe (Gare ONCF, avenida Hassan II)."
+  ar: "أمام محطة القطار بمراكش (محطة ONCF، شارع الحسن الثاني)."
+pickupTime: "14:30"
+goodToKnow:
+  - en: "The programme includes transport, 1 night in a hotel, 1 night in a refuge, all food during the trip and professional guides."
+    fr: "Le programme comprend le transport, 1 nuit à l’hôtel, 1 nuit en refuge, tous les repas pendant le trajet et des guides professionnels."
+    es: "El programa incluye el transporte, 1 noche en hotel, 1 noche en refugio, toda la comida durante el viaje y guías profesionales."
+    de: "Im Programm enthalten: Transport, 1 Nacht im Hotel, 1 Nacht in der Hütte, die gesamte Verpflegung unterwegs und professionelle Guides."
+    pt: "O programa inclui o transporte, 1 noite em hotel, 1 noite em refúgio, toda a comida durante a viagem e guias profissionais."
+    ar: "يشمل البرنامج النقل، وليلة في فندق، وليلة في ملجأ، وكل الطعام خلال الرحلة، ومرشدين محترفين."
+  - en: Days two and three are long (6–8 hours of walking), but there is no high summit.
+    fr: Les jours deux et trois sont longs (6 à 8 h de marche), mais sans haut sommet.
+    es: Los días dos y tres son largos (6–8 horas de marcha), pero sin cumbre alta.
+    de: Tag zwei und drei sind lang (6–8 Stunden Gehzeit), aber ohne hohen Gipfel.
+    pt: Os dias dois e três são longos (6–8 horas de caminhada), mas sem cume alto.
+    ar: اليومان الثاني والثالث طويلان (6 إلى 8 ساعات من المشي)، لكن دون قمة عالية.
+mapStops:
+  - { name: Marrakech railway station, lat: 31.6306, lng: -8.0167, kind: start }
+  - { name: Imlil, lat: 31.1366, lng: -7.9196, kind: sleep }
+  - { name: "Tizi Mzik (2,489 m)", lat: 31.1170, lng: -7.9440, kind: stop }
+  - { name: Tamsoult refuge, lat: 31.0975, lng: -7.9790, kind: sleep }
+  - { name: Ighouliden waterfall, lat: 31.0925, lng: -7.9735, kind: stop }
+  - { name: Id Issa, lat: 31.1120, lng: -7.9520, kind: stop }

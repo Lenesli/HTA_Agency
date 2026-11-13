@@ -1,0 +1,234 @@
+# Source: agency programme (WhatsApp, 13 Nov 2026): "Trajet de Tamsoult Toubkal" (7 days in the programme).
+# All inclusive: return transport, nights in gîtes/refuges, all meals, professional guides.
+# Runs from April only: the high passes are closed in winter (openMonths blocks other dates in the booking forms).
+# Prices are hidden on the site (showPrices = false); the figure below is a placeholder.
+# TODO: confirm price, the last month it runs (October assumed) and group size. Map points are approximate.
+category: trekking
+verified: true
+featured: true
+popularity: 95
+title:
+  en: Toubkal grand trek via Tamsoult and Lake Ifni, 7 days
+  fr: Grand trek du Toubkal par Tamsoult et le lac d’Ifni, 7 jours
+  es: Gran trek del Toubkal por Tamsoult y el lago Ifni, 7 días
+  de: Große Toubkal-Tour über Tamsoult und den Ifni-See, 7 Tage
+  pt: Grande trekking do Toubkal por Tamsoult e o lago Ifni, 7 dias
+  ar: الرحلة الكبرى لتوبقال عبر تامسولت وبحيرة إفني في 7 أيام
+summary:
+  en: A full crossing of the Toubkal massif, from April to October. Azzaden, the Ighouliden waterfall, the Toubkal summit (4,167 m), Lake Ifni and Amsouzart. All inclusive.
+  fr: Une traversée complète du massif du Toubkal, d’avril à octobre. Azzaden, la cascade d’Ighouliden, le sommet du Toubkal (4 167 m), le lac d’Ifni et Amsouzart. Tout compris.
+  es: Una travesía completa del macizo del Toubkal, de abril a octubre. Azzaden, la cascada de Ighouliden, la cumbre del Toubkal (4167 m), el lago Ifni y Amsouzart. Todo incluido.
+  de: Eine komplette Durchquerung des Toubkal-Massivs, von April bis Oktober. Azzaden, Ighouliden-Wasserfall, Toubkal-Gipfel (4.167 m), Ifni-See und Amsouzart. Alles inklusive.
+  pt: Uma travessia completa do maciço do Toubkal, de abril a outubro. Azzaden, a cascata de Ighouliden, o cume do Toubkal (4167 m), o lago Ifni e Amsouzart. Tudo incluído.
+  ar: عبور كامل لجبال توبقال، من أبريل إلى أكتوبر. أزادن، شلال إغوليدن، قمة توبقال (4167 م)، بحيرة إفني وأمسوزارت. كل شيء مشمول.
+about:
+  en: >-
+    Our longest trek, and the best way to know the High Atlas. You start at Imi Oughlad and walk up the Azzaden valley to Tizi Oussem, then on to the Ighouliden waterfall and the Tamsoult area, with an afternoon to acclimatise. Day three crosses Aguelzim to the Toubkal refuge. On day four you climb Toubkal (4,167 m) by head torch and reach the summit around 8 am. Then the route goes south over Tizi n’Ouanoums to Lake Ifni for a night at the lakeside bivouac, and down to the village of Amsouzart before the drive back to Marrakech. Because the high passes are under snow in winter, this trek runs from April only.
+  fr: >-
+    Notre trek le plus long, et la meilleure façon de connaître le Haut Atlas. Départ d’Imi Oughlad et montée par la vallée d’Azzaden jusqu’à Tizi Oussem, puis la cascade d’Ighouliden et le secteur de Tamsoult, avec un après-midi d’acclimatation. Le troisième jour, passage par Aguelzim jusqu’au refuge du Toubkal. Le quatrième jour, ascension du Toubkal (4 167 m) à la frontale, avec le sommet vers 8 h. L’itinéraire part ensuite vers le sud par Tizi n’Ouanoums jusqu’au lac d’Ifni pour une nuit en bivouac au bord de l’eau, puis descend au village d’Amsouzart avant le retour à Marrakech. Comme les cols sont enneigés en hiver, ce trek se fait uniquement à partir d’avril.
+  es: "Nuestro trek más largo y la mejor forma de conocer el Alto Atlas. Se sale de Imi Oughlad y se sube por el valle de Azzaden hasta Tizi Oussem, después a la cascada de Ighouliden y la zona de Tamsoult, con una tarde para aclimatarse. El tercer día se cruza Aguelzim hasta el refugio del Toubkal. El cuarto día se sube al Toubkal (4167 m) con linterna frontal y se llega a la cumbre hacia las 8. Después la ruta va hacia el sur por Tizi n’Ouanoums hasta el lago Ifni para una noche de vivac junto al agua, y baja al pueblo de Amsouzart antes de volver a Marrakech. Como los collados están nevados en invierno, este trek solo se hace a partir de abril."
+  de: "Unser längster Trek und die beste Art, den Hohen Atlas kennenzulernen. Start in Imi Oughlad, Aufstieg durch das Azzaden-Tal nach Tizi Oussem, dann weiter zum Ighouliden-Wasserfall und ins Gebiet von Tamsoult, mit einem Nachmittag zur Akklimatisierung. Am dritten Tag geht es über Aguelzim zur Toubkal-Hütte. Am vierten Tag besteigen Sie mit Stirnlampe den Toubkal (4.167 m) und stehen gegen 8 Uhr auf dem Gipfel. Danach führt die Route nach Süden über den Tizi n’Ouanoums zum Ifni-See mit einer Nacht im Biwak am Ufer und hinunter ins Dorf Amsouzart, bevor es zurück nach Marrakesch geht. Da die Pässe im Winter verschneit sind, gibt es diesen Trek erst ab April."
+  pt: "O nosso trekking mais longo e a melhor forma de conhecer o Alto Atlas. Parte-se de Imi Oughlad e sobe-se o vale de Azzaden até Tizi Oussem, depois até à cascata de Ighouliden e à zona de Tamsoult, com uma tarde para aclimatar. No terceiro dia atravessa-se Aguelzim até ao refúgio do Toubkal. No quarto dia sobe-se o Toubkal (4167 m) com lanterna frontal e chega-se ao cume por volta das 8h. Depois a rota segue para sul por Tizi n’Ouanoums até ao lago Ifni para uma noite de bivaque junto à água, e desce à aldeia de Amsouzart antes do regresso a Marraquexe. Como os colos estão cobertos de neve no inverno, este trekking só se faz a partir de abril."
+  ar: >-
+    أطول رحلاتنا وأفضل طريقة للتعرف على الأطلس الكبير. الانطلاق من إمي أوغلاد والصعود عبر وادي أزادن إلى تيزي أوسم، ثم إلى شلال إغوليدن ومنطقة تامسولت مع فترة بعد الظهر للتأقلم. في اليوم الثالث العبور عبر أكلزيم إلى ملجأ توبقال. في اليوم الرابع صعود توبقال (4167 م) بمصابيح الرأس والوصول إلى القمة حوالي الثامنة. بعد ذلك يتجه المسار جنوبا عبر تيزي ن وانومس إلى بحيرة إفني لقضاء ليلة في مخيم على ضفتها، ثم النزول إلى قرية أمسوزارت قبل العودة إلى مراكش. بما أن الممرات مغطاة بالثلج في الشتاء، تُنظَّم هذه الرحلة ابتداء من أبريل فقط.
+days: 7
+nights: 6
+difficulty: hard
+startCity: Marrakech
+endCity: Marrakech
+maxAltitude: 4167
+bestMonths: [ 5, 6, 7, 8, 9 ]
+openMonths: [ 4, 5, 6, 7, 8, 9, 10 ]
+price: { shared: 4900 }
+includes: { meals: true, transport: true, nights: true }
+photos: [h-toubkal-dawn, h-ighouliden, h-tamsoult-refuge, h-toubkal-pyramid, h-ifni-lake, h-toubkal-sunset, h-tamsoult-path, h-toubkal-summit]
+highlights:
+  - { en: "The Toubkal summit (4,167 m) after three days of acclimatisation", fr: "Le sommet du Toubkal (4 167 m) après trois jours d’acclimatation", es: "La cumbre del Toubkal (4167 m) tras tres días de aclimatación", de: "Der Toubkal-Gipfel (4.167 m) nach drei Tagen Akklimatisierung", pt: "O cume do Toubkal (4167 m) depois de três dias de aclimatação", ar: "قمة توبقال (4167 م) بعد ثلاثة أيام من التأقلم" }
+  - { en: "The Azzaden valley and the Ighouliden waterfall", fr: "La vallée d’Azzaden et la cascade d’Ighouliden", es: "El valle de Azzaden y la cascada de Ighouliden", de: "Das Azzaden-Tal und der Ighouliden-Wasserfall", pt: "O vale de Azzaden e a cascata de Ighouliden", ar: "وادي أزادن وشلال إغوليدن" }
+  - { en: "A night by Lake Ifni, with time to swim", fr: "Une nuit au bord du lac d’Ifni, avec du temps pour nager", es: "Una noche junto al lago Ifni, con tiempo para nadar", de: "Eine Nacht am Ifni-See, mit Zeit zum Schwimmen", pt: "Uma noite junto ao lago Ifni, com tempo para nadar", ar: "ليلة بجانب بحيرة إفني مع وقت للسباحة" }
+  - { en: "All inclusive from Marrakech: transport, nights, meals and guides", fr: "Tout compris depuis Marrakech : transport, nuits, repas et guides", es: "Todo incluido desde Marrakech: transporte, noches, comidas y guías", de: "Alles inklusive ab Marrakesch: Transport, Übernachtungen, Mahlzeiten und Guides", pt: "Tudo incluído desde Marraquexe: transporte, noites, refeições e guias", ar: "كل شيء مشمول من مراكش: النقل والمبيت والوجبات والمرشدون" }
+itinerary:
+  - title: { en: "Imi Oughlad, Azzaden and Tizi Oussem", fr: "Imi Oughlad, Azzaden et Tizi Oussem", es: "Imi Oughlad, Azzaden y Tizi Oussem", de: "Imi Oughlad, Azzaden und Tizi Oussem", pt: "Imi Oughlad, Azzaden e Tizi Oussem", ar: "إمي أوغلاد، أزادن وتيزي أوسم" }
+    text:
+      en: Morning drive to Imi Oughlad and start walking towards the Azzaden valley. Lunch at Tizi n’Igrar, then on to Tizi Oussem for dinner and the night in a gîte.
+      fr: Route matinale vers Imi Oughlad et départ à pied vers la vallée d’Azzaden. Déjeuner à Tizi n’Igrar, puis suite jusqu’à Tizi Oussem pour le dîner et la nuit en gîte d’étape.
+      es: Carretera por la mañana hasta Imi Oughlad y salida a pie hacia el valle de Azzaden. Almuerzo en Tizi n’Igrar y continuación hasta Tizi Oussem para cenar y dormir en un albergue.
+      de: Morgens Fahrt nach Imi Oughlad und Start der Wanderung ins Azzaden-Tal. Mittagessen am Tizi n’Igrar, dann weiter nach Tizi Oussem zu Abendessen und Übernachtung in einer Herberge.
+      pt: Estrada de manhã até Imi Oughlad e início da caminhada para o vale de Azzaden. Almoço em Tizi n’Igrar e continuação até Tizi Oussem para jantar e dormir num gîte.
+      ar: الانطلاق صباحا نحو إمي أوغلاد وبداية المشي نحو وادي أزادن. الغداء في تيزي ن إكرار، ثم المواصلة إلى تيزي أوسم للعشاء والمبيت في مأوى.
+    drive: 1 h 30
+    walk: 6–7 h
+    sleep: { type: guesthouse, place: Tizi Oussem }
+    meals: [ lunch, dinner ]
+    schedule:
+      - { time: "07:00", text: { en: "Departure from Marrakech", fr: "Départ de Marrakech", es: "Salida de Marrakech", de: "Abfahrt in Marrakesch", pt: "Partida de Marraquexe", ar: "الانطلاق من مراكش" } }
+      - { time: "08:30", text: { en: "Arrival at Imi Oughlad", fr: "Arrivée à Imi Oughlad", es: "Llegada a Imi Oughlad", de: "Ankunft in Imi Oughlad", pt: "Chegada a Imi Oughlad", ar: "الوصول إلى إمي أوغلاد" } }
+      - { time: "09:00", text: { en: "Start walking towards Azzaden", fr: "Départ vers Azzaden", es: "Salida hacia Azzaden", de: "Aufbruch Richtung Azzaden", pt: "Partida para Azzaden", ar: "الانطلاق نحو أزادن" } }
+      - { time: "12:00", text: { en: "Lunch at Tizi n’Igrar", fr: "Déjeuner à Tizi n’Igrar", es: "Almuerzo en Tizi n’Igrar", de: "Mittagessen am Tizi n’Igrar", pt: "Almoço em Tizi n’Igrar", ar: "الغداء في تيزي ن إكرار" } }
+      - { time: "14:00–17:00", text: { en: "Walk on to Tizi Oussem", fr: "Suite de la randonnée vers Tizi Oussem", es: "Continuación hasta Tizi Oussem", de: "Weiter nach Tizi Oussem", pt: "Continuação até Tizi Oussem", ar: "مواصلة المشي نحو تيزي أوسم" } }
+      - { time: "20:00", text: { en: "Dinner at the gîte", fr: "Dîner au gîte d’étape", es: "Cena en el albergue", de: "Abendessen in der Herberge", pt: "Jantar no gîte", ar: "العشاء في المأوى" } }
+  - title: { en: "Ighouliden waterfall and Tamsoult", fr: "Cascade d’Ighouliden et Tamsoult", es: "Cascada de Ighouliden y Tamsoult", de: "Ighouliden-Wasserfall und Tamsoult", pt: "Cascata de Ighouliden e Tamsoult", ar: "شلال إغوليدن وتامسولت" }
+    text:
+      en: Walk towards Tamsoult and reach the Ighouliden waterfall around midday. Lunch at Tizi Izgaren, then a free afternoon to rest and acclimatise.
+      fr: Marche vers Tamsoult et arrivée à la cascade d’Ighouliden vers midi. Déjeuner à Tizi Izgaren, puis après-midi libre pour se reposer et s’acclimater.
+      es: Caminata hacia Tamsoult y llegada a la cascada de Ighouliden hacia mediodía. Almuerzo en Tizi Izgaren y tarde libre para descansar y aclimatarse.
+      de: Wanderung Richtung Tamsoult, gegen Mittag am Ighouliden-Wasserfall. Mittagessen am Tizi Izgaren, dann freier Nachmittag zum Ausruhen und Akklimatisieren.
+      pt: Caminhada até Tamsoult e chegada à cascata de Ighouliden por volta do meio-dia. Almoço em Tizi Izgaren e tarde livre para descansar e aclimatar.
+      ar: المشي نحو تامسولت والوصول إلى شلال إغوليدن حوالي منتصف النهار. الغداء في تيزي إزكارن، ثم فترة حرة للراحة والتأقلم.
+    walk: 5 h
+    sleep: { type: refuge, place: Tamsoult }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "08:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "09:00", text: { en: "Start walking towards Tamsoult", fr: "Départ vers Tamsoult", es: "Salida hacia Tamsoult", de: "Aufbruch nach Tamsoult", pt: "Partida para Tamsoult", ar: "الانطلاق نحو تامسولت" } }
+      - { time: "12:00", text: { en: "Ighouliden waterfall", fr: "Arrivée à la cascade d’Ighouliden", es: "Cascada de Ighouliden", de: "Ighouliden-Wasserfall", pt: "Cascata de Ighouliden", ar: "الوصول إلى شلال إغوليدن" } }
+      - { time: "14:00", text: { en: "Lunch at Tizi Izgaren", fr: "Déjeuner à Tizi Izgaren", es: "Almuerzo en Tizi Izgaren", de: "Mittagessen am Tizi Izgaren", pt: "Almoço em Tizi Izgaren", ar: "الغداء في تيزي إزكارن" } }
+      - { time: "15:00–20:00", text: { en: "Free time to rest and acclimatise", fr: "Temps libre pour le repos et l’acclimatation", es: "Tiempo libre para descansar y aclimatarse", de: "Freie Zeit zum Ausruhen und Akklimatisieren", pt: "Tempo livre para descansar e aclimatar", ar: "وقت حر للراحة والتأقلم" } }
+      - { time: "20:00", text: { en: "Dinner", fr: "Dîner", es: "Cena", de: "Abendessen", pt: "Jantar", ar: "العشاء" } }
+  - title: { en: "Over Aguelzim to the Toubkal refuge", fr: "Par Aguelzim jusqu’au refuge du Toubkal", es: "Por Aguelzim hasta el refugio del Toubkal", de: "Über Aguelzim zur Toubkal-Hütte", pt: "Por Aguelzim até ao refúgio do Toubkal", ar: "عبر أكلزيم إلى ملجأ توبقال" }
+    text:
+      en: A high mountain day with a tea break at the top of Aguelzim, then down to the Toubkal refuge for a late lunch and an afternoon of rest and acclimatisation.
+      fr: Une journée de haute montagne avec une pause thé au sommet d’Aguelzim, puis descente au refuge du Toubkal pour un déjeuner tardif et un après-midi de repos et d’acclimatation.
+      es: Un día de alta montaña con pausa para el té en lo alto de Aguelzim y bajada al refugio del Toubkal para un almuerzo tardío y una tarde de descanso y aclimatación.
+      de: Ein Hochgebirgstag mit Teepause oben auf dem Aguelzim, dann hinab zur Toubkal-Hütte zu einem späten Mittagessen und einem Nachmittag zum Ausruhen und Akklimatisieren.
+      pt: Um dia de alta montanha com pausa para chá no alto de Aguelzim, depois descida ao refúgio do Toubkal para um almoço tardio e uma tarde de descanso e aclimatação.
+      ar: يوم في الجبال العالية مع استراحة شاي في أعلى أكلزيم، ثم النزول إلى ملجأ توبقال لغداء متأخر وفترة بعد الظهر للراحة والتأقلم.
+    walk: 6 h
+    altitude: 3560
+    sleep: { type: refuge, place: Toubkal refuge }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "07:00", text: { en: "Wake up", fr: "Réveil", es: "Despertar", de: "Wecken", pt: "Despertar", ar: "الاستيقاظ" } }
+      - { time: "08:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "09:00", text: { en: "Departure", fr: "Départ", es: "Salida", de: "Aufbruch", pt: "Partida", ar: "الانطلاق" } }
+      - { time: "12:00", text: { en: "Tea break at the top of Aguelzim", fr: "Pause thé au sommet d’Aguelzim", es: "Pausa para el té en lo alto de Aguelzim", de: "Teepause oben auf dem Aguelzim", pt: "Pausa para chá no alto de Aguelzim", ar: "استراحة شاي في أعلى أكلزيم" } }
+      - { time: "15:00", text: { en: "Lunch at the Toubkal refuge", fr: "Déjeuner au refuge du Toubkal", es: "Almuerzo en el refugio del Toubkal", de: "Mittagessen in der Toubkal-Hütte", pt: "Almoço no refúgio do Toubkal", ar: "الغداء في ملجأ توبقال" } }
+      - { time: "16:00–20:00", text: { en: "Free time to rest and acclimatise", fr: "Temps libre de repos et d’acclimatation", es: "Tiempo libre para descansar y aclimatarse", de: "Freie Zeit zum Ausruhen und Akklimatisieren", pt: "Tempo livre para descansar e aclimatar", ar: "وقت حر للراحة والتأقلم" } }
+      - { time: "20:00", text: { en: "Dinner", fr: "Dîner", es: "Cena", de: "Abendessen", pt: "Jantar", ar: "العشاء" } }
+  - title: { en: "Toubkal summit (4,167 m)", fr: "Sommet du Toubkal (4 167 m)", es: "Cumbre del Toubkal (4167 m)", de: "Toubkal-Gipfel (4.167 m)", pt: "Cume do Toubkal (4167 m)", ar: "قمة توبقال (4167 م)" }
+    text:
+      en: A start by head torch, a panoramic view from the 4,000 m point at dawn and the summit around 8 am at an average pace. Back at the refuge for lunch and a quiet afternoon.
+      fr: Départ à la frontale, vue panoramique depuis la pointe des 4 000 m à l’aube et sommet vers 8 h à rythme moyen. Retour au refuge pour le déjeuner et un après-midi de repos.
+      es: Salida con linterna frontal, vista panorámica desde el punto de 4000 m al amanecer y cumbre hacia las 8 a ritmo medio. Vuelta al refugio para almorzar y una tarde tranquila.
+      de: Aufbruch mit Stirnlampe, Panoramablick vom 4.000-m-Punkt im Morgengrauen und Gipfel gegen 8 Uhr in mittlerem Tempo. Zurück in der Hütte zum Mittagessen und ein ruhiger Nachmittag.
+      pt: Partida com lanterna frontal, vista panorâmica do ponto dos 4000 m ao amanhecer e cume por volta das 8h a ritmo médio. Regresso ao refúgio para almoçar e uma tarde tranquila.
+      ar: الانطلاق بمصابيح الرأس، وإطلالة بانورامية من نقطة 4000 م عند الفجر، والوصول إلى القمة حوالي الثامنة بوتيرة متوسطة. العودة إلى الملجأ للغداء وفترة بعد الظهر هادئة.
+    walk: 9 h
+    altitude: 4167
+    sleep: { type: refuge, place: Toubkal refuge }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "02:00", text: { en: "Wake up and get ready", fr: "Réveil et préparation", es: "Despertar y preparación", de: "Wecken und Vorbereitung", pt: "Despertar e preparação", ar: "الاستيقاظ والاستعداد" } }
+      - { time: "03:00", text: { en: "Breakfast at the refuge", fr: "Petit-déjeuner au refuge", es: "Desayuno en el refugio", de: "Frühstück in der Hütte", pt: "Pequeno-almoço no refúgio", ar: "الفطور في الملجأ" } }
+      - { time: "03:30", text: { en: "Start of the summit climb", fr: "Départ vers le sommet du Toubkal", es: "Salida hacia la cumbre del Toubkal", de: "Aufbruch zum Toubkal-Gipfel", pt: "Partida para o cume do Toubkal", ar: "الانطلاق نحو قمة توبقال" } }
+      - { time: "05:00", text: { en: "The 4,000 m point, with a wide view", fr: "Pointe des 4 000 m, vue panoramique", es: "Punto de 4000 m, vista panorámica", de: "4.000-m-Punkt mit Panoramablick", pt: "Ponto dos 4000 m, vista panorâmica", ar: "نقطة 4000 م وإطلالة بانورامية" } }
+      - { time: "08:00", text: { en: "Summit of Toubkal (4,167 m), at an average pace", fr: "Sommet du Toubkal (4 167 m), à rythme moyen", es: "Cumbre del Toubkal (4167 m), a ritmo medio", de: "Toubkal-Gipfel (4.167 m), in mittlerem Tempo", pt: "Cume do Toubkal (4167 m), a ritmo médio", ar: "قمة توبقال (4167 م) بوتيرة متوسطة" } }
+      - { time: "09:00", text: { en: "Walk down to the refuge", fr: "Descente vers le refuge", es: "Bajada al refugio", de: "Abstieg zur Hütte", pt: "Descida até ao refúgio", ar: "النزول نحو الملجأ" } }
+      - { time: "13:00", text: { en: "Lunch at the refuge", fr: "Déjeuner au refuge", es: "Almuerzo en el refugio", de: "Mittagessen in der Hütte", pt: "Almoço no refúgio", ar: "الغداء في الملجأ" } }
+      - { time: "14:00–20:00", text: { en: "Rest", fr: "Temps de repos", es: "Descanso", de: "Ruhezeit", pt: "Descanso", ar: "وقت الراحة" } }
+  - title: { en: "Tizi n’Ouanoums and Lake Ifni", fr: "Tizi n’Ouanoums et le lac d’Ifni", es: "Tizi n’Ouanoums y el lago Ifni", de: "Tizi n’Ouanoums und der Ifni-See", pt: "Tizi n’Ouanoums e o lago Ifni", ar: "تيزي ن وانومس وبحيرة إفني" }
+    text:
+      en: Over the Tizi n’Ouanoums pass, with time for photos and a rest, and down to Lake Ifni. Afternoon free to swim and relax, dinner and night at the lakeside bivouac.
+      fr: Passage du col de Tizi n’Ouanoums, avec du temps pour les photos et le repos, puis descente au lac d’Ifni. Après-midi libre pour nager et se détendre, dîner et nuit au bivouac du lac.
+      es: Paso por el collado de Tizi n’Ouanoums, con tiempo para fotos y descanso, y bajada al lago Ifni. Tarde libre para nadar y relajarse, cena y noche en el vivac junto al lago.
+      de: Über den Pass Tizi n’Ouanoums, mit Zeit für Fotos und eine Pause, hinunter zum Ifni-See. Nachmittag frei zum Schwimmen und Entspannen, Abendessen und Nacht im Biwak am See.
+      pt: Passagem pelo colo de Tizi n’Ouanoums, com tempo para fotos e descanso, e descida ao lago Ifni. Tarde livre para nadar e relaxar, jantar e noite no bivaque junto ao lago.
+      ar: عبور ممر تيزي ن وانومس مع وقت للصور والراحة، ثم النزول إلى بحيرة إفني. فترة بعد الظهر حرة للسباحة والاسترخاء، والعشاء والمبيت في المخيم بجانب البحيرة.
+    walk: 6 h
+    altitude: 3664
+    sleep: { type: tent, place: Lake Ifni bivouac }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "05:00", text: { en: "Wake up", fr: "Réveil", es: "Despertar", de: "Wecken", pt: "Despertar", ar: "الاستيقاظ" } }
+      - { time: "06:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "07:00", text: { en: "Start walking towards Lake Ifni", fr: "Départ vers le lac d’Ifni", es: "Salida hacia el lago Ifni", de: "Aufbruch zum Ifni-See", pt: "Partida para o lago Ifni", ar: "الانطلاق نحو بحيرة إفني" } }
+      - { time: "09:00", text: { en: "Break at Tizi n’Ouanoums for photos and rest", fr: "Pause à Tizi n’Ouanoums pour les photos et le repos", es: "Pausa en Tizi n’Ouanoums para fotos y descanso", de: "Pause am Tizi n’Ouanoums für Fotos und Erholung", pt: "Pausa em Tizi n’Ouanoums para fotos e descanso", ar: "استراحة في تيزي ن وانومس للصور والراحة" } }
+      - { time: "13:00", text: { en: "Arrival at Lake Ifni", fr: "Arrivée au lac d’Ifni", es: "Llegada al lago Ifni", de: "Ankunft am Ifni-See", pt: "Chegada ao lago Ifni", ar: "الوصول إلى بحيرة إفني" } }
+      - { time: "14:00", text: { en: "Lunch", fr: "Déjeuner", es: "Almuerzo", de: "Mittagessen", pt: "Almoço", ar: "الغداء" } }
+      - { time: "14:00–20:00", text: { en: "Free time to swim in the lake and other activities", fr: "Temps libre pour nager au lac et d’autres activités", es: "Tiempo libre para nadar en el lago y otras actividades", de: "Freie Zeit zum Schwimmen im See und für andere Aktivitäten", pt: "Tempo livre para nadar no lago e outras atividades", ar: "وقت حر للسباحة في البحيرة وأنشطة أخرى" } }
+      - { time: "20:00", text: { en: "Dinner at the lakeside bivouac", fr: "Dîner au bivouac du lac", es: "Cena en el vivac del lago", de: "Abendessen im Biwak am See", pt: "Jantar no bivaque do lago", ar: "العشاء في مخيم البحيرة" } }
+  - title: { en: "Lake Ifni to Amsouzart", fr: "Du lac d’Ifni à Amsouzart", es: "Del lago Ifni a Amsouzart", de: "Vom Ifni-See nach Amsouzart", pt: "Do lago Ifni a Amsouzart", ar: "من بحيرة إفني إلى أمسوزارت" }
+    text:
+      en: Walk down to Amsouzart with a tea break at Da Blaid’s house. Lunch at the local gîte, an afternoon walk to the Amsouzart viewpoint, a snack, dinner and a last evening together.
+      fr: Descente vers Amsouzart avec une pause thé chez Da Blaid. Déjeuner au gîte local, balade l’après-midi jusqu’au point de vue d’Amsouzart, goûter, dîner et dernière soirée ensemble.
+      es: Bajada a Amsouzart con pausa para el té en casa de Da Blaid. Almuerzo en el albergue local, paseo por la tarde hasta el mirador de Amsouzart, merienda, cena y última velada juntos.
+      de: Abstieg nach Amsouzart mit Teepause bei Da Blaid. Mittagessen in der Dorfherberge, nachmittags Spaziergang zum Aussichtspunkt von Amsouzart, Imbiss, Abendessen und ein letzter gemeinsamer Abend.
+      pt: Descida a Amsouzart com pausa para chá em casa de Da Blaid. Almoço no gîte local, passeio à tarde até ao miradouro de Amsouzart, lanche, jantar e uma última noite juntos.
+      ar: النزول إلى أمسوزارت مع استراحة شاي عند دا بلعيد. الغداء في المأوى المحلي، وجولة بعد الظهر إلى المطل البانورامي لأمسوزارت، ثم وجبة خفيفة والعشاء وأمسية أخيرة معا.
+    walk: 5 h
+    sleep: { type: guesthouse, place: Amsouzart }
+    meals: [ breakfast, lunch, dinner ]
+    schedule:
+      - { time: "06:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "07:00", text: { en: "Start walking towards Amsouzart", fr: "Départ vers Amsouzart", es: "Salida hacia Amsouzart", de: "Aufbruch nach Amsouzart", pt: "Partida para Amsouzart", ar: "الانطلاق نحو أمسوزارت" } }
+      - { time: "09:00", text: { en: "Tea break at Da Blaid’s", fr: "Pause thé chez Da Blaid", es: "Pausa para el té en casa de Da Blaid", de: "Teepause bei Da Blaid", pt: "Pausa para chá em casa de Da Blaid", ar: "استراحة شاي عند دا بلعيد" } }
+      - { time: "12:00", text: { en: "Arrival at the local gîte", fr: "Arrivée au gîte local", es: "Llegada al albergue local", de: "Ankunft in der Dorfherberge", pt: "Chegada ao gîte local", ar: "الوصول إلى المأوى المحلي" } }
+      - { time: "13:00", text: { en: "Lunch", fr: "Déjeuner", es: "Almuerzo", de: "Mittagessen", pt: "Almoço", ar: "الغداء" } }
+      - { time: "14:00", text: { en: "Walk to the Amsouzart viewpoint", fr: "Balade jusqu’au point de vue d’Amsouzart", es: "Paseo hasta el mirador de Amsouzart", de: "Spaziergang zum Aussichtspunkt von Amsouzart", pt: "Passeio até ao miradouro de Amsouzart", ar: "جولة إلى المطل البانورامي لأمسوزارت" } }
+      - { time: "17:00", text: { en: "Snack at the gîte", fr: "Goûter au gîte", es: "Merienda en el albergue", de: "Imbiss in der Herberge", pt: "Lanche no gîte", ar: "وجبة خفيفة في المأوى" } }
+      - { time: "20:00", text: { en: "Dinner", fr: "Dîner", es: "Cena", de: "Abendessen", pt: "Jantar", ar: "العشاء" } }
+      - { time: "21:00", text: { en: "Getting ready for the end of the trek", fr: "Préparation pour la fin du trek", es: "Preparación para el final del trek", de: "Vorbereitung auf das Trek-Ende", pt: "Preparação para o fim do trekking", ar: "الاستعداد لنهاية الرحلة" } }
+  - title: { en: "Amsouzart to Marrakech", fr: "D’Amsouzart à Marrakech", es: "De Amsouzart a Marrakech", de: "Von Amsouzart nach Marrakesch", pt: "De Amsouzart a Marraquexe", ar: "من أمسوزارت إلى مراكش" }
+    text:
+      en: Breakfast and the drive back to Marrakech, with lunch in Aït Ourir on the way.
+      fr: Petit-déjeuner et route vers Marrakech, avec déjeuner à Aït Ourir en chemin.
+      es: Desayuno y regreso a Marrakech, con almuerzo en Aït Ourir por el camino.
+      de: Frühstück und Rückfahrt nach Marrakesch, mit Mittagessen in Aït Ourir unterwegs.
+      pt: Pequeno-almoço e regresso a Marraquexe, com almoço em Aït Ourir pelo caminho.
+      ar: الفطور ثم الطريق إلى مراكش، مع الغداء في آيت أورير.
+    drive: 6 h
+    meals: [ breakfast, lunch ]
+    schedule:
+      - { time: "07:00", text: { en: "Breakfast", fr: "Petit-déjeuner", es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: "الفطور" } }
+      - { time: "08:00", text: { en: "Drive to Marrakech", fr: "Départ vers Marrakech", es: "Salida hacia Marrakech", de: "Abfahrt nach Marrakesch", pt: "Partida para Marraquexe", ar: "الانطلاق نحو مراكش" } }
+      - { time: "13:00", text: { en: "Lunch in Aït Ourir", fr: "Déjeuner à Aït Ourir", es: "Almuerzo en Aït Ourir", de: "Mittagessen in Aït Ourir", pt: "Almoço em Aït Ourir", ar: "الغداء في آيت أورير" } }
+      - { time: "15:00", text: { en: "Arrival in Marrakech", fr: "Arrivée à Marrakech", es: "Llegada a Marrakech", de: "Ankunft in Marrakesch", pt: "Chegada a Marraquexe", ar: "الوصول إلى مراكش" } }
+included: [ transport-marrakech, guide-mountain, meals-all, accommodation ]
+excluded: [ hiking-gear-ex, drinks, insurance, personal ]
+pack: [ boots, layers, rain-jacket, gloves-hat, headlamp, sun-kit, swimwear, bottle, daypack, sleeping-bag-pack, poles ]
+meetingPoint:
+  en: "In front of Marrakech railway station (Gare ONCF, Avenue Hassan II)."
+  fr: "Devant la gare de Marrakech (gare ONCF, avenue Hassan II)."
+  es: "Delante de la estación de tren de Marrakech (Gare ONCF, avenida Hassan II)."
+  de: "Vor dem Bahnhof von Marrakesch (Gare ONCF, Avenue Hassan II)."
+  pt: "Em frente à estação de comboios de Marraquexe (Gare ONCF, avenida Hassan II)."
+  ar: "أمام محطة القطار بمراكش (محطة ONCF، شارع الحسن الثاني)."
+pickupTime: "07:00"
+goodToKnow:
+  - en: "Runs from April to October only: in winter the high passes (Aguelzim, Tizi n’Ouanoums) are under snow and closed."
+    fr: "Uniquement d’avril à octobre : en hiver, les cols (Aguelzim, Tizi n’Ouanoums) sont enneigés et fermés."
+    es: "Solo de abril a octubre: en invierno los collados (Aguelzim, Tizi n’Ouanoums) están nevados y cerrados."
+    de: "Nur von April bis Oktober: Im Winter sind die Pässe (Aguelzim, Tizi n’Ouanoums) verschneit und gesperrt."
+    pt: "Só de abril a outubro: no inverno os colos (Aguelzim, Tizi n’Ouanoums) estão cobertos de neve e fechados."
+    ar: "من أبريل إلى أكتوبر فقط: في الشتاء تكون الممرات (أكلزيم، تيزي ن وانومس) مغطاة بالثلج ومغلقة."
+  - en: "All inclusive: return transport, nights in gîtes, refuges and bivouac, breakfasts, lunches, dinners and professional guides."
+    fr: "Tout compris : transport aller-retour, nuits en gîtes, refuges et bivouac, petits-déjeuners, déjeuners, dîners et guides professionnels."
+    es: "Todo incluido: transporte de ida y vuelta, noches en albergues, refugios y vivac, desayunos, almuerzos, cenas y guías profesionales."
+    de: "Alles inklusive: Hin- und Rückfahrt, Übernachtungen in Herbergen, Hütten und Biwak, Frühstück, Mittag- und Abendessen sowie professionelle Guides."
+    pt: "Tudo incluído: transporte de ida e volta, noites em gîtes, refúgios e bivaque, pequenos-almoços, almoços, jantares e guias profissionais."
+    ar: "كل شيء مشمول: النقل ذهابا وإيابا، والمبيت في المآوي والملاجئ والمخيم، والفطور والغداء والعشاء، ومرشدون محترفون."
+  - en: Six walking days, two of them above 3,500 m. You need very good fitness and some experience of long mountain days.
+    fr: Six jours de marche, dont deux au-dessus de 3 500 m. Il faut une très bonne condition physique et l’habitude des longues journées en montagne.
+    es: Seis días de marcha, dos de ellos por encima de 3500 m. Se necesita muy buena forma física y algo de experiencia en jornadas largas de montaña.
+    de: Sechs Wandertage, davon zwei über 3.500 m. Sie brauchen sehr gute Kondition und Erfahrung mit langen Bergtagen.
+    pt: Seis dias de caminhada, dois deles acima dos 3500 m. É precisa muito boa forma física e alguma experiência de dias longos na montanha.
+    ar: ستة أيام من المشي، منها يومان فوق 3500 م. تحتاجون إلى لياقة عالية جدا وبعض الخبرة في الأيام الجبلية الطويلة.
+  - en: Weather decides. If the guide judges a pass or the summit unsafe, you turn back or change the route. Your safety comes first.
+    fr: La météo décide. Si le guide juge un col ou le sommet dangereux, on fait demi-tour ou on change d’itinéraire. Votre sécurité passe avant tout.
+    es: Manda el tiempo. Si el guía considera que un collado o la cumbre no son seguros, se da la vuelta o se cambia de ruta. Su seguridad es lo primero.
+    de: Das Wetter entscheidet. Hält der Guide einen Pass oder den Gipfel für unsicher, kehren Sie um oder ändern die Route. Ihre Sicherheit geht vor.
+    pt: Quem decide é o tempo. Se o guia considerar um colo ou o cume inseguro, volta-se para trás ou muda-se de rota. A sua segurança está em primeiro lugar.
+    ar: الطقس هو الذي يقرر. إذا رأى المرشد أن ممرا أو القمة غير آمنين، نعود أو نغير المسار. سلامتكم أولا.
+mapStops:
+  - { name: Marrakech railway station, lat: 31.6306, lng: -8.0167, kind: start }
+  - { name: Imi Oughlad, lat: 31.1910, lng: -7.9560, kind: stop }
+  - { name: "Tizi n’Igrar", lat: 31.1640, lng: -7.9720, kind: stop }
+  - { name: Tizi Oussem, lat: 31.1320, lng: -7.9800, kind: sleep }
+  - { name: Ighouliden waterfall, lat: 31.0925, lng: -7.9735, kind: stop }
+  - { name: Tamsoult refuge, lat: 31.0975, lng: -7.9790, kind: sleep }
+  - { name: Toubkal refuge, lat: 31.0713, lng: -7.9139, kind: sleep }
+  - { name: "Toubkal summit (4,167 m)", lat: 31.0597, lng: -7.9156, kind: summit }
+  - { name: "Tizi n’Ouanoums", lat: 31.0470, lng: -7.9050, kind: stop }
+  - { name: Lake Ifni, lat: 31.0236, lng: -7.8808, kind: sleep }
+  - { name: Amsouzart, lat: 30.9960, lng: -7.8480, kind: sleep }
+  - { name: Aït Ourir, lat: 31.5640, lng: -7.6630, kind: stop }

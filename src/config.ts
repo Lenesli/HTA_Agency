@@ -96,7 +96,7 @@ export const showPrices = false;
 /** Booking estimate settings. */
 export const booking = {
   /** Child price as a share of the adult price (1 = full price). */
-  /** Private trips are for groups of at least this many people. */
-  privateMin: 6,
+  /** Smallest group for a private trip (1 = any group size). */
+  privateMin: 1,
   childFactor: 1, // TODO(youssef): child discount (e.g. 0.5 for half price) and the age limit
 } as const;

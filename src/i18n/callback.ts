@@ -30,7 +30,7 @@ type Strings = {
 export const callback: Record<Lang, Strings> = {
   en: {
     eyebrow: 'Free call-back',
-    title: 'Rather talk to a real person?',
+    title: 'Rather talk to us directly?',
     text: 'Leave your number. We call or WhatsApp you back, usually within a few hours, and answer every question before you decide.',
     name: 'Your name',
     phone: 'Phone number',
@@ -48,8 +48,8 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: 'What happens next?',
     steps: [
       ['Send your request', 'Through WhatsApp, by email, or just leave your number. Free and with no commitment.'],
-      ['A real person answers', 'Usually within a few hours: availability, the final price and honest advice.'],
-      ['You confirm, we take care of the rest', 'Programme, pickup time and a direct contact for your trip. You pay nothing online.'],
+      ['Our local team answers', 'Usually within a few hours: availability, the final price and honest advice.'],
+      ['You confirm, we take care of the rest', 'Programme, pickup time and a direct contact for your trip. A deposit secures your place.'],
     ],
     mailSubject: 'Call-back request',
     waText: 'Hello Hiking to Atlas, please contact me: {name}, {phone}.',
@@ -74,8 +74,8 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: 'Et ensuite ?',
     steps: [
       ['Envoyez votre demande', 'Par WhatsApp, par e-mail, ou laissez simplement votre numéro. Gratuit et sans engagement.'],
-      ['Une vraie personne vous répond', 'En général en quelques heures : disponibilité, prix final et conseils honnêtes.'],
-      ['Vous confirmez, on s’occupe du reste', 'Programme, heure de prise en charge et un contact direct pour votre voyage. Rien à payer en ligne.'],
+      ['Notre équipe locale vous répond', 'En général en quelques heures : disponibilité, prix final et conseils honnêtes.'],
+      ['Vous confirmez, on s’occupe du reste', 'Programme, heure de prise en charge et un contact direct pour votre voyage. Un acompte confirme votre place.'],
     ],
     mailSubject: 'Demande de rappel',
     waText: 'Bonjour Hiking to Atlas, merci de me contacter : {name}, {phone}.',
@@ -100,8 +100,8 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: '¿Y después?',
     steps: [
       ['Envíe su solicitud', 'Por WhatsApp, por correo o dejando su número. Gratis y sin compromiso.'],
-      ['Le responde una persona real', 'Normalmente en pocas horas: disponibilidad, precio final y consejos honestos.'],
-      ['Usted confirma y nosotros nos ocupamos del resto', 'Programa, hora de recogida y un contacto directo para su viaje. No paga nada en línea.'],
+      ['Le responde nuestro equipo local', 'Normalmente en pocas horas: disponibilidad, precio final y consejos honestos.'],
+      ['Usted confirma y nosotros nos ocupamos del resto', 'Programa, hora de recogida y un contacto directo para su viaje. Un depósito confirma su plaza.'],
     ],
     mailSubject: 'Solicitud de llamada',
     waText: 'Hola Hiking to Atlas, por favor contáctenme: {name}, {phone}.',
@@ -126,8 +126,8 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: 'Wie geht es weiter?',
     steps: [
       ['Anfrage senden', 'Per WhatsApp, per E-Mail oder einfach Ihre Nummer hinterlassen. Kostenlos und unverbindlich.'],
-      ['Ein echter Mensch antwortet', 'Meist innerhalb weniger Stunden: Verfügbarkeit, Endpreis und ehrliche Tipps.'],
-      ['Sie bestätigen, wir kümmern uns um den Rest', 'Programm, Abholzeit und ein direkter Kontakt für Ihre Reise. Sie zahlen nichts online.'],
+      ['Unser Team vor Ort antwortet', 'Meist innerhalb weniger Stunden: Verfügbarkeit, Endpreis und ehrliche Tipps.'],
+      ['Sie bestätigen, wir kümmern uns um den Rest', 'Programm, Abholzeit und ein direkter Kontakt für Ihre Reise. Eine Anzahlung sichert Ihren Platz.'],
     ],
     mailSubject: 'Rückrufbitte',
     waText: 'Hallo Hiking to Atlas, bitte kontaktieren Sie mich: {name}, {phone}.',
@@ -152,15 +152,15 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: 'E depois?',
     steps: [
       ['Envie o seu pedido', 'Por WhatsApp, por e-mail ou deixando apenas o seu número. Grátis e sem compromisso.'],
-      ['Responde-lhe uma pessoa real', 'Normalmente em poucas horas: disponibilidade, preço final e conselhos honestos.'],
-      ['Confirma e nós tratamos do resto', 'Programa, hora de recolha e um contacto direto para a sua viagem. Não paga nada online.'],
+      ['Responde-lhe a nossa equipa local', 'Normalmente em poucas horas: disponibilidade, preço final e conselhos honestos.'],
+      ['Confirma e nós tratamos do resto', 'Programa, hora de recolha e um contacto direto para a sua viagem. Um sinal confirma o seu lugar.'],
     ],
     mailSubject: 'Pedido de contacto',
     waText: 'Olá Hiking to Atlas, por favor contactem-me: {name}, {phone}.',
   },
   ar: {
     eyebrow: 'نتصل بكم مجانا',
-    title: 'تفضلون الحديث مع شخص حقيقي؟',
+    title: 'تفضلون الحديث معنا مباشرة؟',
     text: 'اتركوا رقمكم. نتصل بكم أو نراسلكم على واتساب، عادة خلال ساعات قليلة، ونجيب عن كل أسئلتكم قبل أن تقرروا.',
     name: 'الاسم',
     phone: 'رقم الهاتف',
@@ -178,8 +178,8 @@ export const callback: Record<Lang, Strings> = {
     stepsTitle: 'ماذا بعد؟',
     steps: [
       ['أرسلوا طلبكم', 'عبر واتساب أو البريد الإلكتروني، أو اتركوا رقمكم فقط. مجانا وبدون أي التزام.'],
-      ['يجيبكم شخص حقيقي', 'عادة خلال ساعات قليلة: التوفر والسعر النهائي ونصائح صادقة.'],
-      ['تؤكدون ونحن نتكفل بالباقي', 'البرنامج وموعد الانطلاق ورقم مباشر خاص برحلتكم. لا تدفعون شيئا عبر الإنترنت.'],
+      ['يجيبكم فريقنا المحلي', 'عادة خلال ساعات قليلة: التوفر والسعر النهائي ونصائح صادقة.'],
+      ['تؤكدون ونحن نتكفل بالباقي', 'البرنامج وموعد الانطلاق ورقم مباشر خاص برحلتكم. عربون يؤكد مكانكم.'],
     ],
     mailSubject: 'طلب اتصال',
     waText: 'مرحبا Hiking to Atlas، المرجو التواصل معي: {name}، {phone}.',

@@ -11,12 +11,13 @@ import PageHeader from '../components/PageHeader.astro';
 import Icon from '../components/Icon.astro';
 import Callback from '../components/Callback.astro';
 import { callback } from '../i18n/callback';
-import { alternates, url, type Lang } from '../i18n/routes';
+import { alternates, langMeta, url, type Lang } from '../i18n/routes';
 import { t } from '../i18n/ui';
 import { categoryLabels } from '../i18n/catalog';
 import { categories } from '../content.config';
 import { booking, contact, showPrices, site } from '../config';
 import { durationLabel, getTrips, tripPhotos } from '../lib/trips';
+import { seasonText } from '../lib/season';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -41,9 +42,13 @@ const data = await Promise.all(
       img: img.src,
       ph: cover.data.placeholder,
       alt: cover.data.alt[lang],
+      months: tr.data.openMonths,
+      season: seasonText(b.season, tr.data.openMonths, langMeta[lang].intl),
+      errSeason: seasonText(b.errSeason, tr.data.openMonths, langMeta[lang].intl),
     };
   }),
 );
+const usedCategories = categories.filter((c) => data.some((d) => d.cat === c));
 const strings = {
   hello: b.msgHello, date: b.msgDate, adults: b.msgAdults, children: b.msgChildren, option: b.msgOption,
   total: b.msgTotal, lang: b.msgLang, langName: b.msgLangName, link: b.msgLink, shared: b.shared, private: b.private,
@@ -64,7 +69,7 @@ const strings = {
         <label for="bk-trip" class="mt-5 block text-sm font-semibold">{k.chooseTrip}</label>
         <select id="bk-trip" name="trip" class="input mt-1.5" required>
           <option value="">{k.chooseTrip}…</option>
-          {categories.map((c) => (
+          {usedCategories.map((c) => (
             <optgroup label={categoryLabels[c][lang]}>
               {data.filter((d) => d.cat === c).map((d) => <option value={d.slug}>{d.title}</option>)}
             </optgroup>
@@ -92,6 +97,7 @@ const strings = {
           <div>
             <label for="bk-date" class="text-sm font-semibold">{b.date}</label>
             <input id="bk-date" name="date" type="date" class="input mt-1.5" required />
+            <p class="mt-1.5 text-xs text-ink-3" data-season hidden></p>
           </div>
           <div class="space-y-3">
             {[{ name: 'adults', label: b.adults, min: 1, value: 2 }, { name: 'children', label: b.children, min: 0, value: 0 }].map((st) => (
@@ -188,8 +194,9 @@ const strings = {
   import { convert, formatMoney } from '../lib/price';
   import { fieldError, isEmail, emailConfigured, sendEmail } from '../scripts/send';
   import { langMeta, type Lang } from '../i18n/routes';
+  import { monthOk } from '../lib/season';
 
-  type T = { slug: string; title: string; duration: string; shared: number; private: number; href: string; abs: string; img: string; ph: string; alt: string };
+  type T = { slug: string; title: string; duration: string; shared: number; private: number; href: string; abs: string; img: string; ph: string; alt: string; months: number[]; season: string; errSeason: string };
   const form = document.querySelector<HTMLFormElement>('[data-book]');
   if (form) {
     const trips: T[] = JSON.parse(form.dataset.trips!);
@@ -228,6 +235,10 @@ const strings = {
       $('[data-prev-duration]').textContent = trip?.duration ?? '';
       const link = $<HTMLAnchorElement>('[data-prev-link]');
       link.hidden = !trip;
+      const seasonEl = $('[data-season]');
+      seasonEl.textContent = trip?.season ?? '';
+      seasonEl.hidden = !trip?.season;
+      if (trip) fieldError(dateI, monthOk(dateI.value, trip.months) ? null : trip.errSeason);
       if (trip) {
         if (img.getAttribute('src') !== trip.img) { $('[data-prev-img-wrap]').style.backgroundImage = `url(${trip.ph})`; img.src = trip.img; img.alt = trip.alt; }
         link.href = trip.href;
@@ -289,6 +300,7 @@ const strings = {
       const tripErr = fieldError(tripSel as unknown as HTMLInputElement, okTrip ? null : s.errTrip);
       if (!tripErr) { tripSel.focus(); return false; }
       if (!fieldError(dateI, dateI.value ? null : s.errDate)) { dateI.focus(); return false; }
+      if (!fieldError(dateI, monthOk(dateI.value, trip!.months) ? null : trip!.errSeason)) { dateI.focus(); return false; }
       return true;
     };
     form.querySelectorAll<HTMLButtonElement>('[data-send]').forEach((btn) =>

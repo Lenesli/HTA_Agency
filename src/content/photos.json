@@ -2068,5 +2068,323 @@
     "source": "https://commons.wikimedia.org/wiki/File:One_of_the_scenic_locations_of_the_Oukaimeden_village.JPG",
     "sourceName": "Wikimedia Commons",
     "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsAA4BaJZACdAEUlZZgFk1IAADeZWK3Rq8M8rM7zbPHfedIbo8TH/eOBr5CQ+zlwLXeVKLOFrCtCN/qm4ZsKDcEUIhSli+sYoB5cUDcNvizLpOiM5E1RLay4AAA"
+  },
+  {
+    "id": "h-toubkal-pyramid",
+    "file": "../assets/photos/h-toubkal-pyramid.jpg",
+    "alt": {
+      "en": "The summit pyramid of Jebel Toubkal (4,167 m) under a clear blue sky",
+      "fr": "La pyramide du sommet du Toubkal (4 167 m) sous un ciel bleu",
+      "es": "La pirámide de la cumbre del Toubkal (4167 m) bajo un cielo azul",
+      "de": "Die Gipfelpyramide des Toubkal (4.167 m) unter blauem Himmel",
+      "pt": "A pirâmide do cume do Toubkal (4167 m) sob um céu azul",
+      "ar": "هرم قمة توبقال (4167 م) تحت سماء زرقاء"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJagCdAD0pMR32AAA9nBLo2iVO4587+oXc2/uuUzbKZCGbU05vXQxzsiJFRqf93ezcvvwdak9Z2AA",
+    "focus": "28% 50%"
+  },
+  {
+    "id": "h-toubkal-summit",
+    "file": "../assets/photos/h-toubkal-summit.jpg",
+    "alt": {
+      "en": "Snow on the summit of Toubkal with the High Atlas stretching away",
+      "fr": "Neige au sommet du Toubkal et le Haut Atlas à perte de vue",
+      "es": "Nieve en la cumbre del Toubkal y el Alto Atlas a lo lejos",
+      "de": "Schnee auf dem Toubkal-Gipfel, dahinter der Hohe Atlas",
+      "pt": "Neve no cume do Toubkal e o Alto Atlas a perder de vista",
+      "ar": "الثلج على قمة توبقال والأطلس الكبير في الأفق"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJagCdAEO49W1QAD+7u46L0mqf+fCu28C7qDIQmJ9UyOqlCd9GGUU86Bqu7YW3tfNPk639CuFQu1sKU4Wrn+AAAA=",
+    "focus": "84% 50%"
+  },
+  {
+    "id": "h-toubkal-dawn",
+    "file": "../assets/photos/h-toubkal-dawn.jpg",
+    "alt": {
+      "en": "Golden dawn light on the snowy ridges of the Toubkal massif",
+      "fr": "Lumière dorée de l’aube sur les crêtes enneigées du massif du Toubkal",
+      "es": "Luz dorada del amanecer sobre las crestas nevadas del Toubkal",
+      "de": "Goldenes Morgenlicht auf den verschneiten Graten des Toubkal-Massivs",
+      "pt": "Luz dourada do amanhecer nas cristas nevadas do Toubkal",
+      "ar": "ضوء الفجر الذهبي على قمم توبقال المكسوة بالثلج"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJQBOj+AC/yXESgAA996qk5dklauH8vcGBOufulfE6eKEk1+dX6O3QRtTXGFTlPMFhM1rweLDd8NAAAA=",
+    "focus": "80% 50%"
+  },
+  {
+    "id": "h-toubkal-sunrise",
+    "file": "../assets/photos/h-toubkal-sunrise.jpg",
+    "alt": {
+      "en": "Sunrise from the summit of Toubkal, next to the metal pyramid",
+      "fr": "Lever du soleil au sommet du Toubkal, près de la pyramide métallique",
+      "es": "Amanecer en la cumbre del Toubkal, junto a la pirámide metálica",
+      "de": "Sonnenaufgang auf dem Toubkal-Gipfel neben der Metallpyramide",
+      "pt": "Nascer do sol no cume do Toubkal, junto à pirâmide metálica",
+      "ar": "شروق الشمس على قمة توبقال بجانب الهرم المعدني"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZACdAEOzYsgheAA/ulYmulu0tPGEjAJKhnw5plRfEYeCSk/6Q/ARcZQvPuu2s79rd3xpbW1roWJGAQTKIrjGAA=",
+    "focus": "86% 50%"
+  },
+  {
+    "id": "h-toubkal-sunset",
+    "file": "../assets/photos/h-toubkal-sunset.jpg",
+    "alt": {
+      "en": "Evening light on the snowy summit of Toubkal",
+      "fr": "Lumière du soir sur le sommet enneigé du Toubkal",
+      "es": "Luz de la tarde sobre la cumbre nevada del Toubkal",
+      "de": "Abendlicht auf dem verschneiten Toubkal-Gipfel",
+      "pt": "Luz do fim do dia no cume nevado do Toubkal",
+      "ar": "ضوء المساء على قمة توبقال المثلجة"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkAA4BaJYwCdH8AF7NZagAA/u7Z15+CrLuEBa2ACbilcUmDON0bARUI5zPbHXuN0Kz0CSjOA/yDcRWPtAAA",
+    "focus": "88% 50%"
+  },
+  {
+    "id": "h-toubkal-ridge",
+    "file": "../assets/photos/h-toubkal-ridge.jpg",
+    "alt": {
+      "en": "The Toubkal ridge and its snowfields in the late afternoon sun",
+      "fr": "La crête du Toubkal et ses névés au soleil de fin d’après-midi",
+      "es": "La cresta del Toubkal y sus neveros con el sol de la tarde",
+      "de": "Der Toubkal-Grat mit Schneefeldern in der Nachmittagssonne",
+      "pt": "A crista do Toubkal e os seus neveiros ao sol da tarde",
+      "ar": "سلسلة توبقال وحقول الثلج تحت شمس آخر النهار"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJZACdAELUMYOK2AA/rQmM47ik+/dp4/fyykhZXHBvmf6Wfe8KjizXrQrXxK5rgLbwAAA",
+    "focus": "86% 50%"
+  },
+  {
+    "id": "h-imlil-village",
+    "file": "../assets/photos/h-imlil-village.jpg",
+    "alt": {
+      "en": "The Berber village of Imlil below the snowy peaks of the High Atlas",
+      "fr": "Le village berbère d’Imlil sous les sommets enneigés du Haut Atlas",
+      "es": "El pueblo bereber de Imlil bajo las cumbres nevadas del Alto Atlas",
+      "de": "Das Berberdorf Imlil unter den verschneiten Gipfeln des Hohen Atlas",
+      "pt": "A aldeia berbere de Imlil sob os picos nevados do Alto Atlas",
+      "ar": "قرية إمليل الأمازيغية تحت قمم الأطلس الكبير المثلجة"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJaACdIDZDwsfXewA/i+/ud0VuZyWPsZFkaqq3lkynbveMcOXJOgOLkuGlW5DHZ1aqh9vzwH9v6lIqOjeIGyoAAA="
+  },
+  {
+    "id": "h-imlil-valley",
+    "file": "../assets/photos/h-imlil-valley.jpg",
+    "alt": {
+      "en": "Earth houses and walnut trees in the Imlil valley",
+      "fr": "Maisons en terre et noyers dans la vallée d’Imlil",
+      "es": "Casas de tierra y nogales en el valle de Imlil",
+      "de": "Lehmhäuser und Walnussbäume im Tal von Imlil",
+      "pt": "Casas de terra e nogueiras no vale de Imlil",
+      "ar": "بيوت طينية وأشجار الجوز في وادي إمليل"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJagCdH8AF8OR6SgAzfK/rXTE9BK6S0VBrskcpnR+deSZCEJ3WIAT9BOOp/xCvPevkKeRHAAAAA=="
+  },
+  {
+    "id": "h-tamatert-valley",
+    "file": "../assets/photos/h-tamatert-valley.jpg",
+    "alt": {
+      "en": "The green valley below Tamatert with snowy peaks behind",
+      "fr": "La vallée verdoyante sous Tamatert et les sommets enneigés",
+      "es": "El valle verde bajo Tamatert con cumbres nevadas al fondo",
+      "de": "Das grüne Tal unterhalb von Tamatert mit verschneiten Gipfeln",
+      "pt": "O vale verde abaixo de Tamatert com picos nevados ao fundo",
+      "ar": "الوادي الأخضر أسفل تامترت والقمم المثلجة خلفه"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAkAA4BaJbACdAELx1OepAAAziYIvAFpvhbzENT8JEIDNZZY1YIwoMVFYxWoYgYPmF6vlO5oEn9LUic1q5YMsm/FGXtUrdAAAA=="
+  },
+  {
+    "id": "h-tamatert-village",
+    "file": "../assets/photos/h-tamatert-village.jpg",
+    "alt": {
+      "en": "A Berber village among walnut trees on the way to Tacheddirt",
+      "fr": "Un village berbère parmi les noyers sur la route de Tacheddirt",
+      "es": "Un pueblo bereber entre nogales camino de Tacheddirt",
+      "de": "Ein Berberdorf zwischen Walnussbäumen auf dem Weg nach Tacheddirt",
+      "pt": "Uma aldeia berbere entre nogueiras a caminho de Tacheddirt",
+      "ar": "قرية أمازيغية بين أشجار الجوز في الطريق إلى تشديرت"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAkAA4BaJbACdGuAAuFv90wa+AD7oxh1P87ej0sr/G8dn825rKSc31bgzIBl+GX3LTSdhRd0oQ4wLv+jNBerNPhRlq1Vq8AAAA==",
+    "focus": "72% 50%"
+  },
+  {
+    "id": "h-tamatert-peaks",
+    "file": "../assets/photos/h-tamatert-peaks.jpg",
+    "alt": {
+      "en": "Snowy High Atlas peaks above the Tacheddirt valley",
+      "fr": "Les sommets enneigés du Haut Atlas au-dessus de la vallée de Tacheddirt",
+      "es": "Cumbres nevadas del Alto Atlas sobre el valle de Tacheddirt",
+      "de": "Verschneite Gipfel des Hohen Atlas über dem Tal von Tacheddirt",
+      "pt": "Picos nevados do Alto Atlas sobre o vale de Tacheddirt",
+      "ar": "قمم الأطلس الكبير المثلجة فوق وادي تشديرت"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAkAA4BaJbACdGuAAzRW2MEvQADNdX8c2tv2QROMmD3jhuaGfiRvFWs44mP7SVdrblEagpH2hCuBhd1MAwAA"
+  },
+  {
+    "id": "h-tamsoult-refuge",
+    "file": "../assets/photos/h-tamsoult-refuge.jpg",
+    "alt": {
+      "en": "The Tamsoult refuge on the trail, with the snowy Toubkal massif behind",
+      "fr": "Le refuge de Tamsoult sur le sentier, devant le massif enneigé du Toubkal",
+      "es": "El refugio de Tamsoult en el sendero, con el macizo nevado del Toubkal detrás",
+      "de": "Die Tamsoult-Hütte am Weg, dahinter das verschneite Toubkal-Massiv",
+      "pt": "O refúgio de Tamsoult no trilho, com o maciço nevado do Toubkal atrás",
+      "ar": "ملجأ تامسولت على المسار وخلفه جبال توبقال المثلجة"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJZACdAC4NSa79AD+zQqF0h1E2OozmL9acaJHy4jO9++NVrKdgGDjgXEvkTvZmN4C7qleLLKbR4FimxTnAAAA",
+    "focus": "30% 50%"
+  },
+  {
+    "id": "h-tamsoult-path",
+    "file": "../assets/photos/h-tamsoult-path.jpg",
+    "alt": {
+      "en": "The path to the Tamsoult refuge below the snowy peaks",
+      "fr": "Le sentier vers le refuge de Tamsoult sous les sommets enneigés",
+      "es": "El sendero al refugio de Tamsoult bajo las cumbres nevadas",
+      "de": "Der Weg zur Tamsoult-Hütte unter den verschneiten Gipfeln",
+      "pt": "O trilho até ao refúgio de Tamsoult sob os picos nevados",
+      "ar": "المسار إلى ملجأ تامسولت تحت القمم المثلجة"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkAA4BaJagCdAC5KlpoAADLHuaO/Ncdot+SCYmkAjf1JDEuYyQhrfrZe/cGWK7MgsBzgsm5K+dYqr2ZG7boMDhAAA==",
+    "focus": "60% 50%"
+  },
+  {
+    "id": "h-ighouliden",
+    "file": "../assets/photos/h-ighouliden.jpg",
+    "alt": {
+      "en": "The Ighouliden waterfall dropping into a rocky gorge",
+      "fr": "La cascade d’Ighouliden qui plonge dans une gorge rocheuse",
+      "es": "La cascada de Ighouliden cayendo en un desfiladero rocoso",
+      "de": "Der Ighouliden-Wasserfall stürzt in eine Felsschlucht",
+      "pt": "A cascata de Ighouliden a cair num desfiladeiro rochoso",
+      "ar": "شلال إغوليدن يتدفق في مضيق صخري"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkAA4BaJYwCdAClzt1/QAD+gzpO2bOtnDkMNCZ3HCohEDj6+x4GuoLdOsoWpxdIk7AIrUwUUAAA",
+    "focus": "62% 50%"
+  },
+  {
+    "id": "h-ighouliden-2",
+    "file": "../assets/photos/h-ighouliden-2.jpg",
+    "alt": {
+      "en": "The rock amphitheatre of the Ighouliden waterfall",
+      "fr": "L’amphithéâtre rocheux de la cascade d’Ighouliden",
+      "es": "El anfiteatro rocoso de la cascada de Ighouliden",
+      "de": "Das Felsamphitheater des Ighouliden-Wasserfalls",
+      "pt": "O anfiteatro rochoso da cascata de Ighouliden",
+      "ar": "المدرج الصخري لشلال إغوليدن"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJZQCdADp/uuRXgAA/ndaCHf5FLtAESXK5FUbnGh5Sag4gn2Jl6blW/9SCBGyZWPrEAAA",
+    "focus": "68% 50%"
+  },
+  {
+    "id": "h-ighouliden-3",
+    "file": "../assets/photos/h-ighouliden-3.jpg",
+    "alt": {
+      "en": "The rocky path leading to the Ighouliden waterfall",
+      "fr": "Le sentier rocheux qui mène à la cascade d’Ighouliden",
+      "es": "El sendero rocoso que lleva a la cascada de Ighouliden",
+      "de": "Der Felspfad zum Ighouliden-Wasserfall",
+      "pt": "O trilho rochoso que leva à cascata de Ighouliden",
+      "ar": "المسار الصخري المؤدي إلى شلال إغوليدن"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJQBOgB365z/cAADOOYOTSpiAeOXjPaP4rpT7LQvZDjqdm1a2Urhq6m7SqNBkVDLLLbCVwunAJFLmZU79ZUAA",
+    "focus": "65% 50%"
+  },
+  {
+    "id": "h-ifni-lake",
+    "file": "../assets/photos/h-ifni-lake.jpg",
+    "alt": {
+      "en": "The turquoise water of Lake Ifni between the mountains",
+      "fr": "Les eaux turquoise du lac d’Ifni entre les montagnes",
+      "es": "Las aguas turquesas del lago Ifni entre las montañas",
+      "de": "Das türkisfarbene Wasser des Ifni-Sees zwischen den Bergen",
+      "pt": "As águas turquesa do lago Ifni entre as montanhas",
+      "ar": "مياه بحيرة إفني الفيروزية بين الجبال"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlasagency.netlify.app/",
+    "source": "https://hikingtoatlasagency.netlify.app/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJaACdH8ACGJgAAD+7AtiyzfZwGN2UcnEvCA3VKNRqD8iEQFiz67IWMbFknjNq7YcxY25sCCjxpYj/qmCIDwA"
   }
 ]

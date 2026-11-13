@@ -33,6 +33,8 @@ const photos = defineCollection({
       sourceName: z.string(),
       /** Tiny blurred preview (data URI) shown while the photo loads. */
       placeholder: z.string(),
+      /** Point kept in view when the photo is cropped (CSS object-position), e.g. "80% 50%". */
+      focus: z.string().optional(),
     }),
 });
 
@@ -61,6 +63,8 @@ const trips = defineCollection({
     endCity: z.string(),
     maxAltitude: z.number().optional(),
     bestMonths: z.array(z.number().int().min(1).max(12)).default([]),
+    /** Months the trip can start in (e.g. passes closed in winter). Empty = all year. */
+    openMonths: z.array(z.number().int().min(1).max(12)).default([]),
 
     /** Per person, in MAD. At least one option is required. */
     price: z

@@ -31,12 +31,12 @@
   home: true
   q: { en: "What is the difference between shared and private?", fr: "Quelle différence entre partagé et privé ?", es: "¿Qué diferencia hay entre compartido y privado?", de: "Was ist der Unterschied zwischen Gruppe und privat?", pt: "Qual é a diferença entre partilhada e privada?", ar: "ما الفرق بين الرحلة المشتركة والخاصة؟" }
   a:
-    en: "On a shared trip you travel with other guests in a small group, which keeps the price low. A private trip is just your own group, minimum 6 people, with your own guide and more freedom on timing."
-    fr: "En partagé, vous voyagez en petit groupe avec d’autres voyageurs, ce qui garde un prix bas. Le voyage privé est réservé à votre groupe, 6 personnes minimum, avec votre propre guide et plus de liberté sur les horaires."
-    es: "En un viaje compartido viaja con otros viajeros en un grupo pequeño, lo que mantiene el precio bajo. Un viaje privado es solo para su grupo, mínimo 6 personas, con su propio guía y más libertad de horarios."
-    de: "Bei einer Gruppenreise reisen Sie mit anderen Gästen in einer kleinen Gruppe, das hält den Preis niedrig. Eine Privatreise ist nur für Ihre Gruppe, mindestens 6 Personen, mit eigenem Guide und mehr Freiheit bei den Zeiten."
-    pt: "Numa viagem partilhada viaja com outros viajantes num grupo pequeno, o que mantém o preço baixo. Uma viagem privada é só para o seu grupo, mínimo 6 pessoas, com o seu próprio guia e mais liberdade de horários."
-    ar: "في الرحلة المشتركة تسافرون مع ضيوف آخرين في مجموعة صغيرة، مما يبقي السعر منخفضا. أما الرحلة الخاصة فهي لمجموعتكم فقط، 6 أشخاص على الأقل، مع مرشد خاص ومرونة أكبر في المواعيد."
+    en: "On a shared trip you travel with other guests in a small group, which keeps the price low. A private trip is just your own group, whatever its size, with your own guide and more freedom on timing."
+    fr: "En partagé, vous voyagez en petit groupe avec d’autres voyageurs, ce qui garde un prix bas. Le voyage privé est réservé à votre groupe, quelle que soit sa taille, avec votre propre guide et plus de liberté sur les horaires."
+    es: "En un viaje compartido viaja con otros viajeros en un grupo pequeño, lo que mantiene el precio bajo. Un viaje privado es solo para su grupo, sea cual sea su tamaño, con su propio guía y más libertad de horarios."
+    de: "Bei einer Gruppenreise reisen Sie mit anderen Gästen in einer kleinen Gruppe, das hält den Preis niedrig. Eine Privatreise ist nur für Ihre Gruppe, egal wie groß, mit eigenem Guide und mehr Freiheit bei den Zeiten."
+    pt: "Numa viagem partilhada viaja com outros viajantes num grupo pequeno, o que mantém o preço baixo. Uma viagem privada é só para o seu grupo, seja qual for o tamanho, com o seu próprio guia e mais liberdade de horários."
+    ar: "في الرحلة المشتركة تسافرون مع ضيوف آخرين في مجموعة صغيرة، مما يبقي السعر منخفضا. أما الرحلة الخاصة فهي لمجموعتكم فقط مهما كان عددها، مع مرشد خاص ومرونة أكبر في المواعيد."
 
 - id: group-size
   group: booking
@@ -54,12 +54,12 @@
   home: true
   q: { en: "How and when do I pay?", fr: "Comment et quand payer ?", es: "¿Cómo y cuándo pago?", de: "Wie und wann bezahle ich?", pt: "Como e quando pago?", ar: "كيف ومتى أدفع؟" }
   a:
-    en: "Nothing is paid on this website. When we confirm your trip we send you the final price and how to pay. Ask us for a written quote first if you need one."
-    fr: "Rien ne se paie sur ce site. Quand nous confirmons votre voyage, nous vous indiquons le prix final et le mode de paiement. Demandez-nous un devis écrit si besoin."
-    es: En esta web no se paga nada. Cuando confirmamos su viaje le enviamos el precio final y la forma de pago. Pídanos antes un presupuesto por escrito si lo necesita.
-    de: Auf dieser Website wird nichts bezahlt. Wenn wir Ihre Reise bestätigen, senden wir Ihnen den Endpreis und die Zahlungsweise. Fragen Sie uns vorab nach einem schriftlichen Angebot, wenn Sie eines brauchen.
-    pt: Neste site não se paga nada. Quando confirmamos a sua viagem, enviamos o preço final e a forma de pagamento. Peça-nos primeiro um orçamento por escrito, se precisar.
-    ar: "لا يتم أي دفع على هذا الموقع. عندما نؤكد رحلتكم نرسل لكم السعر النهائي وطريقة الدفع. اطلبوا منا عرض سعر مكتوبا إذا احتجتم."
+    en: "Nothing is paid on this website. When we confirm your trip, we tell you the final price, the deposit that secures your place and how to pay. Ask us for a written quote first if you need one."
+    fr: "Rien ne se paie sur ce site. Quand nous confirmons votre voyage, nous vous indiquons le prix final, l’acompte qui réserve votre place et le mode de paiement. Demandez-nous un devis écrit si besoin."
+    es: En esta web no se paga nada. Cuando confirmamos su viaje le indicamos el precio final, el depósito que reserva su plaza y la forma de pago. Pídanos antes un presupuesto por escrito si lo necesita.
+    de: Auf dieser Website wird nichts bezahlt. Wenn wir Ihre Reise bestätigen, nennen wir Ihnen den Endpreis, die Anzahlung, die Ihren Platz sichert, und die Zahlungsweise. Fragen Sie uns vorab nach einem schriftlichen Angebot, wenn Sie eines brauchen.
+    pt: Neste site não se paga nada. Quando confirmamos a sua viagem, indicamos o preço final, o sinal que reserva o seu lugar e a forma de pagamento. Peça-nos primeiro um orçamento por escrito, se precisar.
+    ar: "لا يتم أي دفع على هذا الموقع. عندما نؤكد رحلتكم نخبركم بالسعر النهائي والعربون الذي يحجز مكانكم وطريقة الدفع. اطلبوا منا عرض سعر مكتوبا إذا احتجتم."
 
 - id: cancellation
   group: payment
@@ -110,12 +110,12 @@
   group: children
   q: { en: "Can children come?", fr: "Les enfants peuvent-ils venir ?", es: "¿Pueden venir niños?", de: "Können Kinder mitkommen?", pt: "As crianças podem vir?", ar: "هل يمكن للأطفال المشاركة؟" }
   a:
-    en: "Yes. The Imlil day hike and the Oukaïmeden day trip work well with children. The Toubkal summit is better for teenagers who already walk. Ask us about ages and child prices for your trip."
-    fr: "Oui. La randonnée d’une journée à Imlil et l’excursion à Oukaïmeden conviennent bien aux enfants. Le sommet du Toubkal convient mieux aux adolescents qui marchent déjà. Demandez-nous pour l’âge et les prix enfants."
-    es: "Sí. La caminata de un día en Imlil y la excursión a Oukaïmeden van bien con niños. La cumbre del Toubkal es más adecuada para adolescentes que ya caminan. Pregúntenos por las edades y los precios para niños."
-    de: "Ja. Die Tageswanderung in Imlil und der Ausflug nach Oukaïmeden sind gut für Kinder. Der Toubkal-Gipfel eignet sich eher für Jugendliche, die schon wandern. Fragen Sie uns nach Alter und Kinderpreisen."
-    pt: "Sim. A caminhada de um dia em Imlil e a excursão a Oukaïmeden são boas para crianças. O cume do Toubkal é mais indicado para adolescentes que já caminham. Pergunte-nos sobre idades e preços para crianças."
-    ar: "نعم. رحلة المشي اليومية في إمليل والرحلة إلى أوكايمدن مناسبتان للأطفال. قمة توبقال أنسب للمراهقين المتعودين على المشي. اسألونا عن الأعمار وأسعار الأطفال."
+    en: "Yes. The Amsouzart and Lake Ifni trip, with short walks, works well with children. The Toubkal summit is better for teenagers who already walk. Ask us about ages and child prices for your trip."
+    fr: "Oui. Le séjour Amsouzart et lac d’Ifni, avec des marches courtes, convient bien aux enfants. Le sommet du Toubkal convient mieux aux adolescents qui marchent déjà. Demandez-nous pour l’âge et les prix enfants."
+    es: "Sí. El viaje a Amsouzart y el lago Ifni, con caminatas cortas, va bien con niños. La cumbre del Toubkal es más adecuada para adolescentes que ya caminan. Pregúntenos por las edades y los precios para niños."
+    de: "Ja. Die Tour nach Amsouzart und zum Ifni-See mit kurzen Wegen ist gut für Kinder. Der Toubkal-Gipfel eignet sich eher für Jugendliche, die schon wandern. Fragen Sie uns nach Alter und Kinderpreisen."
+    pt: "Sim. A viagem a Amsouzart e ao lago Ifni, com caminhadas curtas, é boa para crianças. O cume do Toubkal é mais indicado para adolescentes que já caminham. Pergunte-nos sobre idades e preços para crianças."
+    ar: "نعم. رحلة أمسوزارت وبحيرة إفني، بمشيها القصير، مناسبة للأطفال. قمة توبقال أنسب للمراهقين المتعودين على المشي. اسألونا عن الأعمار وأسعار الأطفال."
 
 - id: children-mules
   group: children
@@ -154,12 +154,12 @@
   group: weather
   q: { en: "When is the best time to visit?", fr: "Quelle est la meilleure période ?", es: "¿Cuál es la mejor época para ir?", de: "Wann ist die beste Reisezeit?", pt: "Qual é a melhor altura para ir?", ar: "ما أفضل وقت للزيارة؟" }
   a:
-    en: "For Toubkal without snow, April to October. Spring and autumn are the most pleasant for walking. In winter (December–March) the summit is under snow and Oukaïmeden becomes a ski station. Imilchil is best from May to October."
-    fr: "Pour le Toubkal sans neige, d’avril à octobre. Le printemps et l’automne sont les plus agréables pour marcher. En hiver (décembre–mars), le sommet est enneigé et Oukaïmeden devient une station de ski. Imilchil se visite surtout de mai à octobre."
-    es: "Para el Toubkal sin nieve, de abril a octubre. La primavera y el otoño son lo más agradable para caminar. En invierno (diciembre–marzo) la cumbre está nevada y Oukaïmeden se convierte en estación de esquí. Imilchil, mejor de mayo a octubre."
-    de: "Für den Toubkal ohne Schnee April bis Oktober. Frühling und Herbst sind zum Wandern am angenehmsten. Im Winter (Dezember–März) liegt der Gipfel unter Schnee und Oukaïmeden wird zum Skigebiet. Imilchil am besten von Mai bis Oktober."
-    pt: "Para o Toubkal sem neve, de abril a outubro. A primavera e o outono são o mais agradável para caminhar. No inverno (dezembro–março) o cume tem neve e Oukaïmeden torna-se estância de esqui. Imilchil, melhor de maio a outubro."
-    ar: "لتوبقال بدون ثلج: من أبريل إلى أكتوبر. الربيع والخريف أجمل فترات المشي. في الشتاء (دجنبر–مارس) تكون القمة مغطاة بالثلج وتصبح أوكايمدن محطة للتزلج. أفضل وقت لإملشيل من ماي إلى أكتوبر."
+    en: "For Toubkal without snow, April to October. Spring and autumn are the most pleasant for walking. In winter (December–March) the summit is under snow, and the 7-day grand trek runs from April to October only."
+    fr: "Pour le Toubkal sans neige, d’avril à octobre. Le printemps et l’automne sont les plus agréables pour marcher. En hiver (décembre–mars), le sommet est enneigé, et le grand trek de 7 jours se fait uniquement d’avril à octobre."
+    es: "Para el Toubkal sin nieve, de abril a octubre. La primavera y el otoño son lo más agradable para caminar. En invierno (diciembre–marzo) la cumbre está nevada, y el gran trek de 7 días solo se hace de abril a octubre."
+    de: "Für den Toubkal ohne Schnee April bis Oktober. Frühling und Herbst sind zum Wandern am angenehmsten. Im Winter (Dezember–März) liegt der Gipfel unter Schnee, und die große 7-Tage-Tour gibt es nur von April bis Oktober."
+    pt: "Para o Toubkal sem neve, de abril a outubro. A primavera e o outono são o mais agradável para caminhar. No inverno (dezembro–março) o cume tem neve, e o grande trekking de 7 dias só se faz de abril a outubro."
+    ar: "لتوبقال بدون ثلج: من أبريل إلى أكتوبر. الربيع والخريف أجمل فترات المشي. في الشتاء (دجنبر–مارس) تكون القمة مغطاة بالثلج، والرحلة الكبرى ذات 7 أيام تُنظَّم من أبريل إلى أكتوبر فقط."
 
 - id: weather-change
   group: weather

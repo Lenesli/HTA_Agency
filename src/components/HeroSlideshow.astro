@@ -20,11 +20,11 @@ const s = t(lang);
 const m = s.more;
 const atlas = s.regions.atlas;
 const list = [
-  { photo: 'u-toubkal-snow', caption: m.slides.atlas, href: url(lang, 'trips', 'toubkal-summit-3-days') },
-  { photo: 'u-toubkal-arms', caption: `${placeLabel('Toubkal summit (4,167 m)', lang)}`, href: url(lang, 'trips', 'toubkal-2-days') },
-  { photo: 'imilchil-tislit-2', caption: `${placeLabel('Lake Tislit', lang)} · Imilchil`, href: url(lang, 'trips', 'imilchil-lakes-4-days') },
-  { photo: 'u-ouka-lake', caption: `${placeLabel('Oukaïmeden', lang)} · ${atlas}`, href: url(lang, 'trips', 'oukaimeden-day') },
-  { photo: 'u-atlas-houses', caption: `${placeLabel('Imlil', lang)} · ${atlas}`, href: url(lang, 'trips', 'imlil-sidi-chamharouch-day') },
+  { photo: 'h-toubkal-summit', caption: m.slides.atlas, href: url(lang, 'trips', 'toubkal-summit-3-days') },
+  { photo: 'h-toubkal-dawn', caption: `${placeLabel('Toubkal summit (4,167 m)', lang)}`, href: url(lang, 'trips', 'tamsoult-toubkal-ifni-7-days') },
+  { photo: 'h-ighouliden', caption: `${placeLabel('Ighouliden waterfall', lang)} · ${atlas}`, href: url(lang, 'trips', 'tamsoult-ighouliden-3-days') },
+  { photo: 'h-ifni-lake', caption: `${placeLabel('Lake Ifni', lang)} · ${atlas}`, href: url(lang, 'trips', 'amsouzart-ifni-3-days') },
+  { photo: 'h-tamatert-village', caption: `${placeLabel('Tacheddirt', lang)} · ${atlas}`, href: url(lang, 'trips', 'tamatert-inghmer-3-days') },
 ];
 const slides = await Promise.all(list.map(async (x) => ({ ...x, entry: (await getEntry('photos', x.photo))! })));
 const n = slides.length;
