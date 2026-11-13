@@ -1,0 +1,313 @@
+---
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
+import Flag from './Flag.astro';
+import { langMeta, locales, routes, url, type Lang } from '../i18n/routes';
+import { t } from '../i18n/ui';
+import { contact, currencies, currencySymbol } from '../config';
+import { waLink } from '../lib/whatsapp';
+
+interface Props {
+  lang: Lang;
+  alternates: Record<Lang, string>;
+  /** Transparent header over a full-bleed hero photo. */
+  overlay?: boolean;
+}
+const { lang, alternates, overlay = false } = Astro.props;
+const s = t(lang);
+const nav = [
+  { href: url(lang, 'trips'), label: s.nav.trips, key: 'trips' },
+  { href: url(lang, 'tailorMade'), label: s.nav.tailorMade, key: 'tailorMade' },
+  { href: url(lang, 'faq'), label: s.nav.faq, key: 'faq' },
+  { href: url(lang, 'contact'), label: s.nav.contact, key: 'contact' },
+];
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => path === href || (href !== `/${lang}/` && path.startsWith(href));
+const flagOf = { en: 'gb', fr: 'fr', es: 'es', de: 'de', pt: 'pt', ar: 'ma' } as const;
+const wa = waLink(s.common.whatsappHello);
+// On a trip page, Book now pre-selects that trip.
+const tripsPrefix = `/${lang}/${routes.trips[lang]}/`;
+const tripSlug = path.startsWith(tripsPrefix) ? path.slice(tripsPrefix.length).split('/')[0] || undefined : undefined;
+const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
+---
+<header
+  data-site-header
+  data-overlay={overlay ? '' : undefined}
+  class="site-header fixed inset-x-0 top-0 z-40"
+>
+  <div class="container-page flex h-[var(--hh)] items-center gap-3 transition-[height] duration-300">
+    <a href={url(lang, 'home')} class="me-auto shrink-0 rounded-md">
+      <Logo /><span class="sr-only">, {s.a11y.home}</span>
+    </a>
+
+    <nav aria-label={s.a11y.mainNav} class="hidden lg:block">
+      <ul class="flex items-center gap-1">
+        {nav.map((n) => (
+          <li>
+            <a
+              href={n.href}
+              class="nav-link rounded-full px-3.5 py-2 text-[0.95rem] font-medium"
+              aria-current={isCurrent(n.href) ? 'page' : undefined}
+            >
+              {n.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-1 sm:gap-1.5">
+      <label class="sr-only" for="currency-select">{s.a11y.currency}</label>
+      <select id="currency-select" data-currency-select class="ctl hidden h-10 rounded-full bg-transparent px-2.5 text-sm font-semibold sm:block">
+        {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
+      </select>
+
+      <details class="lang-menu relative" data-lang-menu>
+        <summary class="ctl flex h-11 cursor-pointer list-none items-center gap-1 rounded-full px-2.5 text-sm font-semibold">
+          <Flag code={flagOf[lang]} size={21} />
+          <span><span class="sr-only">{s.a11y.language}: </span>{lang === 'ar' ? 'AR' : langMeta[lang].short}</span>
+          <Icon name="chevronDown" size={14} />
+        </summary>
+        <nav aria-label={s.a11y.language} class="lang-list absolute end-0 top-full z-50 mt-2 w-52 rounded-2xl bg-surface p-1.5 text-ink shadow-card ring-1 ring-line">
+          <ul>
+            {locales.map((l) => (
+              <li>
+                <a href={alternates[l]} hreflang={l} lang={l} dir={langMeta[l].dir} data-lang-link={l}
+                  aria-current={l === lang ? 'true' : undefined}
+                  class="lang-item flex min-h-11 items-center justify-between gap-3 rounded-xl px-3 text-[0.95rem] hover:bg-surface-2">
+                  <span class="flex items-center gap-3"><Flag code={flagOf[l]} size={22} /><span>{langMeta[l].label}</span></span>
+                  {l === lang && <Icon name="check" size={18} class="text-accent-text" />}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </details>
+
+      <button type="button" class="ctl grid size-11 place-items-center rounded-full" data-theme-toggle
+        data-label-dark={s.a11y.themeToDark} data-label-light={s.a11y.themeToLight} aria-label={s.a11y.themeToDark}>
+        <Icon name="moon" class="theme-icon-moon" />
+        <Icon name="sun" class="theme-icon-sun" />
+      </button>
+
+      <a href={url(lang, 'wishlist')} class="ctl relative grid size-11 place-items-center rounded-full" data-wish-link
+        data-label={s.more.wishCount} aria-label={s.nav.wishlist}>
+        <Icon name="heart" />
+        <span class="wish-badge absolute end-0.5 top-0.5 grid h-5 min-w-5 place-items-center rounded-full bg-accent px-1 text-[0.7rem] font-bold text-on-accent" data-wish-badge hidden aria-hidden="true"></span>
+      </a>
+
+      <a href={wa} class="btn btn-whatsapp ms-1 hidden !min-h-10 !px-3 text-sm lg:inline-flex xl:!px-4" target="_blank" rel="noopener" aria-label={s.common.chatWhatsapp}>
+        <Icon name="whatsapp" size={18} /> <span class="hidden xl:inline">{s.common.whatsapp}</span>
+      </a>
+      <a href={bookHref} class="btn btn-accent hidden !min-h-10 !px-4 text-sm sm:inline-flex">{s.book.cta}</a>
+
+      <button type="button" class="ctl grid size-11 place-items-center rounded-full lg:hidden" data-menu-open aria-haspopup="dialog" aria-label={s.a11y.openMenu}>
+        <Icon name="menu" />
+      </button>
+    </div>
+  </div>
+</header>
+
+<dialog data-menu class="menu-dialog m-0 ms-auto h-dvh max-h-none w-[min(22rem,100%)] max-w-none bg-bg p-0 text-ink">
+  <div class="flex h-full flex-col">
+    <div class="flex h-[4.5rem] items-center justify-between px-4">
+      <Logo />
+      <button type="button" data-menu-close class="grid size-11 place-items-center rounded-full hover:bg-surface-2" aria-label={s.a11y.closeMenu}>
+        <Icon name="close" />
+      </button>
+    </div>
+    <nav aria-label={s.a11y.mainNav} class="flex-1 overflow-y-auto px-4">
+      <ul class="divide-y divide-line border-y border-line">
+        {nav.map((n) => (
+          <li>
+            <a href={n.href} class="flex min-h-14 items-center justify-between font-display text-lg font-medium" aria-current={isCurrent(n.href) ? 'page' : undefined}>
+              {n.label}
+              <Icon name="chevron" flip class="text-ink-3" />
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div class="mt-6 flex items-center justify-between gap-3">
+        <label for="currency-select-m" class="text-sm font-medium text-ink-2">{s.a11y.currency}</label>
+        <select id="currency-select-m" data-currency-select class="h-11 rounded-full border border-line bg-surface px-3 font-semibold">
+          {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
+        </select>
+      </div>
+    </nav>
+    <div class="space-y-2 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+      <a href={bookHref} class="btn btn-accent w-full">{s.book.cta}</a>
+      <a href={wa} class="btn btn-whatsapp w-full" target="_blank" rel="noopener"><Icon name="whatsapp" /> {s.common.chatWhatsapp}</a>
+      <a href={`tel:${contact.phone.replace(/\s/g, '')}`} class="btn btn-ghost w-full" dir="ltr"><Icon name="phone" /> {contact.phone}</a>
+    </div>
+  </div>
+</dialog>
+
+<style>
+  .site-header {
+    --hh: 4.5rem;
+    background: color-mix(in oklab, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(12px);
+    -webkit-backdrop-filter: saturate(1.4) blur(12px);
+    box-shadow: 0 1px 0 var(--line);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  }
+  :global(html[data-scrolled]) .site-header {
+    --hh: 3.75rem;
+  }
+  /* Very small phones: a slightly smaller logo mark keeps every button on screen. */
+  @media (max-width: 359px) {
+    .site-header {
+      --mark-h: 26px;
+    }
+  }
+  /* Over the hero photo: transparent, light text, until the page scrolls. */
+  :global(html:not([data-scrolled])) .site-header[data-overlay] {
+    background: linear-gradient(180deg, rgb(8 11 26 / 0.55), transparent);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+    color: #fff;
+    --accent: #f2b252;
+  }
+  .nav-link:hover,
+  .ctl:hover,
+  .lang-menu[open] > summary {
+    background: color-mix(in oklab, currentColor 10%, transparent);
+  }
+  .nav-link[aria-current='page'] {
+    box-shadow: inset 0 -2px 0 var(--accent);
+    border-radius: 0;
+  }
+  .lang-menu > summary::-webkit-details-marker {
+    display: none;
+  }
+  .lang-menu:not([open]) .lang-list {
+    display: none;
+  }
+  .lang-item[aria-current='true'] {
+    font-weight: 600;
+  }
+  /* The list keeps normal colours even over the transparent hero header. */
+  .lang-list {
+    color: var(--ink);
+  }
+  .ctl option {
+    color: var(--ink);
+    background: var(--surface);
+  }
+  :global(html[data-theme='dark'] .theme-icon-moon),
+  :global(html:not([data-theme='dark']) .theme-icon-sun) {
+    display: none;
+  }
+  .wish-badge.pop {
+    animation: pop 0.35s var(--ease-out-soft);
+  }
+  @keyframes pop {
+    50% { transform: scale(1.35); }
+  }
+  .menu-dialog::backdrop {
+    background: rgb(8 11 26 / 0.5);
+  }
+  .menu-dialog[open] {
+    animation: slide-in 0.3s var(--ease-out-soft);
+  }
+  @keyframes slide-in {
+    from { transform: translateX(var(--menu-from, 100%)); }
+  }
+  :global([dir='rtl']) .menu-dialog {
+    --menu-from: -100%;
+  }
+</style>
+
+<script>
+  const root = document.documentElement;
+
+  // Shrink the header once the page scrolls.
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      root.toggleAttribute('data-scrolled', window.scrollY > 24);
+      ticking = false;
+    });
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Theme toggle (initial theme is set inline in <head>).
+  const toggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+  const syncLabel = () => {
+    if (!toggle) return;
+    const dark = root.dataset.theme === 'dark';
+    toggle.setAttribute('aria-label', (dark ? toggle.dataset.labelLight : toggle.dataset.labelDark) ?? '');
+  };
+  syncLabel();
+  toggle?.addEventListener('click', () => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('theme', next); } catch {}
+    syncLabel();
+  });
+  // Follow the system when the visitor never chose.
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    try { if (localStorage.getItem('theme')) return; } catch {}
+    root.dataset.theme = e.matches ? 'dark' : 'light';
+    syncLabel();
+  });
+
+  // Currency: all prices are rendered in every currency, CSS shows the chosen one.
+  const selects = document.querySelectorAll<HTMLSelectElement>('[data-currency-select]');
+  selects.forEach((sel) => {
+    sel.value = root.dataset.currency ?? 'EUR';
+    sel.addEventListener('change', () => {
+      root.dataset.currency = sel.value;
+      try { localStorage.setItem('currency', sel.value); } catch {}
+      selects.forEach((o) => (o.value = sel.value));
+      window.dispatchEvent(new CustomEvent('currencychange', { detail: sel.value }));
+    });
+  });
+
+  // Remember an explicit language choice.
+  document.querySelectorAll<HTMLAnchorElement>('[data-lang-link]').forEach((a) =>
+    a.addEventListener('click', () => {
+      try { localStorage.setItem('lang', a.dataset.langLink!); } catch {}
+    }),
+  );
+
+  // Wishlist counter in the header, kept in sync across pages and tabs.
+  const wishLink = document.querySelector<HTMLAnchorElement>('[data-wish-link]');
+  const syncWish = () => {
+    if (!wishLink) return;
+    let n = 0;
+    try { n = (JSON.parse(localStorage.getItem('wishlist') ?? '[]') as string[]).length; } catch {}
+    const badge = wishLink.querySelector<HTMLElement>('[data-wish-badge]')!;
+    badge.hidden = n === 0;
+    badge.textContent = n > 9 ? '9+' : String(n);
+    if (n) wishLink.setAttribute('aria-label', wishLink.dataset.label!.replace('{n}', String(n)));
+    if (n) { badge.classList.remove('pop'); void badge.offsetWidth; badge.classList.add('pop'); }
+  };
+  syncWish();
+  window.addEventListener('wishlistchange', syncWish);
+  window.addEventListener('storage', syncWish);
+
+  // Language menu: close on Escape (focus back to the button) and on outside click.
+  const langMenu = document.querySelector<HTMLDetailsElement>('[data-lang-menu]');
+  langMenu?.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && langMenu.open) {
+      langMenu.open = false;
+      langMenu.querySelector('summary')?.focus();
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if (langMenu?.open && !langMenu.contains(e.target as Node)) langMenu.open = false;
+  });
+
+  // Mobile menu: native <dialog> gives focus trapping and Escape to close.
+  const dialog = document.querySelector<HTMLDialogElement>('[data-menu]');
+  const opener = document.querySelector<HTMLButtonElement>('[data-menu-open]');
+  opener?.addEventListener('click', () => dialog?.showModal());
+  dialog?.querySelector('[data-menu-close]')?.addEventListener('click', () => dialog.close());
+  dialog?.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  dialog?.addEventListener('close', () => opener?.focus());
+</script>

@@ -1,0 +1,34 @@
+---
+/**
+ * Single router for all localised pages. Each language gets its own
+ * slugs (see src/i18n/routes.ts); src/views/index.ts maps a page to a view.
+ * Trip pages are /en/trips/<slug>/, /fr/circuits/<slug>/, /ar/trips/<slug>/.
+ */
+import type { GetStaticPaths } from 'astro';
+import { locales, routes, type Lang, type RouteKey } from '../../i18n/routes';
+import { views } from '../../views';
+import TripView from '../../views/TripView.astro';
+import { getTrips, type Trip } from '../../lib/trips';
+
+type Key = RouteKey | 'trip';
+
+export const getStaticPaths = (async () => {
+  const trips = await getTrips();
+  return locales.flatMap((lang) => [
+    ...(Object.keys(views) as RouteKey[]).map((key) => ({
+      params: { lang, path: routes[key][lang] || undefined },
+      props: { key: key as Key, trip: undefined as Trip | undefined },
+    })),
+    ...trips.map((trip) => ({
+      params: { lang, path: `${routes.trips[lang]}/${trip.id}` },
+      props: { key: 'trip' as Key, trip: trip as Trip | undefined },
+    })),
+  ]);
+}) satisfies GetStaticPaths;
+
+const { lang } = Astro.params as { lang: Lang };
+const { key, trip } = Astro.props;
+const View = key === 'trip' ? null : views[key]!;
+---
+{trip && <TripView lang={lang} trip={trip} />}
+{View && <View lang={lang} />}
