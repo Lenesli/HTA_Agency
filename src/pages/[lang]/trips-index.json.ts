@@ -2,6 +2,7 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { getImage } from 'astro:assets';
 import { locales, url, type Lang } from '../../i18n/routes';
+import { showPrices } from '../../config';
 import { durationLabel, getTrips, priceFrom, tripPhotos } from '../../lib/trips';
 
 export const getStaticPaths = (() => locales.map((lang) => ({ params: { lang } }))) satisfies GetStaticPaths;
@@ -18,7 +19,7 @@ export const GET: APIRoute = async ({ params }) => {
         title: tr.data.title[lang],
         href: url(lang, 'trips', tr.id),
         duration: durationLabel(tr, lang),
-        priceMad: priceFrom(tr),
+        priceMad: showPrices ? priceFrom(tr) : 0,
         image: img.src,
         placeholder: cover.data.placeholder,
       };

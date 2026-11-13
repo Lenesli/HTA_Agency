@@ -9,7 +9,7 @@ import Icon from './Icon.astro';
 import Price from './Price.astro';
 import EmailRequest from './EmailRequest.astro';
 import { t } from '../i18n/ui';
-import { booking, site } from '../config';
+import { booking, showPrices, site } from '../config';
 import { url, type Lang } from '../i18n/routes';
 import { priceFrom, type Trip } from '../lib/trips';
 
@@ -29,17 +29,19 @@ const stepper = [
 ---
 <div data-booking-home class="lg:sticky lg:top-24">
   <form class="booking card p-5 sm:p-6" data-booking novalidate
-    data-shared={price.shared ?? ''} data-private={price.private ?? ''} data-child={booking.childFactor}
+    data-prices={showPrices ? '1' : '0'} data-shared={price.shared ? (showPrices ? price.shared : 1) : ''} data-private={price.private ? (showPrices ? price.private : 1) : ''} data-child={booking.childFactor}
     data-title={title[lang]} data-url={pageUrl}
     data-s={JSON.stringify({ hello: b.msgHello, date: b.msgDate, adults: b.msgAdults, children: b.msgChildren, option: b.msgOption, total: b.msgTotal, lang: b.msgLang, langName: b.msgLangName, link: b.msgLink, shared: b.shared, private: b.private, missing: b.dateMissing })}>
     <p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-success-bg px-3 py-1 text-xs font-semibold text-success"><Icon name="check" size={14} />{s.more.trust[0].title}</p>
     <h2 class="font-display text-lg font-semibold">{b.title}</h2>
-    <p class="mt-2 flex items-baseline gap-1.5">
-      <span class="text-sm text-ink-3">{s.common.from}</span>
-      <Price mad={from} lang={lang} class="font-display text-3xl font-semibold" />
-      <span class="text-sm text-ink-3">{s.common.perPerson}</span>
-    </p>
-    {!price.confirmed && <p class="mt-1 text-xs text-ink-3">{s.trip.priceUnconfirmed}</p>}
+    {showPrices && (
+      <p class="mt-2 flex items-baseline gap-1.5">
+        <span class="text-sm text-ink-3">{s.common.from}</span>
+        <Price mad={from} lang={lang} class="font-display text-3xl font-semibold" />
+        <span class="text-sm text-ink-3">{s.common.perPerson}</span>
+      </p>
+    )}
+    {showPrices && !price.confirmed && <p class="mt-1 text-xs text-ink-3">{s.trip.priceUnconfirmed}</p>}
 
     <div class="mt-5 space-y-4">
       <div>
@@ -67,7 +69,7 @@ const stepper = [
               <label class="opt">
                 <input type="radio" name="option" value={o} checked={o === defaultOpt} class="sr-only" />
                 <span class="font-semibold">{b[o]}</span>
-                <Price mad={price[o]!} lang={lang} class="text-sm" />
+                {showPrices && <Price mad={price[o]!} lang={lang} class="text-sm" />}
                 <span class="text-xs text-ink-3">{b[`${o}Help`]}</span>
               </label>
             ))}
@@ -78,13 +80,15 @@ const stepper = [
       )}
     </div>
 
-    <div class="mt-5 rounded-2xl bg-surface-2 p-4">
-      <p class="flex items-baseline justify-between gap-2">
-        <span class="text-sm font-semibold">{b.estimate}</span>
-        <output class="font-display text-2xl font-semibold tabular-nums" dir="ltr" data-total aria-live="polite"></output>
-      </p>
-      {booking.childFactor === 1 && <p class="mt-1 text-xs text-ink-3" data-child-note hidden>{b.childNote}</p>}
-    </div>
+    {showPrices && (
+      <div class="mt-5 rounded-2xl bg-surface-2 p-4">
+        <p class="flex items-baseline justify-between gap-2">
+          <span class="text-sm font-semibold">{b.estimate}</span>
+          <output class="font-display text-2xl font-semibold tabular-nums" dir="ltr" data-total aria-live="polite"></output>
+        </p>
+        {booking.childFactor === 1 && <p class="mt-1 text-xs text-ink-3" data-child-note hidden>{b.childNote}</p>}
+      </div>
+    )}
 
     <p class="mt-4 flex gap-2 text-sm text-ink-2"><Icon name="shield" size={18} class="mt-0.5 shrink-0 text-success" />{b.noPayment}</p>
 
@@ -98,12 +102,14 @@ const stepper = [
 <!-- Mobile bottom bar + sheet -->
 <div class="booking-bar fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur lg:hidden" data-no-print>
   <div class="flex items-center justify-between gap-3">
-    <p class="leading-tight">
-      <span class="block text-xs text-ink-3">{s.common.from}</span>
-      <Price mad={from} lang={lang} class="font-display text-xl font-semibold" />
-      <span class="text-xs text-ink-3"> {s.common.perPerson}</span>
-    </p>
-    <button type="button" class="btn btn-accent" data-sheet-open aria-haspopup="dialog">{b.checkDates}</button>
+    {showPrices && (
+      <p class="leading-tight">
+        <span class="block text-xs text-ink-3">{s.common.from}</span>
+        <Price mad={from} lang={lang} class="font-display text-xl font-semibold" />
+        <span class="text-xs text-ink-3"> {s.common.perPerson}</span>
+      </p>
+    )}
+    <button type="button" class:list={['btn btn-accent', !showPrices && 'w-full']} data-sheet-open aria-haspopup="dialog">{b.checkDates}</button>
   </div>
 </div>
 <dialog class="sheet m-0 mt-auto max-h-[92dvh] w-full max-w-none overflow-y-auto rounded-t-3xl bg-bg p-0 text-ink" data-booking-sheet aria-label={b.sheetTitle}>

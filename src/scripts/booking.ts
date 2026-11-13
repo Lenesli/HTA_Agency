@@ -23,7 +23,8 @@ export function initBooking() {
   const root = document.documentElement;
   const lang = root.lang as Lang;
   const s = JSON.parse(form.dataset.s!);
-  const totalEl = form.querySelector<HTMLOutputElement>('[data-total]')!;
+  const totalEl = form.querySelector<HTMLOutputElement>('[data-total]');
+  const showPrices = form.dataset.prices === '1';
   const wa = form.querySelector<HTMLAnchorElement>('[data-wa]')!;
   const childNote = form.querySelector<HTMLElement>('[data-child-note]');
   const prices = { shared: Number(form.dataset.shared) || 0, private: Number(form.dataset.private) || 0 };
@@ -55,8 +56,8 @@ export function initBooking() {
     const perPerson = prices[option] || prices.shared || prices.private;
     const totalMad = perPerson * (adults + children * childFactor);
     const cur = (root.dataset.currency ?? 'EUR') as Currency;
-    const totalText = formatMoney(convert(totalMad, cur), cur, lang);
-    totalEl.textContent = totalText;
+    const totalText = showPrices ? formatMoney(convert(totalMad, cur), cur, lang) : '';
+    if (totalEl) totalEl.textContent = totalText;
     if (childNote) childNote.hidden = children === 0;
 
     const date = dateInput.value
@@ -71,7 +72,7 @@ export function initBooking() {
       `${s.adults}: ${adults}`,
       ...(children ? [`${s.children}: ${children}`] : []),
       `${s.option}: ${s[option]}`,
-      `${s.total}: ${totalText}`,
+      ...(showPrices ? [`${s.total}: ${totalText}`] : []),
       `${s.lang}: ${s.langName}`,
       `${s.link}: ${current.url}`,
     ];

@@ -4,7 +4,7 @@ import Icon from './Icon.astro';
 import Flag from './Flag.astro';
 import { langMeta, locales, routes, url, type Lang } from '../i18n/routes';
 import { t } from '../i18n/ui';
-import { contact, currencies, currencySymbol } from '../config';
+import { contact, currencies, currencySymbol, showPrices } from '../config';
 import { waLink } from '../lib/whatsapp';
 
 interface Props {
@@ -57,10 +57,12 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
     </nav>
 
     <div class="flex items-center gap-1 sm:gap-1.5">
-      <label class="sr-only" for="currency-select">{s.a11y.currency}</label>
-      <select id="currency-select" data-currency-select class="ctl hidden h-10 rounded-full bg-transparent px-2.5 text-sm font-semibold sm:block">
-        {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
-      </select>
+      {showPrices && <label class="sr-only" for="currency-select">{s.a11y.currency}</label>}
+      {showPrices && (
+        <select id="currency-select" data-currency-select class="ctl hidden h-10 rounded-full bg-transparent px-2.5 text-sm font-semibold sm:block">
+          {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
+        </select>
+      )}
 
       <details class="lang-menu relative" data-lang-menu>
         <summary class="ctl flex h-11 cursor-pointer list-none items-center gap-1 rounded-full px-2.5 text-sm font-semibold">
@@ -127,12 +129,14 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
           </li>
         ))}
       </ul>
-      <div class="mt-6 flex items-center justify-between gap-3">
-        <label for="currency-select-m" class="text-sm font-medium text-ink-2">{s.a11y.currency}</label>
-        <select id="currency-select-m" data-currency-select class="h-11 rounded-full border border-line bg-surface px-3 font-semibold">
-          {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
-        </select>
-      </div>
+      {showPrices && (
+        <div class="mt-6 flex items-center justify-between gap-3">
+          <label for="currency-select-m" class="text-sm font-medium text-ink-2">{s.a11y.currency}</label>
+          <select id="currency-select-m" data-currency-select class="h-11 rounded-full border border-line bg-surface px-3 font-semibold">
+            {currencies.map((c) => <option value={c}>{currencySymbol[c]} {c}</option>)}
+          </select>
+        </div>
+      )}
     </nav>
     <div class="space-y-2 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
       <a href={bookHref} class="btn btn-accent w-full">{s.book.cta}</a>

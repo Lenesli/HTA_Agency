@@ -49,11 +49,11 @@ export function initTripFilters() {
   }
 
   // Currency-aware labels on the price buckets.
-  const priceSel = form.querySelector<HTMLSelectElement>('[data-price-select]')!;
+  const priceSel = form.querySelector<HTMLSelectElement>('[data-price-select]');
   const relabel = () => {
     const cur = document.documentElement.dataset.currency ?? 'EUR';
     const key = `label${cur[0]}${cur.slice(1).toLowerCase()}`; // data-label-eur -> labelEur
-    [...priceSel.options].forEach((o) => { if (o.dataset[key]) o.text = o.dataset[key]!; });
+    [...(priceSel?.options ?? [])].forEach((o) => { if (o.dataset[key]) o.text = o.dataset[key]!; });
   };
   relabel();
   window.addEventListener('currencychange', relabel);
@@ -64,7 +64,7 @@ export function initTripFilters() {
     const fd = new FormData(form!);
     const v = (k: string) => String(fd.get(k) ?? '');
     const q = norm(v('q').trim());
-    const opt = priceSel.selectedOptions[0];
+    const opt = priceSel?.selectedOptions[0];
     const [min, max] = [Number(opt?.dataset.min ?? 0), Number(opt?.dataset.max ?? 1e9)];
     let shown = 0;
     for (const li of items) {

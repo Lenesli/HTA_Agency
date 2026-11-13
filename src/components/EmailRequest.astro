@@ -73,7 +73,7 @@ const b = s.booking;
       `${s.adults}: ${st.adults}`,
       ...(st.children ? [`${s.children}: ${st.children}`] : []),
       `${s.option}: ${s[st.option]}`,
-      `${s.total}: ${st.totalText}`,
+      ...(st.totalText ? [`${s.total}: ${st.totalText}`] : []),
     ];
 
     window.addEventListener('openemailrequest', (e) => {

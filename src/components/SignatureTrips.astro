@@ -3,6 +3,7 @@
 import Photo from './Photo.astro';
 import Icon from './Icon.astro';
 import Price from './Price.astro';
+import { showPrices } from '../config';
 import WishButton from './WishButton.astro';
 import { url, type Lang } from '../i18n/routes';
 import { t } from '../i18n/ui';
@@ -50,7 +51,7 @@ const cards = await Promise.all(trips.map(async (tr) => ({ tr, cover: (await tri
           <p class="mt-2 line-clamp-2 text-sm text-white/85">{tr.data.summary[lang]}</p>
           <div class="mt-4 flex items-center justify-between gap-3">
             <div class="leading-tight">
-              <p><span class="text-xs text-white/75">{s.common.from} </span><Price mad={priceFrom(tr)} lang={lang} class="font-display text-xl font-semibold" /><span class="text-xs text-white/75"> {s.common.perPerson}</span></p>
+              {showPrices && <p><span class="text-xs text-white/75">{s.common.from} </span><Price mad={priceFrom(tr)} lang={lang} class="font-display text-xl font-semibold" /><span class="text-xs text-white/75"> {s.common.perPerson}</span></p>}
               <p class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-[#a7e3b3]"><Icon name="check" size={14} />{m.trust[0].title}</p>
             </div>
             <a href={`${url(lang, 'book')}?trip=${tr.id}`} class="btn btn-accent relative z-10 !min-h-11 !px-5 text-sm" aria-label={`${s.book.cta}: ${tr.data.title[lang]}`}>{s.book.cta}</a>

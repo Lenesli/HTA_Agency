@@ -13,7 +13,7 @@ export const site = {
 
 export const contact = {
   /** International format, digits only — used for wa.me links. */
-  whatsapp: '212694379415', // from the business card (+212 694-379415). TODO(youssef): confirm it is on WhatsApp
+  whatsapp: '212694379415', // +212 694 379 415, confirmed
   phone: '+212 694 379 415', // from the business card
   email: 'contact@hikingtoatlas.com', // TODO(youssef): confirm this mailbox exists
   address: {
@@ -30,8 +30,8 @@ export const contact = {
 } as const;
 
 export const social = {
-  instagram: 'https://instagram.com/hikingtoatlas', // from the business card
-  facebook: '', // TODO(youssef)
+  instagram: 'https://instagram.com/hikingtoatlas', // confirmed
+  facebook: '', // none yet (hidden while empty)
   tiktok: '', // TODO(youssef)
   googleBusiness: '', // TODO(youssef): Google Business profile link (for reviews)
   tripadvisor: '', // TODO(youssef): TripAdvisor page link (for reviews)
@@ -86,6 +86,12 @@ export const leads = {
 export const analytics = {
   plausibleDomain: '', // set to e.g. 'hikingtoatlas.com' to enable Plausible
 } as const;
+
+/**
+ * Show prices on the website. false = no prices, no currency menu, no price filter or estimate:
+ * visitors ask for a quote on WhatsApp or by email. Set to true to bring everything back.
+ */
+export const showPrices = false;
 
 /** Booking estimate settings. */
 export const booking = {

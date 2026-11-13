@@ -13,7 +13,7 @@ import { t } from '../i18n/ui';
 import { categoryLabels, cityLabel, difficultyLabels } from '../i18n/catalog';
 import { categories, difficulties } from '../content.config';
 import { getTrips, tripCountForms } from '../lib/trips';
-import { currencies, currency } from '../config';
+import { currencies, currency, showPrices } from '../config';
 import { convert, formatMoney } from '../lib/price';
 import { waLink } from '../lib/whatsapp';
 
@@ -79,17 +79,19 @@ const crumbs = [
             </select>
           </div>
 
-          <div>
-            <label for="f-price" class="filter-label">{s.trips.price}</label>
-            <select id="f-price" name="price" class="input mt-2" data-price-select>
-              <option value="">{s.trips.priceAny}</option>
-              {priceOpts.map((o) => (
-                <option value={o.v} data-min={o.min} data-max={o.max} {...Object.fromEntries(currencies.map((c) => [`data-label-${c.toLowerCase()}`, o.label(c)]))}>
-                  {o.label(currency.default)}
-                </option>
-              ))}
-            </select>
-          </div>
+          {showPrices && (
+            <div>
+              <label for="f-price" class="filter-label">{s.trips.price}</label>
+              <select id="f-price" name="price" class="input mt-2" data-price-select>
+                <option value="">{s.trips.priceAny}</option>
+                {priceOpts.map((o) => (
+                  <option value={o.v} data-min={o.min} data-max={o.max} {...Object.fromEntries(currencies.map((c) => [`data-label-${c.toLowerCase()}`, o.label(c)]))}>
+                    {o.label(currency.default)}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           <div>
             <label for="f-diff" class="filter-label">{s.trips.difficulty}</label>
@@ -126,8 +128,8 @@ const crumbs = [
           <label for="f-sort" class="shrink-0 text-sm text-ink-2">{s.trips.sort}</label>
           <select id="f-sort" name="sort" form="filters" class="input !w-auto min-w-0 max-w-full">
             <option value="popular">{s.trips.sortPopular}</option>
-            <option value="price-asc">{s.trips.sortPriceAsc}</option>
-            <option value="price-desc">{s.trips.sortPriceDesc}</option>
+            {showPrices && <option value="price-asc">{s.trips.sortPriceAsc}</option>}
+            {showPrices && <option value="price-desc">{s.trips.sortPriceDesc}</option>}
             <option value="duration">{s.trips.sortDuration}</option>
           </select>
         </div>
