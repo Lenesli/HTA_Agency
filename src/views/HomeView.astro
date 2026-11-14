@@ -6,7 +6,6 @@ import Photo from '../components/Photo.astro';
 import Icon from '../components/Icon.astro';
 import SearchBar from '../components/SearchBar.astro';
 import FaqList from '../components/FaqList.astro';
-import ReviewsSoon from '../components/ReviewsSoon.astro';
 import HeroSlideshow from '../components/HeroSlideshow.astro';
 import SignatureTrips from '../components/SignatureTrips.astro';
 import RecentTrips from '../components/RecentTrips.astro';
@@ -99,12 +98,6 @@ const whyIcons = ['mountain', 'users', 'tag', 'whatsapp'] as const;
   </section>
 
   <RecentTrips lang={lang} title={m.continueTitle} />
-
-  <!-- Reviews -->
-  <section class="container-page py-12" aria-labelledby="reviews-title">
-    <h2 id="reviews-title" class="reveal text-h2">{s.home.reviewsTitle}</h2>
-    <div class="reveal mt-8"><ReviewsSoon lang={lang} /></div>
-  </section>
 
   <!-- FAQ preview -->
   <section class="container-page py-12" aria-labelledby="faq-title">

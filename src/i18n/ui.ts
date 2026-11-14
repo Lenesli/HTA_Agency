@@ -92,7 +92,7 @@ const en = {
   home: {
     heroEyebrow: 'Toubkal · Tamsoult · Tamatert · Lake Ifni',
     heroTitle: 'The Atlas, the way only locals know it.',
-    heroText: 'Toubkal at sunrise, Berber villages, high lakes and snowy plateaus: treks led by our team of Toubkal locals, with more than 12 years of experience. Tell us your dates, we take care of the rest.',
+    heroText: 'Treks and tailor-made trips in Morocco, with a local Atlas team and more than 12 years of experience.',
     categoriesTitle: 'What kind of trip?',
     featuredTitle: 'Trips people ask us about most',
     featuredText: 'A starting point. Every trip can be made private or adjusted to your dates.',
@@ -398,7 +398,7 @@ const fr: UI = {
   home: {
     heroEyebrow: 'Toubkal · Tamsoult · Tamatert · Lac d’Ifni',
     heroTitle: 'L’Atlas, comme seuls ses habitants le connaissent.',
-    heroText: 'Le Toubkal au lever du soleil, les villages berbères, les lacs d’altitude et les plateaux enneigés : des treks menés par notre équipe, originaire du Toubkal, forte de plus de 12 ans d’expérience. Donnez-nous vos dates, on s’occupe du reste.',
+    heroText: 'Treks et voyages sur mesure au Maroc, avec une équipe locale de l’Atlas forte de plus de 12 ans d’expérience.',
     categoriesTitle: 'Quel voyage ?',
     featuredTitle: 'Les voyages qu’on nous demande le plus',
     featuredText: 'Un point de départ. Chaque voyage peut être privé ou adapté à vos dates.',
@@ -702,7 +702,7 @@ const ar: UI = {
   home: {
     heroEyebrow: 'توبقال · تامسولت · تامترت · بحيرة إفني',
     heroTitle: 'الأطلس كما لا يعرفه إلا أهله.',
-    heroText: 'توبقال مع شروق الشمس، والقرى الأمازيغية، والبحيرات العالية والهضاب المكسوة بالثلج: رحلات مشي يقودها فريقنا من أبناء توبقال بخبرة تتجاوز 12 سنة. أخبرونا بتواريخكم، ونحن نتكفل بالباقي.',
+    heroText: 'رحلات مشي وأسفار حسب الطلب في المغرب، مع فريق محلي من الأطلس بخبرة تتجاوز 12 سنة.',
     categoriesTitle: 'أي نوع من الرحلات؟',
     featuredTitle: 'الرحلات الأكثر طلبا',
     featuredText: 'نقطة انطلاق. كل رحلة يمكن أن تكون خاصة أو أن تُكيَّف مع تواريخكم.',

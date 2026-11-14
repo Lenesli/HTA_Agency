@@ -84,7 +84,7 @@ export const es: UI = {
   home: {
     heroEyebrow: 'Toubkal · Tamsoult · Tamatert · Lago Ifni',
     heroTitle: 'El Atlas, como solo lo conocen los de aquí.',
-    heroText: 'El Toubkal al amanecer, pueblos bereberes, lagos de altura y mesetas nevadas: treks guiados por nuestro equipo, nacido en el Toubkal, con más de 12 años de experiencia. Díganos sus fechas y nosotros nos ocupamos del resto.',
+    heroText: 'Treks y viajes a medida en Marruecos, con un equipo local del Atlas y más de 12 años de experiencia.',
     categoriesTitle: '¿Qué tipo de viaje?',
     featuredTitle: 'Los viajes más solicitados',
     featuredText: 'Un punto de partida. Cada viaje puede ser privado o adaptarse a sus fechas.',

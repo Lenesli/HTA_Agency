@@ -15,7 +15,7 @@ export const contact = {
   /** International format, digits only — used for wa.me links. */
   whatsapp: '212694379415', // +212 694 379 415, confirmed
   phone: '+212 694 379 415', // from the business card
-  email: 'contact@hikingtoatlas.com', // TODO(youssef): confirm this mailbox exists
+  email: 'hikingtoatlas@gmail.com',
   address: {
     street: 'Elhaous', // TODO(youssef): confirm exact address
     locality: 'Imlil',

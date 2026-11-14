@@ -84,7 +84,7 @@ export const pt: UI = {
   home: {
     heroEyebrow: 'Toubkal · Tamsoult · Tamatert · Lago Ifni',
     heroTitle: 'O Atlas, como só quem é de cá o conhece.',
-    heroText: 'O Toubkal ao nascer do sol, aldeias berberes, lagos de altitude e planaltos nevados: trekkings guiados pela nossa equipa, natural do Toubkal, com mais de 12 anos de experiência. Diga-nos as suas datas, nós tratamos do resto.',
+    heroText: 'Trekkings e viagens à medida em Marrocos, com uma equipa local do Atlas e mais de 12 anos de experiência.',
     categoriesTitle: 'Que tipo de viagem?',
     featuredTitle: 'As viagens mais procuradas',
     featuredText: 'Um ponto de partida. Cada viagem pode ser privada ou ajustada às suas datas.',

@@ -84,7 +84,7 @@ export const de: UI = {
   home: {
     heroEyebrow: 'Toubkal · Tamsoult · Tamatert · Ifni-See',
     heroTitle: 'Der Atlas, wie nur Einheimische ihn kennen.',
-    heroText: 'Der Toubkal bei Sonnenaufgang, Berberdörfer, Hochseen und verschneite Hochebenen: Treks mit unserem Team aus Einheimischen vom Toubkal und über 12 Jahren Erfahrung. Nennen Sie uns Ihre Daten, um den Rest kümmern wir uns.',
+    heroText: 'Treks und individuelle Reisen in Marokko, mit einem einheimischen Team aus dem Atlas und über 12 Jahren Erfahrung.',
     categoriesTitle: 'Welche Art von Reise?',
     featuredTitle: 'Die meistgefragten Reisen',
     featuredText: 'Ein Ausgangspunkt. Jede Reise kann privat oder an Ihre Termine angepasst werden.',
