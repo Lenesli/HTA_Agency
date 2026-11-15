@@ -28,7 +28,7 @@ const heroSizes = '100vw';
 const tailor = (await getEntry('photos', 'u-atlas-valley'))!;
 
 // Signature trips, in this order (Toubkal first).
-const signatureIds = ['toubkal-summit-3-days', 'tamsoult-toubkal-ifni-7-days', 'tamatert-inghmer-3-days', 'tamsoult-ighouliden-3-days', 'amsouzart-ifni-3-days'];
+const signatureIds = ['toubkal-summit-3-days', 'tamsoult-toubkal-ifni-7-days', 'tamatert-inghmer-3-days', 'tamsoult-ighouliden-3-days', 'amsouzart-ifni-3-days', 'agergour-paragliding-day'];
 const signature = signatureIds.map((id) => trips.find((tr) => tr.id === id)).filter((x): x is (typeof trips)[number] => !!x);
 const m = s.more;
 const trustIcons = ['shield', 'whatsapp', 'mountain', 'users'] as const;

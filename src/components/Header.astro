@@ -4,7 +4,7 @@ import Icon from './Icon.astro';
 import Flag from './Flag.astro';
 import { langMeta, locales, routes, url, type Lang } from '../i18n/routes';
 import { t } from '../i18n/ui';
-import { contact, currencies, currencySymbol, showPrices } from '../config';
+import { contact, currencies, currencySymbol, showPrices, social } from '../config';
 import { waLink } from '../lib/whatsapp';
 
 interface Props {
@@ -142,6 +142,7 @@ const bookHref = url(lang, 'book') + (tripSlug ? `?trip=${tripSlug}` : '');
       <a href={bookHref} class="btn btn-accent w-full">{s.book.cta}</a>
       <a href={wa} class="btn btn-whatsapp w-full" target="_blank" rel="noopener"><Icon name="whatsapp" /> {s.common.chatWhatsapp}</a>
       <a href={`tel:${contact.phone.replace(/\s/g, '')}`} class="btn btn-ghost w-full" dir="ltr"><Icon name="phone" /> {contact.phone}</a>
+      {social.instagram && <a href={social.instagram} class="btn btn-ghost w-full" target="_blank" rel="noopener" dir="ltr"><Icon name="instagram" /> @{social.instagram.replace(/\/+$/, '').split('/').pop()}</a>}
     </div>
   </div>
 </dialog>

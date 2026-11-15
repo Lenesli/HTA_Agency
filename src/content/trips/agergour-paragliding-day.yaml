@@ -1,0 +1,97 @@
+# Source: agency programme (WhatsApp, 15 Nov 2026): "Départ parapente", day trip from Marrakech.
+# Prices are hidden on the site (showPrices = false); the figure below is a placeholder.
+# TODO: confirm price, that the flight (with instructor) and meals are included, and group size.
+# Photos: the agency's own paragliding photos. Map points are approximate.
+category: day-trip
+verified: true
+featured: true
+popularity: 70
+title:
+  en: Hike and paragliding at Agergour, day trip
+  fr: Randonnée et parapente à Agergour, excursion d’une journée
+  es: Senderismo y parapente en Agergour, excursión de un día
+  de: Wanderung und Paragliding in Agergour, Tagesausflug
+  pt: Caminhada e parapente em Agergour, excursão de um dia
+  ar: مشي وطيران شراعي في أكركور، رحلة يومية
+summary:
+  en: A day out from Marrakech with a two-hour walk, lunch at a panoramic bivouac and a paragliding flight at Agergour, back in the city by 5 pm.
+  fr: Une journée au départ de Marrakech avec deux heures de randonnée, un déjeuner dans un bivouac avec vue et un vol en parapente à Agergour, retour en ville à 17 h.
+  es: Un día desde Marrakech con dos horas de caminata, almuerzo en un vivac con vistas y un vuelo en parapente en Agergour, de vuelta en la ciudad a las 17 h.
+  de: Ein Tag ab Marrakesch mit zwei Stunden Wanderung, Mittagessen in einem Biwak mit Aussicht und einem Paragliding-Flug in Agergour, um 17 Uhr zurück in der Stadt.
+  pt: Um dia a partir de Marraquexe com duas horas de caminhada, almoço num bivaque com vista e um voo de parapente em Agergour, de volta à cidade às 17h.
+  ar: يوم انطلاقا من مراكش مع ساعتين من المشي، وغداء في مخيم بإطلالة بانورامية، وطيران شراعي في أكركور، والعودة إلى المدينة على الساعة الخامسة مساء.
+about:
+  en: >-
+    An easy way to see the Atlas foothills from above. You leave Marrakech in the morning and have breakfast at Zaouit Bouhita, then walk for about two hours to Azro. Lunch is served at a bivouac with a wide view, before a short drive to Agergour, the paragliding site above the plain south of Marrakech. In the afternoon you fly, then drive back to Marrakech, arriving around 5 pm.
+  fr: >-
+    Une façon simple de voir les contreforts de l’Atlas d’en haut. Départ de Marrakech le matin et petit-déjeuner à Zaouit Bouhita, puis environ deux heures de marche jusqu’à Azro. Le déjeuner est servi dans un bivouac avec vue panoramique, avant une courte route vers Agergour, le site de parapente au-dessus de la plaine au sud de Marrakech. L’après-midi, c’est l’heure du vol, puis retour à Marrakech vers 17 h.
+  es: "Una forma sencilla de ver las estribaciones del Atlas desde el aire. Se sale de Marrakech por la mañana y se desayuna en Zaouit Bouhita; después, unas dos horas de caminata hasta Azro. El almuerzo se sirve en un vivac con vistas panorámicas, antes de una corta carretera hasta Agergour, el sitio de parapente sobre la llanura al sur de Marrakech. Por la tarde llega el vuelo y luego el regreso a Marrakech hacia las 17 h."
+  de: "Eine einfache Art, die Ausläufer des Atlas von oben zu sehen. Morgens Abfahrt in Marrakesch und Frühstück in Zaouit Bouhita, dann etwa zwei Stunden Wanderung nach Azro. Das Mittagessen gibt es in einem Biwak mit Panoramablick, danach eine kurze Fahrt nach Agergour, dem Paragliding-Startplatz über der Ebene südlich von Marrakesch. Am Nachmittag fliegen Sie, dann geht es zurück nach Marrakesch, Ankunft gegen 17 Uhr."
+  pt: "Uma forma simples de ver os contrafortes do Atlas lá de cima. Parte-se de Marraquexe de manhã e toma-se o pequeno-almoço em Zaouit Bouhita; depois, cerca de duas horas de caminhada até Azro. O almoço é servido num bivaque com vista panorâmica, antes de uma curta viagem até Agergour, o local de parapente sobre a planície a sul de Marraquexe. À tarde é a hora do voo e depois o regresso a Marraquexe, por volta das 17h."
+  ar: >-
+    طريقة بسيطة لرؤية سفوح الأطلس من الأعلى. الانطلاق من مراكش صباحا وتناول الفطور في زاوية بوهيتة، ثم حوالي ساعتين من المشي إلى أزرو. يُقدَّم الغداء في مخيم بإطلالة بانورامية، قبل طريق قصيرة إلى أكركور، موقع الطيران الشراعي فوق السهل جنوب مراكش. بعد الظهر يحين وقت الطيران، ثم العودة إلى مراكش حوالي الساعة الخامسة مساء.
+days: 1
+nights: 0
+hours: "8 h"
+difficulty: easy
+startCity: Marrakech
+endCity: Marrakech
+price: { shared: 900 }
+includes: { meals: true, transport: true, nights: false }
+photos: [h-para-wing, h-para-tandem, h-para-hills, h-para-sky, h-para-launch]
+highlights:
+  - { en: "A paragliding flight at Agergour", fr: "Un vol en parapente à Agergour", es: "Un vuelo en parapente en Agergour", de: "Ein Paragliding-Flug in Agergour", pt: "Um voo de parapente em Agergour", ar: "طيران شراعي في أكركور" }
+  - { en: "A two-hour walk to Azro", fr: "Deux heures de randonnée jusqu’à Azro", es: "Dos horas de caminata hasta Azro", de: "Zwei Stunden Wanderung nach Azro", pt: "Duas horas de caminhada até Azro", ar: "ساعتان من المشي إلى أزرو" }
+  - { en: "Lunch at a bivouac with a wide view", fr: "Déjeuner dans un bivouac avec vue panoramique", es: "Almuerzo en un vivac con vistas panorámicas", de: "Mittagessen in einem Biwak mit Panoramablick", pt: "Almoço num bivaque com vista panorâmica", ar: "غداء في مخيم بإطلالة بانورامية" }
+  - { en: "Back in Marrakech by 5 pm", fr: "Retour à Marrakech à 17 h", es: "De vuelta en Marrakech a las 17 h", de: "Um 17 Uhr zurück in Marrakesch", pt: "De volta a Marraquexe às 17h", ar: "العودة إلى مراكش على الساعة الخامسة مساء" }
+itinerary:
+  - title: { en: "Walk to Azro and paragliding at Agergour", fr: "Randonnée vers Azro et parapente à Agergour", es: "Caminata a Azro y parapente en Agergour", de: "Wanderung nach Azro und Paragliding in Agergour", pt: "Caminhada até Azro e parapente em Agergour", ar: "المشي إلى أزرو والطيران الشراعي في أكركور" }
+    text:
+      en: Breakfast at Zaouit Bouhita, a two-hour walk to Azro, lunch at a panoramic bivouac, then the paragliding flight at Agergour before the drive back to Marrakech.
+      fr: Petit-déjeuner à Zaouit Bouhita, deux heures de randonnée vers Azro, déjeuner dans un bivouac avec vue, puis vol en parapente à Agergour avant le retour à Marrakech.
+      es: Desayuno en Zaouit Bouhita, dos horas de caminata hasta Azro, almuerzo en un vivac con vistas y vuelo en parapente en Agergour antes de volver a Marrakech.
+      de: Frühstück in Zaouit Bouhita, zwei Stunden Wanderung nach Azro, Mittagessen in einem Biwak mit Aussicht, dann der Paragliding-Flug in Agergour vor der Rückfahrt nach Marrakesch.
+      pt: Pequeno-almoço em Zaouit Bouhita, duas horas de caminhada até Azro, almoço num bivaque com vista e voo de parapente em Agergour antes do regresso a Marraquexe.
+      ar: الفطور في زاوية بوهيتة، ساعتان من المشي إلى أزرو، الغداء في مخيم بإطلالة، ثم الطيران الشراعي في أكركور قبل العودة إلى مراكش.
+    walk: 2 h
+    meals: [ breakfast, lunch ]
+    schedule:
+      - { time: "09:00", text: { en: "Departure from Marrakech", fr: "Départ de Marrakech", es: "Salida de Marrakech", de: "Abfahrt in Marrakesch", pt: "Partida de Marraquexe", ar: "الانطلاق من مراكش" } }
+      - { time: "10:00", text: { en: "Breakfast at Zaouit Bouhita", fr: "Petit-déjeuner à Zaouit Bouhita", es: "Desayuno en Zaouit Bouhita", de: "Frühstück in Zaouit Bouhita", pt: "Pequeno-almoço em Zaouit Bouhita", ar: "الفطور في زاوية بوهيتة" } }
+      - { time: "11:00", text: { en: "Two-hour walk to Azro", fr: "Randonnée de 2 h vers Azro", es: "Caminata de 2 h hasta Azro", de: "Zweistündige Wanderung nach Azro", pt: "Caminhada de 2 h até Azro", ar: "مشي لمدة ساعتين نحو أزرو" } }
+      - { time: "13:00", text: { en: "Lunch with a wide view (bivouac)", fr: "Déjeuner avec vue panoramique (bivouac)", es: "Almuerzo con vistas panorámicas (vivac)", de: "Mittagessen mit Panoramablick (Biwak)", pt: "Almoço com vista panorâmica (bivaque)", ar: "الغداء بإطلالة بانورامية (مخيم)" } }
+      - { time: "14:00", text: { en: "Drive to Agergour", fr: "Départ vers Agergour", es: "Salida hacia Agergour", de: "Fahrt nach Agergour", pt: "Partida para Agergour", ar: "الانطلاق نحو أكركور" } }
+      - { time: "15:00", text: { en: "Arrival and paragliding", fr: "Arrivée et début du parapente", es: "Llegada y comienzo del parapente", de: "Ankunft und Paragliding", pt: "Chegada e início do parapente", ar: "الوصول وبداية الطيران الشراعي" } }
+      - { time: "16:00", text: { en: "Drive back to Marrakech", fr: "Départ vers Marrakech", es: "Salida hacia Marrakech", de: "Rückfahrt nach Marrakesch", pt: "Partida para Marraquexe", ar: "الانطلاق نحو مراكش" } }
+      - { time: "17:00", text: { en: "Arrival in Marrakech", fr: "Arrivée à Marrakech", es: "Llegada a Marrakech", de: "Ankunft in Marrakesch", pt: "Chegada a Marraquexe", ar: "الوصول إلى مراكش" } }
+included:
+  - transport-marrakech
+  - guide-mountain
+  - { en: "Breakfast and lunch", fr: "Petit-déjeuner et déjeuner", es: "Desayuno y almuerzo", de: "Frühstück und Mittagessen", pt: "Pequeno-almoço e almoço", ar: "الفطور والغداء" }
+  - { en: "Paragliding flight with an instructor", fr: "Vol en parapente avec un moniteur", es: "Vuelo en parapente con un instructor", de: "Paragliding-Flug mit Fluglehrer", pt: "Voo de parapente com um instrutor", ar: "طيران شراعي مع مدرب" }
+excluded: [ drinks, insurance, personal ]
+pack: [ comfy-shoes, sun-kit, bottle, layers ]
+meetingPoint:
+  en: "In front of Marrakech railway station (Gare ONCF, Avenue Hassan II)."
+  fr: "Devant la gare de Marrakech (gare ONCF, avenue Hassan II)."
+  es: "Delante de la estación de tren de Marrakech (Gare ONCF, avenida Hassan II)."
+  de: "Vor dem Bahnhof von Marrakesch (Gare ONCF, Avenue Hassan II)."
+  pt: "Em frente à estação de comboios de Marraquexe (Gare ONCF, avenida Hassan II)."
+  ar: "أمام محطة القطار بمراكش (محطة ONCF، شارع الحسن الثاني)."
+pickupTime: "09:00"
+goodToKnow:
+  - en: The flight depends on the wind. If conditions are not safe, the instructor moves or cancels the flight. Your safety comes first.
+    fr: Le vol dépend du vent. Si les conditions ne sont pas sûres, le moniteur décale ou annule le vol. Votre sécurité passe avant tout.
+    es: El vuelo depende del viento. Si las condiciones no son seguras, el instructor lo aplaza o lo cancela. Su seguridad es lo primero.
+    de: Der Flug hängt vom Wind ab. Sind die Bedingungen nicht sicher, verschiebt oder streicht der Fluglehrer den Flug. Ihre Sicherheit geht vor.
+    pt: O voo depende do vento. Se as condições não forem seguras, o instrutor adia ou cancela o voo. A sua segurança está em primeiro lugar.
+    ar: يعتمد الطيران على الرياح. إذا لم تكن الظروف آمنة، يؤجل المدرب الطيران أو يلغيه. سلامتكم أولا.
+  - en: No experience needed. Wear comfortable shoes and bring a warm layer, it can be windy at the take-off point.
+    fr: "Aucune expérience nécessaire. Portez des chaussures confortables et prévoyez une couche chaude : il peut y avoir du vent au décollage."
+    es: "No hace falta experiencia. Lleve calzado cómodo y una capa de abrigo: en el despegue puede hacer viento."
+    de: Keine Erfahrung nötig. Tragen Sie bequeme Schuhe und nehmen Sie eine warme Schicht mit, am Startplatz kann es windig sein.
+    pt: "Não é precisa experiência. Use calçado confortável e leve uma camada quente: no local de descolagem pode haver vento."
+    ar: لا تحتاجون إلى خبرة. ارتدوا حذاء مريحا وأحضروا ملابس دافئة، فقد تكون هناك رياح عند نقطة الإقلاع.
+mapStops:
+  - { name: Marrakech railway station, lat: 31.6306, lng: -8.0167, kind: start }
+  - { name: Agergour, lat: 31.3560, lng: -8.1700, kind: stop }

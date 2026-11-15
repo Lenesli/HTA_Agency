@@ -2386,5 +2386,100 @@
     "source": "https://hikingtoatlasagency.netlify.app/",
     "sourceName": "Hiking to Atlas",
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkAA4BaJaACdH8ACGJgAAD+7AtiyzfZwGN2UcnEvCA3VKNRqD8iEQFiz67IWMbFknjNq7YcxY25sCCjxpYj/qmCIDwA"
+  },
+  {
+    "id": "h-para-wing",
+    "file": "../assets/photos/h-para-wing.jpg",
+    "alt": {
+      "en": "A yellow paraglider above green hills, with the Atlas mountains behind",
+      "fr": "Un parapente jaune au-dessus des collines vertes, l’Atlas en arrière-plan",
+      "es": "Un parapente amarillo sobre colinas verdes, con el Atlas al fondo",
+      "de": "Ein gelber Gleitschirm über grünen Hügeln, dahinter der Atlas",
+      "pt": "Um parapente amarelo sobre colinas verdes, com o Atlas ao fundo",
+      "ar": "مظلة شراعية صفراء فوق التلال الخضراء وجبال الأطلس في الخلفية"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlas.com/",
+    "source": "https://hikingtoatlas.com/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZACw7BuU9VzUGfQAAP5XcghLXEvhp1yoXNmxflt8erj4al+wfzRD5liQ1w52Vdps237HtpXRCn+22u9aRNfr/kif6XN3d6BbhjxhhnmX/4ciJu5nM/lewDFKgAAA",
+    "focus": "50% 35%"
+  },
+  {
+    "id": "h-para-tandem",
+    "file": "../assets/photos/h-para-tandem.jpg",
+    "alt": {
+      "en": "A tandem paragliding flight seen from above, the plain far below",
+      "fr": "Un vol en parapente biplace vu d’en haut, la plaine loin en dessous",
+      "es": "Un vuelo en parapente biplaza visto desde arriba, con la llanura muy abajo",
+      "de": "Ein Tandem-Gleitschirmflug von oben, die Ebene tief darunter",
+      "pt": "Um voo de parapente biplace visto de cima, com a planície lá em baixo",
+      "ar": "طيران شراعي ثنائي من الأعلى والسهل في الأسفل"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlas.com/",
+    "source": "https://hikingtoatlas.com/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoQABIAPu1iqU2ppaOiMAgBMB2JQBOmUGUgCUYj/zJ6IuGToW6gAP6OdcKER5/LKBRT5WAwMMRzWXTXh8s4Li4vVLdajlOb7QmbwhTTR7+bWWXdcUGbXjbWUlf0UvEdg76TtAAA",
+    "focus": "50% 40%"
+  },
+  {
+    "id": "h-para-hills",
+    "file": "../assets/photos/h-para-hills.jpg",
+    "alt": {
+      "en": "A paraglider flying over the hills near Agergour",
+      "fr": "Un parapente qui survole les collines près d’Agergour",
+      "es": "Un parapente sobrevolando las colinas cerca de Agergour",
+      "de": "Ein Gleitschirm über den Hügeln bei Agergour",
+      "pt": "Um parapente a sobrevoar as colinas perto de Agergour",
+      "ar": "مظلة شراعية تحلق فوق التلال قرب أكركور"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlas.com/",
+    "source": "https://hikingtoatlas.com/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoQABwAPu1iqU2ppaOiMAgBMB2JagCdLoABI+sD89Jr/kMl9AAA/UbOT0fbJFFF7p6PbrGESs9MBiOEiwF9v/gguKc2/FSv9fMqaBZJnNJNSVCLw/L5CfPJl7jhXh989iTiGP9SfyW84AAA",
+    "focus": "50% 40%"
+  },
+  {
+    "id": "h-para-sky",
+    "file": "../assets/photos/h-para-sky.jpg",
+    "alt": {
+      "en": "An orange and blue paraglider in the sky",
+      "fr": "Un parapente orange et bleu dans le ciel",
+      "es": "Un parapente naranja y azul en el cielo",
+      "de": "Ein orange-blauer Gleitschirm am Himmel",
+      "pt": "Um parapente laranja e azul no céu",
+      "ar": "مظلة شراعية برتقالية وزرقاء في السماء"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlas.com/",
+    "source": "https://hikingtoatlas.com/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JQBOgA22NkRAA/lRMAKVW7j7Iz5gqcopUktJX5q/Usm/vxFKDXdXKLqRAgDB2NlSlAIAA",
+    "focus": "50% 35%"
+  },
+  {
+    "id": "h-para-launch",
+    "file": "../assets/photos/h-para-launch.jpg",
+    "alt": {
+      "en": "Getting ready for take-off at sunset",
+      "fr": "Préparation au décollage au coucher du soleil",
+      "es": "Preparación para el despegue al atardecer",
+      "de": "Startvorbereitung bei Sonnenuntergang",
+      "pt": "Preparação para a descolagem ao pôr do sol",
+      "ar": "الاستعداد للإقلاع عند غروب الشمس"
+    },
+    "author": "Hiking to Atlas",
+    "licence": "All rights reserved",
+    "licenceUrl": "https://hikingtoatlas.com/",
+    "source": "https://hikingtoatlas.com/",
+    "sourceName": "Hiking to Atlas",
+    "placeholder": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABUAPu1iqU2ppaQiMAgBMB2JaACdLwG4ACkynXz+/wdUg3hQAP7quX/8dCD3ISWoHN4+tX/cQmtCeo64/ee0O9w/l949hli2uOeyy3Mpbx0OCfKTwUV171eI1iYrRzY/a0q63FS4iRpPaWBpLrD6dZEjx9x2xwHag+aUd+OTCgEKhmaAAA==",
+    "focus": "50% 50%"
   }
 ]

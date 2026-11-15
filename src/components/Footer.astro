@@ -37,6 +37,7 @@ const cols = [
     ],
   },
 ];
+const instaHandle = social.instagram.replace(/\/+$/, '').split('/').pop();
 const socials = [
   { href: social.instagram, icon: 'instagram', label: 'Instagram' },
   { href: social.facebook, icon: 'facebook', label: 'Facebook' },
@@ -83,8 +84,9 @@ const socials = [
         <ul class="flex gap-1">
           {socials.map((x) => (
             <li>
-              <a href={x.href} target="_blank" rel="noopener" class="grid size-11 place-items-center rounded-full hover:bg-white/10" aria-label={x.label}>
+              <a href={x.href} target="_blank" rel="noopener" class:list={['inline-flex h-11 items-center gap-2 rounded-full hover:bg-white/10', x.icon === 'instagram' ? 'px-3 font-semibold' : 'w-11 justify-center']} aria-label={x.label}>
                 <Icon name={x.icon} />
+                {x.icon === 'instagram' && <span aria-hidden="true" dir="ltr">@{instaHandle}</span>}
               </a>
             </li>
           ))}

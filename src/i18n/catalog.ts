@@ -196,6 +196,7 @@ const places: Record<string, Partial<L>> = {
   'Tizi Oussem': { ar: 'تيزي أوسم' },
   Tadart: { ar: 'تادارت' },
   'Aït Ourir': { ar: 'آيت أورير' },
+  Agergour: { ar: 'أكركور' },
 };
 export const placeLabel = (place: string, lang: keyof L): string => places[place]?.[lang] ?? place;
 export const cityLabel = placeLabel;
