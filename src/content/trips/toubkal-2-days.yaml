@@ -1,0 +1,107 @@
+# Source: agency programme (WhatsApp, 15 Nov 2026): day 1 Imlil to the refuge; day 2 = day 3 of the 3-day trek.
+# Prices are hidden on the site (showPrices = false); the figure below is a placeholder.
+# TODO: confirm price and the departure time from Marrakech (walking starts at 11:00 in Imlil).
+category: trekking
+verified: true
+popularity: 90
+title:
+  en: Toubkal summit trek, 2 days
+  fr: Ascension du Toubkal en 2 jours
+  es: Trek a la cumbre del Toubkal, 2 días
+  de: Toubkal-Gipfeltrek, 2 Tage
+  pt: Trekking ao cume do Toubkal, 2 dias
+  ar: صعود قمة توبقال في يومين
+summary:
+  en: The fast version of the Toubkal climb for fit walkers short on time. Up to the refuge on day one, summit and back to Marrakech on day two.
+  fr: La version rapide de l’ascension du Toubkal pour marcheurs en forme et pressés. Montée au refuge le premier jour, sommet et retour à Marrakech le second.
+  es: La versión rápida de la subida al Toubkal para caminantes en forma con poco tiempo. Subida al refugio el primer día; cumbre y vuelta a Marrakech el segundo.
+  de: Die schnelle Variante des Toubkal-Aufstiegs für fitte Wanderer mit wenig Zeit. Am ersten Tag zur Hütte, am zweiten Gipfel und zurück nach Marrakesch.
+  pt: A versão rápida da subida ao Toubkal para caminhantes em forma com pouco tempo. Subida ao refúgio no primeiro dia; cume e regresso a Marraquexe no segundo.
+  ar: النسخة السريعة لصعود توبقال للمتنزهين ذوي اللياقة الجيدة والوقت القصير. الصعود إلى الملجأ في اليوم الأول، ثم القمة والعودة إلى مراكش في اليوم الثاني.
+about:
+  en: >-
+    A morning drive from Marrakech takes you to Imlil, where you start walking at 11 am up the Mizane valley, through the village of Aremd, to the Toubkal refuge. The next morning you leave before dawn for the summit, come back to the refuge and walk down to Imlil, where the car waits to take you back to Marrakech. Two big days: choose this version only if you walk in the mountains regularly.
+  fr: >-
+    Route le matin de Marrakech à Imlil, puis départ à pied à 11 h et montée par la vallée de la Mizane, en traversant le village d’Aremd, jusqu’au refuge du Toubkal. Le lendemain, départ avant l’aube pour le sommet, retour au refuge et descente à Imlil, où la voiture vous attend pour Marrakech. Deux grosses journées : à choisir seulement si vous marchez régulièrement en montagne.
+  es: "Un trayecto por la mañana le lleva de Marrakech a Imlil, donde empieza a caminar a las 11 y sube por el valle del Mizane, atravesando el pueblo de Aremd, hasta el refugio del Toubkal. A la mañana siguiente sale antes del amanecer hacia la cumbre, vuelve al refugio y baja a Imlil, donde le espera el coche para volver a Marrakech. Dos días intensos: elija esta versión solo si camina por la montaña con regularidad."
+  de: "Morgens fahren Sie von Marrakesch nach Imlil, und um 11 Uhr wandern Sie durch das Mizane-Tal und das Dorf Aremd zur Toubkal-Hütte. Am nächsten Morgen brechen Sie vor der Dämmerung zum Gipfel auf, kehren zur Hütte zurück und steigen nach Imlil ab, wo das Auto Sie nach Marrakesch bringt. Zwei große Tage: Wählen Sie diese Variante nur, wenn Sie regelmäßig in den Bergen wandern."
+  pt: "Uma viagem de manhã leva-o de Marraquexe a Imlil, onde começa a caminhar às 11h e sobe o vale do Mizane, atravessando a aldeia de Aremd, até ao refúgio do Toubkal. Na manhã seguinte sai antes do amanhecer para o cume, volta ao refúgio e desce a Imlil, onde o carro o espera para regressar a Marraquexe. Dois dias intensos: escolha esta versão só se caminha regularmente na montanha."
+  ar: >-
+    الطريق صباحا من مراكش إلى إمليل، ثم بداية المشي على الساعة 11 والصعود عبر وادي ميزان مرورا بقرية أرمد إلى ملجأ توبقال. في الصباح الموالي تنطلقون قبل الفجر نحو القمة، ثم تعودون إلى الملجأ وتنزلون إلى إمليل حيث تنتظركم السيارة للعودة إلى مراكش. يومان شاقان: اختاروا هذه النسخة فقط إذا كنتم تمشون في الجبال بانتظام.
+days: 2
+nights: 1
+difficulty: hard
+startCity: Marrakech
+endCity: Marrakech
+maxAltitude: 4167
+bestMonths: [ 5, 6, 7, 8, 9, 10 ]
+price: { shared: 1150 }
+includes: { meals: true, transport: true, nights: true }
+photos: [h-toubkal-sunrise, h-toubkal-summit, toubkal-hikers, toubkal-refuge-2, h-imlil-valley]
+highlights:
+  - { en: "Toubkal summit (4,167 m) in a weekend", fr: "Le sommet du Toubkal (4 167 m) en un week-end", es: "La cumbre del Toubkal (4167 m) en un fin de semana", de: "Der Toubkal-Gipfel (4.167 m) an einem Wochenende", pt: "O cume do Toubkal (4167 m) num fim de semana", ar: "قمة توبقال (4167 م) في عطلة نهاية الأسبوع" }
+  - { en: "Night at the Toubkal refuge", fr: "Nuit au refuge du Toubkal", es: "Noche en el refugio del Toubkal", de: "Nacht in der Toubkal-Hütte", pt: "Noite no refúgio do Toubkal", ar: "ليلة في ملجأ توبقال" }
+  - { en: "Transport, guide and meals included", fr: "Transport, guide et repas inclus", es: "Transporte, guía y comidas incluidos", de: "Transport, Guide und Mahlzeiten inklusive", pt: "Transporte, guia e refeições incluídos", ar: "النقل والمرشد والوجبات مشمولة" }
+itinerary:
+  - title: { en: "Imlil to the Toubkal refuge", fr: "D’Imlil au refuge du Toubkal", es: "De Imlil al refugio del Toubkal", de: "Von Imlil zur Toubkal-Hütte", pt: "De Imlil ao refúgio do Toubkal", ar: "من إمليل إلى ملجأ توبقال" }
+    text:
+      en: Start walking at 11 am up the Mizane valley, past the checkpoint, with lunch at Sidi Chamharouch. In the afternoon you climb on to the Toubkal refuge at an average pace, for dinner and the night.
+      fr: Départ à pied à 11 h par la vallée de la Mizane, passage au poste de surveillance et déjeuner à Sidi Chamharouch. L’après-midi, montée jusqu’au refuge du Toubkal à rythme moyen, pour le dîner et la nuit.
+      es: Salida a pie a las 11 por el valle del Mizane, paso por el puesto de control y almuerzo en Sidi Chamharouch. Por la tarde, subida al refugio del Toubkal a ritmo medio, para cenar y dormir.
+      de: Um 11 Uhr Start der Wanderung durch das Mizane-Tal, vorbei am Kontrollposten, mit Mittagessen in Sidi Chamharouch. Am Nachmittag Aufstieg zur Toubkal-Hütte in mittlerem Tempo, zu Abendessen und Übernachtung.
+      pt: Partida a pé às 11h pelo vale do Mizane, passagem pelo posto de controlo e almoço em Sidi Chamharouch. À tarde, subida até ao refúgio do Toubkal a ritmo médio, para jantar e dormir.
+      ar: الانطلاق مشيا على الساعة 11 عبر وادي ميزان، مرورا بنقطة المراقبة، والغداء في سيدي شمهروش. بعد الظهر الصعود إلى ملجأ توبقال بوتيرة متوسطة للعشاء والمبيت.
+    walk: 5–6 h
+    altitude: 3207
+    sleep: { type: refuge, place: Toubkal refuge }
+    meals: [ lunch, dinner ]
+    schedule:
+      - { time: "11:00", text: { en: "Start walking towards the refuge", fr: "Départ vers le refuge", es: "Salida hacia el refugio", de: "Aufbruch zur Hütte", pt: "Partida para o refúgio", ar: "الانطلاق نحو الملجأ" } }
+      - { time: "12:00", text: { en: "Arrival at the checkpoint", fr: "Arrivée au poste de surveillance", es: "Llegada al puesto de control", de: "Ankunft am Kontrollposten", pt: "Chegada ao posto de controlo", ar: "الوصول إلى نقطة المراقبة" } }
+      - { time: "13:30", text: { en: "Lunch at Sidi Chamharouch", fr: "Déjeuner à Sidi Chamharouch", es: "Almuerzo en Sidi Chamharouch", de: "Mittagessen in Sidi Chamharouch", pt: "Almoço em Sidi Chamharouch", ar: "الغداء في سيدي شمهروش" } }
+      - { time: "14:00–17:00", text: { en: "Walk on to the refuge (average pace)", fr: "Suite de la randonnée jusqu’au refuge (rythme moyen)", es: "Continuación hasta el refugio (ritmo medio)", de: "Weiter bis zur Hütte (mittleres Tempo)", pt: "Continuação até ao refúgio (ritmo médio)", ar: "مواصلة المشي حتى الملجأ (وتيرة متوسطة)" } }
+      - { time: "20:00", text: { en: "Dinner at the refuge", fr: "Dîner au refuge", es: "Cena en el refugio", de: "Abendessen in der Hütte", pt: "Jantar no refúgio", ar: "العشاء في الملجأ" } }
+  - title: { en: Toubkal summit and return to Marrakech, fr: Sommet du Toubkal et retour à Marrakech, es: "Cumbre del Toubkal y regreso a Marrakech", de: "Toubkal-Gipfel und zurück nach Marrakesch", pt: "Cume do Toubkal e regresso a Marraquexe", ar: قمة توبقال والعودة إلى مراكش }
+    text:
+      en: An early start by head torch up the south cirque to the summit for sunrise. Back at the refuge for lunch, then down the valley to Imlil and the drive back to Marrakech.
+      fr: Départ très matinal à la frontale par le cirque sud pour être au sommet au lever du soleil. Retour au refuge pour le déjeuner, puis descente vers Imlil et route vers Marrakech.
+      es: Salida muy temprano con linterna frontal por el circo sur para llegar a la cumbre al amanecer. Vuelta al refugio para almorzar, bajada por el valle hasta Imlil y regreso a Marrakech.
+      de: Sehr früher Aufbruch mit Stirnlampe durch das Südkar zum Gipfel bei Sonnenaufgang. Zurück zur Hütte zum Mittagessen, dann durch das Tal nach Imlil und Rückfahrt nach Marrakesch.
+      pt: Partida muito cedo com lanterna frontal pelo circo sul para chegar ao cume ao nascer do sol. Regresso ao refúgio para almoçar, descida pelo vale até Imlil e regresso a Marraquexe.
+      ar: انطلاق مبكر جدا بمصابيح الرأس عبر الحلبة الجنوبية للوصول إلى القمة مع الشروق. العودة إلى الملجأ للغداء، ثم النزول إلى إمليل والعودة بالسيارة إلى مراكش.
+    walk: 9–10 h
+    altitude: 4167
+    meals: [ breakfast, lunch ]
+    schedule:
+      - { time: "02:30", text: { en: Breakfast, fr: Petit-déjeuner, es: "Desayuno", de: "Frühstück", pt: "Pequeno-almoço", ar: الفطور } }
+      - { time: "03:00", text: { en: Start of the summit climb, fr: Départ pour l’ascension, es: "Inicio de la subida a la cumbre", de: "Beginn des Gipfelaufstiegs", pt: "Início da subida ao cume", ar: بداية الصعود إلى القمة } }
+      - { time: "07:00", text: { en: "On the summit (4,167 m)", fr: "Au sommet (4 167 m)", es: "En la cumbre (4167 m)", de: "Auf dem Gipfel (4.167 m)", pt: "No cume (4167 m)", ar: الوصول إلى القمة (4167 م) } }
+      - { time: "12:00", text: { en: Back at the refuge, fr: Retour au refuge, es: "De vuelta en el refugio", de: "Zurück in der Hütte", pt: "De volta ao refúgio", ar: العودة إلى الملجأ } }
+      - { time: "12:30", text: { en: Lunch, fr: Déjeuner, es: "Almuerzo", de: "Mittagessen", pt: "Almoço", ar: الغداء } }
+      - { time: "13:00", text: { en: Walk down to Imlil, fr: Descente vers Imlil, es: "Bajada a Imlil", de: "Abstieg nach Imlil", pt: "Descida até Imlil", ar: النزول نحو إمليل } }
+      - { time: "16:00", text: { en: Arrival in Imlil, fr: Arrivée à Imlil, es: "Llegada a Imlil", de: "Ankunft in Imlil", pt: "Chegada a Imlil", ar: الوصول إلى إمليل } }
+      - { time: "18:00", text: { en: Back in Marrakech, fr: Retour à Marrakech, es: "De vuelta en Marrakech", de: "Zurück in Marrakesch", pt: "De volta a Marraquexe", ar: العودة إلى مراكش } }
+included: [ transport-imlil, guide-mountain, meals-all, refuge-night, sleeping-bag-inc, muleteer ]
+excluded: [ hiking-gear-ex, drinks, insurance, personal ]
+pack: [ boots, layers, rain-jacket, gloves-hat, headlamp, sun-kit, bottle, daypack, poles ]
+meetingPoint:
+  en: "In front of Marrakech railway station (Gare ONCF, Avenue Hassan II)."
+  fr: "Devant la gare de Marrakech (gare ONCF, avenue Hassan II)."
+  es: "Delante de la estación de tren de Marrakech (Gare ONCF, avenida Hassan II)."
+  de: "Vor dem Bahnhof von Marrakesch (Gare ONCF, Avenue Hassan II)."
+  pt: "Em frente à estação de comboios de Marraquexe (Gare ONCF, avenida Hassan II)."
+  ar: "أمام محطة القطار بمراكش (محطة ONCF، شارع الحسن الثاني)."
+goodToKnow:
+  - en: "Only for experienced walkers: you climb about 2,400 m in two days. If in doubt, take the 3-day trek."
+    fr: "Réservé aux marcheurs expérimentés : environ 2 400 m de dénivelé en deux jours. En cas de doute, choisissez le trek de 3 jours."
+    es: "Solo para caminantes con experiencia: se suben unos 2400 m en dos días. Si tiene dudas, elija el trek de 3 días."
+    de: "Nur für erfahrene Wanderer: rund 2.400 Höhenmeter in zwei Tagen. Im Zweifel wählen Sie den 3-Tage-Trek."
+    pt: "Só para caminhantes experientes: sobe cerca de 2400 m em dois dias. Em caso de dúvida, escolha o trekking de 3 dias."
+    ar: "للمتنزهين ذوي الخبرة فقط: صعود حوالي 2400 متر في يومين. إذا كنتم مترددين، اختاروا رحلة الأيام الثلاثة."
+mapStops:
+  - { name: "Marrakech railway station", lat: 31.6306, lng: -8.0167, kind: start }
+  - { name: "Imlil", lat: 31.1366, lng: -7.9196, kind: stop }
+  - { name: Aremd, lat: 31.1236, lng: -7.9182, kind: stop }
+  - { name: "Sidi Chamharouch", lat: 31.0958, lng: -7.9112, kind: stop }
+  - { name: "Toubkal refuge", lat: 31.0713, lng: -7.9139, kind: sleep }
+  - { name: "Toubkal summit", lat: 31.0597, lng: -7.9156, kind: summit }

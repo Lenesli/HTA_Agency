@@ -175,7 +175,7 @@ export const de: UI = {
     groupSmall: 'Kleine Gruppen; Privatreise auf Anfrage',
     groupMax: 'Bis zu {n} Personen',
     cancellation: 'Stornierung',
-    cancellationText: 'Kostenlose Stornierung bis 48 Stunden vor Abreise, mit voller Erstattung.',
+    cancellationText: 'Kostenlose Stornierung bis 7 Tage vor Abreise, mit voller Erstattung.',
     pack: 'Was einpacken',
     map: 'Routenkarte',
     mapStops: 'Etappen der Route',

@@ -65,12 +65,12 @@
   group: payment
   q: { en: "What if I need to cancel?", fr: "Et si je dois annuler ?", es: "¿Y si tengo que cancelar?", de: "Was, wenn ich stornieren muss?", pt: "E se tiver de cancelar?", ar: "ماذا لو اضطررت إلى الإلغاء؟" }
   a:
-    en: "Cancellation is free up to 48 hours before departure, and anything you have paid is refunded in full. Just tell us on WhatsApp or by email. If we have to cancel for weather or safety, we offer you another date."
-    fr: "L’annulation est gratuite jusqu’à 48 heures avant le départ, et tout ce que vous avez payé vous est intégralement remboursé. Prévenez-nous simplement par WhatsApp ou e-mail. Si nous devons annuler pour la météo ou la sécurité, nous vous proposons une autre date."
-    es: "La cancelación es gratuita hasta 48 horas antes de la salida, y le devolvemos íntegramente lo que haya pagado. Solo avísenos por WhatsApp o por correo. Si tenemos que cancelar por el tiempo o por seguridad, le proponemos otra fecha."
-    de: "Die Stornierung ist bis 48 Stunden vor Abreise kostenlos, und alles, was Sie bezahlt haben, wird vollständig erstattet. Sagen Sie uns einfach per WhatsApp oder E-Mail Bescheid. Müssen wir wegen Wetter oder Sicherheit absagen, bieten wir Ihnen einen anderen Termin an."
-    pt: "O cancelamento é gratuito até 48 horas antes da partida, e devolvemos na íntegra tudo o que tiver pago. Basta avisar-nos pelo WhatsApp ou por e-mail. Se tivermos de cancelar por causa do tempo ou da segurança, propomos-lhe outra data."
-    ar: "الإلغاء مجاني حتى 48 ساعة قبل الانطلاق، ونرد لكم كامل المبلغ الذي دفعتموه. يكفي أن تخبرونا عبر واتساب أو البريد الإلكتروني. إذا اضطررنا إلى الإلغاء بسبب الطقس أو السلامة، نقترح عليكم تاريخا آخر."
+    en: "Cancellation is free up to 7 days before departure, and anything you have paid is refunded in full. Just tell us on WhatsApp or by email. If we have to cancel for weather or safety, we offer you another date."
+    fr: "L’annulation est gratuite jusqu’à 7 jours avant le départ, et tout ce que vous avez payé vous est intégralement remboursé. Prévenez-nous simplement par WhatsApp ou e-mail. Si nous devons annuler pour la météo ou la sécurité, nous vous proposons une autre date."
+    es: "La cancelación es gratuita hasta 7 días antes de la salida, y le devolvemos íntegramente lo que haya pagado. Solo avísenos por WhatsApp o por correo. Si tenemos que cancelar por el tiempo o por seguridad, le proponemos otra fecha."
+    de: "Die Stornierung ist bis 7 Tage vor Abreise kostenlos, und alles, was Sie bezahlt haben, wird vollständig erstattet. Sagen Sie uns einfach per WhatsApp oder E-Mail Bescheid. Müssen wir wegen Wetter oder Sicherheit absagen, bieten wir Ihnen einen anderen Termin an."
+    pt: "O cancelamento é gratuito até 7 dias antes da partida, e devolvemos na íntegra tudo o que tiver pago. Basta avisar-nos pelo WhatsApp ou por e-mail. Se tivermos de cancelar por causa do tempo ou da segurança, propomos-lhe outra data."
+    ar: "الإلغاء مجاني حتى 7 أيام قبل الانطلاق، ونرد لكم كامل المبلغ الذي دفعتموه. يكفي أن تخبرونا عبر واتساب أو البريد الإلكتروني. إذا اضطررنا إلى الإلغاء بسبب الطقس أو السلامة، نقترح عليكم تاريخا آخر."
 
 - id: fitness
   group: safety

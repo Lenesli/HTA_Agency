@@ -39,7 +39,6 @@ const cols = [
 ];
 const instaHandle = social.instagram.replace(/\/+$/, '').split('/').pop();
 const socials = [
-  { href: social.instagram, icon: 'instagram', label: 'Instagram' },
   { href: social.facebook, icon: 'facebook', label: 'Facebook' },
   { href: social.tiktok, icon: 'tiktok', label: 'TikTok' },
 ].filter((x) => x.href) as { href: string; icon: 'instagram' | 'facebook' | 'tiktok'; label: string }[];
@@ -56,6 +55,7 @@ const socials = [
           <Icon name="whatsapp" /> <span dir="ltr">{contact.phone}</span>
         </a>
         <a href={`mailto:${contact.email}`} class="flex items-center gap-2.5 hover:underline"><Icon name="mail" /> {contact.email}</a>
+        {social.instagram && <a href={social.instagram} class="flex items-center gap-2.5 hover:underline" target="_blank" rel="noopener"><Icon name="instagram" /> <span dir="ltr">@{instaHandle}</span></a>}
         <p class="flex items-center gap-2.5"><Icon name="pin" /> {contact.address.locality}, {contact.address.region}</p>
       </div>
       <p class="mt-4 text-sm opacity-70">{s.footer.answers}</p>
@@ -84,9 +84,8 @@ const socials = [
         <ul class="flex gap-1">
           {socials.map((x) => (
             <li>
-              <a href={x.href} target="_blank" rel="noopener" class:list={['inline-flex h-11 items-center gap-2 rounded-full hover:bg-white/10', x.icon === 'instagram' ? 'px-3 font-semibold' : 'w-11 justify-center']} aria-label={x.label}>
+              <a href={x.href} target="_blank" rel="noopener" class="grid size-11 place-items-center rounded-full hover:bg-white/10" aria-label={x.label}>
                 <Icon name={x.icon} />
-                {x.icon === 'instagram' && <span aria-hidden="true" dir="ltr">@{instaHandle}</span>}
               </a>
             </li>
           ))}

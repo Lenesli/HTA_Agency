@@ -175,7 +175,7 @@ export const pt: UI = {
     groupSmall: 'Grupos pequenos; viagem privada a pedido',
     groupMax: 'Até {n} pessoas',
     cancellation: 'Cancelamento',
-    cancellationText: 'Cancelamento gratuito até 48 horas antes da partida, com reembolso total.',
+    cancellationText: 'Cancelamento gratuito até 7 dias antes da partida, com reembolso total.',
     pack: 'O que levar',
     map: 'Mapa do percurso',
     mapStops: 'Etapas do percurso',
